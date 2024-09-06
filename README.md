@@ -27,13 +27,18 @@ Each problem is typically contained in its own Python file, named descriptively 
 
 The repository covers a wide range of topics, including but not limited to:
 
-- Binary Trees
+- Binary Trees and Binary Search Trees
 - Linked Lists
 - Arrays and Strings
 - Heaps and Priority Queues
 - Graphs
 - Dynamic Programming
 - Design Problems (e.g., LRU Cache)
+- Sorting and Searching
+- Stack and Queue
+- Hash Tables
+- Two Pointers and Sliding Window
+- Bit Manipulation
 
 ## How to Use
 
@@ -60,7 +65,15 @@ The repository covers a wide range of topics, including but not limited to:
 
 ## Testing
 
-Many solutions include built-in test cases. 
+Many solutions include built-in test cases. To run the tests:
+
+1. Navigate to the specific problem file.
+2. Run the Python file directly. Most files include a `if __name__ == "__main__":` block that executes the tests.
+
+Example:
+```bash
+python3 merge_sorted_arrays.py
+```
 
 Look for output indicating whether tests passed or failed.
 
