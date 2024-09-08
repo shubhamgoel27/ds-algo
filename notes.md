@@ -32,6 +32,13 @@
 - Time complexity: O(n), Space complexity: O(1) (for the optimized version)
 - [Code reference](product_of_all_except_self.py)
 
+### Valid Word Abbreviation
+- Two-pointer approach to compare word and abbreviation
+- Handle numeric abbreviations and character matches
+- Check for invalid cases like leading zeros
+- Time complexity: O(n), where n is the length of the longer string
+- [Code reference](valid_word_abbr.py)
+
 ## Tree Operations
 
 ### BST to Sorted Doubly Linked List
