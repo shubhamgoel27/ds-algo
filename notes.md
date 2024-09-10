@@ -39,6 +39,24 @@
 - Time complexity: O(n), where n is the length of the longer string
 - [Code reference](valid_word_abbr.py)
 
+### Group Shifted Strings
+- Use hash map to group strings by relative character differences
+- Calculate difference sequence for each string
+- Time complexity: O(n * k), where k is the average string length
+- [Code reference](group_shifted_sequences.py)
+
+### Merge Sorted Arrays
+- Two-pointer approach, starting from the end
+- Fill larger array from back to front
+- Time complexity: O(m + n), Space complexity: O(1)
+- [Code reference](merge_sorted_arrays.py)
+
+### Maximum Swap
+- Use last occurrence index for each digit
+- Iterate and find the largest digit to swap with
+- Time complexity: O(n), Space complexity: O(1)
+- [Code reference](swap_digits_for_max_number.py)
+
 ## Tree Operations
 
 ### BST to Sorted Doubly Linked List
@@ -143,6 +161,24 @@
 - Time complexity: O(m * n), Space complexity: O(m * n)
 - [Code reference](shortest_path_in_binary_grid.py)
 
+### Clone Graph
+- Use hash map to keep track of cloned nodes
+- Implement BFS to traverse the graph
+- Time complexity: O(N + E), Space complexity: O(N)
+- [Code reference](clone.graph.py)
+
+### Course Schedule
+- Use topological sorting (Kahn's algorithm)
+- Build graph and in-degree count
+- Time complexity: O(V + E), Space complexity: O(V)
+- [Code reference](course_scheduler.py)
+
+### Rotten Oranges
+- Use BFS to simulate rotting process
+- Keep track of time and fresh oranges count
+- Time complexity: O(m * n), Space complexity: O(m * n)
+- [Code reference](rotten_oranges.py)
+
 ## Interval Problems
 
 ### Merge Intervals
@@ -179,20 +215,20 @@
 - Time complexity: O(n), Space complexity: O(n)
 - [Code reference](subarray_sum_k.py)
 
-### Group Shifted Strings
-- Use hash map to group strings by relative character differences
-- Calculate difference sequence for each string
-- Time complexity: O(n * k), where k is the average string length
-- [Code reference](group_shifted_sequences.py)
-
 ### Find Peak Element
 - Binary search approach to find peak efficiently
 - Compare middle element with its neighbors
 - Time complexity: O(log n), Space complexity: O(1)
 - [Code reference](peak_in_array.py)
 
-### Merge Sorted Arrays
-- Two-pointer approach, starting from the end
-- Fill larger array from back to front
-- Time complexity: O(m + n), Space complexity: O(1)
-- [Code reference](merge_sorted_arrays.py)
+### Min Stack
+- Use two stacks: one for elements, one for minimum values
+- Maintain minimum value at each step
+- Time complexity: O(1) for all operations, Space complexity: O(n)
+- [Code reference](min_stack.py)
+
+### Logger Rate Limiter
+- Use hash map to store messages and their timestamps
+- Check if message can be printed based on 10-second rule
+- Time complexity: O(1) per call, Space complexity: O(M) where M is unique messages
+- [Code reference](logger_rate_limiter.py)
