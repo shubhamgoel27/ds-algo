@@ -1,21 +1,46 @@
 from collections import Counter
 import heapq
 
-def reorganize_string(str):
-    heap = []
-    counter = Counter(str)
+def reorganize_string(s: str) -> str:
+    """
+    Reorganize the characters in the input string so that no two adjacent characters are the same.
 
-    for key, value in counter.items():
-        heapq.heappush(heap, (-value,key))
-    prev_val, prev_char = None, None 
-    out = ''
-    while len(heap)>0:
-        val, char = heapq.heappop(heap)
-        out+=char 
-        if prev_char and prev_val <0:
-          heapq.heappush(heap, (prev_val, prev_char))
-        prev_val, prev_char = val + 1, char 
-    return out if len(out) == len(str) else ''
+    Description:
+    This function uses a max-heap to greedily select the most frequent character
+    that is different from the previously used character. It constructs the
+    reorganized string character by character, always choosing the most frequent
+    remaining character that is not the same as the last one used.
+
+    Args:
+    s (str): The input string to be reorganized.
+
+    Returns:
+    str: The reorganized string if possible, or an empty string if not possible.
+
+    Hints:
+    - Time complexity: O(n log k), where n is the length of the string and k is the number of unique characters.
+    - Space complexity: O(k), where k is the number of unique characters.
+    - The max-heap is simulated using a min-heap with negated frequencies.
+    """
+    heap = []
+    counter = Counter(s)
+
+    for char, freq in counter.items():
+        heapq.heappush(heap, (-freq, char))
+    
+    prev_freq, prev_char = 0, ''
+    result = []
+
+    while heap:
+        freq, char = heapq.heappop(heap)
+        result.append(char)
+        
+        if prev_freq < 0:
+            heapq.heappush(heap, (prev_freq, prev_char))
+        
+        prev_freq, prev_char = freq + 1, char
+
+    return ''.join(result) if len(result) == len(s) else ''
 
 def run_tests():
     test_cases = [
