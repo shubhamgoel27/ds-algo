@@ -66,7 +66,7 @@ test_calculate()
 # 1. Use a stack to keep track of numbers and handle operator precedence.
 # 2. Process the input string character by character.
 # 3. Use a variable to build multi-digit numbers.
-# 4. Handle each operator separately, considering the previous operator.
+# 4. Handle each operator separately, considering the previous operator, and apply BODMAS rules for immediate operations.
 # 5. Be careful with edge cases like spaces, negative numbers, and division by zero.
 # 6. Consider adding a dummy operator at the end to process the last number.
 # 7. Remember that integer division in Python always rounds down for negative numbers.
