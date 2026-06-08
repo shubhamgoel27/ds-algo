@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **2**.
+Total attempts logged: **3**.
 
 ---
+
+### 2026-06-07 · LC20 Valid Parentheses · conf 5/5  (Stack, E)
+`valid_parentheses.py`  
+Remembered the whole solution unaided. Correct, clean, O(n)/O(n). Stated both failure modes (empty-on-close, top-mismatch) upfront. Used open->close map (equally valid); saved the close->open + 'not stack' idiom version to valid_parentheses.py.
 
 ### 2026-06-07 · LC146 LRU Cache · conf 3/5  (Design, M)
 `lru_cache.py`  

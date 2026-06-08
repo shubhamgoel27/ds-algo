@@ -800,12 +800,18 @@
     "file": "valid_parentheses.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-07",
+      "due": "2026-08-02",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-07",
+        "conf": 5,
+        "note": "Remembered the whole solution unaided. Correct, clean, O(n)/O(n). Stated both failure modes (empty-on-close, top-mismatch) upfront. Used open->close map (equally valid); saved the close->open + 'not stack' idiom version to valid_parentheses.py."
+      }
+    ]
   },
   {
     "id": 22,

@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 53 with a local answer key (active recall vs your saved solution), 87 new (learn from scratch). **2 reviewed, 138 due today (2026-06-07).**
+**140 problems** — 53 with a local answer key (active recall vs your saved solution), 87 new (learn from scratch). **3 reviewed, 137 due today (2026-06-07).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -65,7 +65,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 ## Stack  (5/8 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | E | ✓ | — | — | now | 0 |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | E | ✓ | 5 | 2026-06-07 | 2026-08-02 | 1 |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | M | new | — | — | now | 0 |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | M | ✓ | — | — | now | 0 |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | M | new | — | — | now | 0 |
