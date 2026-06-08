@@ -1609,15 +1609,21 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-    "file": null,
+    "file": "level_order_traversal.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-07",
+      "due": "2026-06-28",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-07",
+        "conf": 4,
+        "note": "Reconstructed level-BFS off one structural hint (the freeze-len(q) boundary). Clean execution after. Style nit: used 'q.append(x) if x else 0' ternary-as-statement -> plain if. Knows BFS; wanted to relearn DFS engine next."
+      }
+    ]
   },
   {
     "id": 105,

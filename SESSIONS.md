@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **5**.
+Total attempts logged: **6**.
 
 ---
 
@@ -17,6 +17,10 @@ Right approach (which-half-is-sorted) but needed ~4 iterations + heavy hints + f
 ### 2026-06-07 · LC206 Reverse Linked List · conf 5/5  (Linked List, E)
 `reverse_linked_list.py`  
 Clean unaided iterative 3-pointer reversal, invariant (prev=reversed prefix) stated upfront. Correct O(n)/O(1). Minor: redundant 'if not head' guard (loop handles empty). Knows the pattern cold. Saved file includes recursive variant + one-liner swap idiom.
+
+### 2026-06-07 · LC102 Binary Tree Level Order Traversal · conf 4/5  (Trees, M)
+`level_order_traversal.py`  
+Reconstructed level-BFS off one structural hint (the freeze-len(q) boundary). Clean execution after. Style nit: used 'q.append(x) if x else 0' ternary-as-statement -> plain if. Knows BFS; wanted to relearn DFS engine next.
 
 ### 2026-06-07 · LC146 LRU Cache · conf 3/5  (Design, M)
 `lru_cache.py`  

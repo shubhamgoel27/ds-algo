@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 55 with a local answer key (active recall vs your saved solution), 85 new (learn from scratch). **5 reviewed, 135 due today (2026-06-07).**
+**140 problems** — 56 with a local answer key (active recall vs your saved solution), 84 new (learn from scratch). **6 reviewed, 134 due today (2026-06-07).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -100,7 +100,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 708 | [Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) | M | ✓ | — | — | now | 0 |
 | 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | H | new | — | — | now | 0 |
 
-## Trees  (8/17 solved)
+## Trees  (9/17 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | E | new | — | — | now | 0 |
@@ -110,7 +110,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | E | ✓ | — | — | now | 0 |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | E | ✓ | — | — | now | 0 |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | M | new | — | — | now | 0 |
-| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | M | new | — | — | now | 0 |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | M | ✓ | 4 | 2026-06-07 | 2026-06-28 | 1 |
 | 105 | [Construct BT from Preorder + Inorder](https://leetcode.com/problems/construct-bt-from-preorder-inorder/) | M | new | — | — | now | 0 |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | M | ✓ | — | — | now | 0 |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | M | new | — | — | now | 0 |

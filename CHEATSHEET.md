@@ -61,6 +61,19 @@ knowing. Grouped by pattern. Updated every review session.
 
 ---
 
+## Trees
+**Reach for it when:** anything hierarchical. Two engines: **BFS** (level-by-level, queue) and **DFS** (recursion, return value up). Pick by whether you need *levels* (BFS) or *subtree aggregates* (DFS).
+
+### LC102 · Binary Tree Level Order Traversal · M
+- **Idea:** BFS, but process **one level at a time** by snapshotting the queue length at each level's start.
+- **Approach:** `q=deque([root])`; while q: `n=len(q)` (freeze!), loop `n` times popping left + enqueuing children, collect into a per-level list.
+- **Complexity:** O(n) time, O(n) space (widest level).
+- **Gotcha:** capture `n=len(q)` **before** the inner loop — you're adding next level's children into the same queue. Empty root → `[]`.
+- **Python:** **`deque`** for O(1) `popleft` (a list is O(n)). DFS alt: recurse with `depth`, append to `result[depth]`.
+- **Parent pattern for:** Right Side View (199, last per level), Zigzag, Average of Levels, Largest per Level.
+
+---
+
 ## Design
 **Reach for it when:** "implement X with O(1) operations." Usually = combine a hashmap (O(1) lookup) with a structure that gives O(1) ordering.
 
