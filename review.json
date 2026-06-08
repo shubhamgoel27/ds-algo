@@ -1,0 +1,3453 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "difficulty": "E",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "G",
+      "A",
+      "M"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/two-sum/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 217,
+    "title": "Contains Duplicate",
+    "difficulty": "E",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 242,
+    "title": "Valid Anagram",
+    "difficulty": "E",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "A",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75"
+    ],
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 628,
+    "title": "Maximum Product of Three Numbers",
+    "difficulty": "E",
+    "topic": "Arrays & Hashing",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+    "file": "max_product_of_three.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 893,
+    "title": "Groups of Special-Equivalent Strings",
+    "difficulty": "E",
+    "topic": "Arrays & Hashing",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/groups-of-special-equivalent-strings/",
+    "file": "special_equivalent_strings.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 36,
+    "title": "Valid Sudoku",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "AP",
+      "A",
+      "MS"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/valid-sudoku/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 49,
+    "title": "Group Anagrams",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "A",
+      "AB",
+      "M"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 128,
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "G",
+      "M",
+      "RD"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 238,
+    "title": "Product of Array Except Self",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "M",
+      "A",
+      "AP"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "file": "product_of_all_except_self.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 249,
+    "title": "Group Shifted Strings",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/group-shifted-strings/",
+    "file": "group_shifted_sequences.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 271,
+    "title": "Encode and Decode Strings",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "G",
+      "M",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 347,
+    "title": "Top K Frequent Elements",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75"
+    ],
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "file": "k_most_frequent.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 560,
+    "title": "Subarray Sum Equals K",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "M",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "file": "subarray_sum_k.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 791,
+    "title": "Custom Sort String",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/custom-sort-string/",
+    "file": "custom_sort_string.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 26,
+    "title": "Remove Duplicates from Sorted Array",
+    "difficulty": "E",
+    "topic": "Two Pointers",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "file": "remove_duplicates_from_sorted_array.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 88,
+    "title": "Merge Sorted Array",
+    "difficulty": "E",
+    "topic": "Two Pointers",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/merge-sorted-array/",
+    "file": "merge_sorted_arrays.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 125,
+    "title": "Valid Palindrome",
+    "difficulty": "E",
+    "topic": "Two Pointers",
+    "companies": [
+      "M",
+      "AB",
+      "MS"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75"
+    ],
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 283,
+    "title": "Move Zeroes",
+    "difficulty": "E",
+    "topic": "Two Pointers",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/move-zeroes/",
+    "file": "move_zeros.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 408,
+    "title": "Valid Word Abbreviation",
+    "difficulty": "E",
+    "topic": "Two Pointers",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/valid-word-abbreviation/",
+    "file": "valid_word_abbr.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 11,
+    "title": "Container With Most Water",
+    "difficulty": "M",
+    "topic": "Two Pointers",
+    "companies": [
+      "A",
+      "G",
+      "M"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 15,
+    "title": "3Sum",
+    "difficulty": "M",
+    "topic": "Two Pointers",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/3sum/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 31,
+    "title": "Next Permutation",
+    "difficulty": "M",
+    "topic": "Two Pointers",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/next-permutation/",
+    "file": "next_permutation.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 167,
+    "title": "Two Sum II \u2014 Input Array Is Sorted",
+    "difficulty": "M",
+    "topic": "Two Pointers",
+    "companies": [
+      "A",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 42,
+    "title": "Trapping Rain Water",
+    "difficulty": "H",
+    "topic": "Two Pointers",
+    "companies": [
+      "G",
+      "A",
+      "AP"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/trapping-rain-water/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 121,
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "E",
+    "topic": "Sliding Window",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 3,
+    "title": "Longest Substring Without Repeating Chars",
+    "difficulty": "M",
+    "topic": "Sliding Window",
+    "companies": [
+      "A",
+      "M",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-chars/",
+    "file": "longest_substring_without_repeating.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 424,
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "M",
+    "topic": "Sliding Window",
+    "companies": [
+      "G",
+      "M"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 438,
+    "title": "Find All Anagrams in a String",
+    "difficulty": "M",
+    "topic": "Sliding Window",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "file": "find_anagrams_in_string.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 567,
+    "title": "Permutation in String",
+    "difficulty": "M",
+    "topic": "Sliding Window",
+    "companies": [
+      "M",
+      "A",
+      "MS"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/permutation-in-string/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1004,
+    "title": "Max Consecutive Ones III",
+    "difficulty": "M",
+    "topic": "Sliding Window",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+    "file": "max_consecutive_ones.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 2134,
+    "title": "Minimum Number of Swaps to Group All 1's Together II",
+    "difficulty": "M",
+    "topic": "Sliding Window",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/minimum-number-of-swaps-to-group-all-1s-together-ii/",
+    "file": "min_swaps_to_group_ones.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 76,
+    "title": "Minimum Window Substring",
+    "difficulty": "H",
+    "topic": "Sliding Window",
+    "companies": [
+      "M",
+      "G",
+      "A"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 239,
+    "title": "Sliding Window Maximum",
+    "difficulty": "H",
+    "topic": "Sliding Window",
+    "companies": [
+      "G",
+      "A",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/sliding-window-maximum/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 20,
+    "title": "Valid Parentheses",
+    "difficulty": "E",
+    "topic": "Stack",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "file": "valid_parentheses.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 22,
+    "title": "Generate Parentheses",
+    "difficulty": "M",
+    "topic": "Stack",
+    "companies": [
+      "G",
+      "M",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/generate-parentheses/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 71,
+    "title": "Simplify Path",
+    "difficulty": "M",
+    "topic": "Stack",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/simplify-path/",
+    "file": "simplify_path.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 150,
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "M",
+    "topic": "Stack",
+    "companies": [
+      "A",
+      "RH",
+      "RD"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 155,
+    "title": "Min Stack",
+    "difficulty": "M",
+    "topic": "Stack",
+    "companies": [
+      "A",
+      "G",
+      "M"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/min-stack/",
+    "file": "min_stack.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 739,
+    "title": "Daily Temperatures",
+    "difficulty": "M",
+    "topic": "Stack",
+    "companies": [
+      "A",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "G75"
+    ],
+    "url": "https://leetcode.com/problems/daily-temperatures/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1249,
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "difficulty": "M",
+    "topic": "Stack",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+    "file": "min_remove_valid_parenthesis.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 224,
+    "title": "Basic Calculator",
+    "difficulty": "H",
+    "topic": "Stack",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/basic-calculator/",
+    "file": "basic_calculator.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 704,
+    "title": "Binary Search",
+    "difficulty": "E",
+    "topic": "Binary Search",
+    "companies": [
+      "A",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "G75"
+    ],
+    "url": "https://leetcode.com/problems/binary-search/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 33,
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "M",
+    "topic": "Binary Search",
+    "companies": [
+      "M",
+      "A",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 74,
+    "title": "Search a 2D Matrix",
+    "difficulty": "M",
+    "topic": "Binary Search",
+    "companies": [
+      "A",
+      "M",
+      "AP"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 153,
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "M",
+    "topic": "Binary Search",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 162,
+    "title": "Find Peak Element",
+    "difficulty": "M",
+    "topic": "Binary Search",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/find-peak-element/",
+    "file": "peak_in_array.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 528,
+    "title": "Random Pick with Weight",
+    "difficulty": "M",
+    "topic": "Binary Search",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/random-pick-with-weight/",
+    "file": "random_pick_with_weight.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 875,
+    "title": "Koko Eating Bananas",
+    "difficulty": "M",
+    "topic": "Binary Search",
+    "companies": [
+      "G",
+      "M",
+      "W"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/koko-eating-bananas/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1011,
+    "title": "Capacity To Ship Packages Within D Days",
+    "difficulty": "M",
+    "topic": "Binary Search",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    "file": "capacity_to_ship_packages.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 21,
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "E",
+    "topic": "Linked List",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 141,
+    "title": "Linked List Cycle",
+    "difficulty": "E",
+    "topic": "Linked List",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 206,
+    "title": "Reverse Linked List",
+    "difficulty": "E",
+    "topic": "Linked List",
+    "companies": [
+      "M",
+      "A",
+      "G",
+      "MS"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 876,
+    "title": "Middle of the Linked List",
+    "difficulty": "E",
+    "topic": "Linked List",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "file": "middle_of_ll.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 2,
+    "title": "Add Two Numbers",
+    "difficulty": "M",
+    "topic": "Linked List",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 19,
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "M",
+    "topic": "Linked List",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "file": "delete_nth_from_last.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 138,
+    "title": "Copy List with Random Pointer",
+    "difficulty": "M",
+    "topic": "Linked List",
+    "companies": [
+      "M",
+      "A",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "file": "copy_ll_with_random_node.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 143,
+    "title": "Reorder List",
+    "difficulty": "M",
+    "topic": "Linked List",
+    "companies": [
+      "M",
+      "G",
+      "A"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/reorder-list/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 708,
+    "title": "Insert into a Sorted Circular Linked List",
+    "difficulty": "M",
+    "topic": "Linked List",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/",
+    "file": "insert_into_circular_node.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 23,
+    "title": "Merge K Sorted Lists",
+    "difficulty": "H",
+    "topic": "Linked List",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 100,
+    "title": "Same Tree",
+    "difficulty": "E",
+    "topic": "Trees",
+    "companies": [
+      "M",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/same-tree/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 104,
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "E",
+    "topic": "Trees",
+    "companies": [
+      "A",
+      "G",
+      "AP"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 226,
+    "title": "Invert Binary Tree",
+    "difficulty": "E",
+    "topic": "Trees",
+    "companies": [
+      "G",
+      "A"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 270,
+    "title": "Closest Binary Search Tree Value",
+    "difficulty": "E",
+    "topic": "Trees",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/closest-binary-search-tree-value/",
+    "file": "return_closest_in_bst.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 543,
+    "title": "Diameter of Binary Tree",
+    "difficulty": "E",
+    "topic": "Trees",
+    "companies": [
+      "M",
+      "G",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "G75"
+    ],
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "file": "diameter_of_tree.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 938,
+    "title": "Range Sum of BST",
+    "difficulty": "E",
+    "topic": "Trees",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/range-sum-of-bst/",
+    "file": "range_sum_of_bst.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 98,
+    "title": "Validate Binary Search Tree",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 102,
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "RD"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 105,
+    "title": "Construct BT from Preorder + Inorder",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/construct-bt-from-preorder-inorder/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 199,
+    "title": "Binary Tree Right Side View",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "file": "right_view_of_tree.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 230,
+    "title": "Kth Smallest Element in a BST",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 236,
+    "title": "Lowest Common Ancestor of Binary Tree",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [
+      "M",
+      "A",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-binary-tree/",
+    "file": "lca_of_binary_tree.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 426,
+    "title": "Convert BST to Sorted Doubly Linked List",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/",
+    "file": "bst_to_sorted_dll.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1650,
+    "title": "Lowest Common Ancestor of a Binary Tree III",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/",
+    "file": "lca_with_parent.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 124,
+    "title": "Binary Tree Maximum Path Sum",
+    "difficulty": "H",
+    "topic": "Trees",
+    "companies": [
+      "M",
+      "A",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 297,
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "H",
+    "topic": "Trees",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 987,
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "difficulty": "H",
+    "topic": "Trees",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+    "file": "binary_tree_vertical_traversal.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 208,
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "M",
+    "topic": "Tries",
+    "companies": [
+      "G",
+      "A",
+      "M",
+      "RD"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 211,
+    "title": "Design Add and Search Words",
+    "difficulty": "M",
+    "topic": "Tries",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/design-add-and-search-words/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1698,
+    "title": "Number of Distinct Substrings in a String",
+    "difficulty": "M",
+    "topic": "Tries",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/",
+    "file": "count_distinct_substring.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 212,
+    "title": "Word Search II",
+    "difficulty": "H",
+    "topic": "Tries",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 703,
+    "title": "Kth Largest Element in a Stream",
+    "difficulty": "E",
+    "topic": "Heap / PQ",
+    "companies": [
+      "A",
+      "M",
+      "RH"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 215,
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "M",
+    "topic": "Heap / PQ",
+    "companies": [
+      "M",
+      "A",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 621,
+    "title": "Task Scheduler",
+    "difficulty": "M",
+    "topic": "Heap / PQ",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/task-scheduler/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 767,
+    "title": "Reorganize String",
+    "difficulty": "M",
+    "topic": "Heap / PQ",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/reorganize-string/",
+    "file": "reorganize_string.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 973,
+    "title": "K Closest Points to Origin",
+    "difficulty": "M",
+    "topic": "Heap / PQ",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "W"
+    ],
+    "sources": [
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "file": "k_closest_to_origin.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 295,
+    "title": "Find Median from Data Stream",
+    "difficulty": "H",
+    "topic": "Heap / PQ",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "file": "median_of_stream.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 17,
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "M",
+    "topic": "Backtracking",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 39,
+    "title": "Combination Sum",
+    "difficulty": "M",
+    "topic": "Backtracking",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 46,
+    "title": "Permutations",
+    "difficulty": "M",
+    "topic": "Backtracking",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/permutations/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 78,
+    "title": "Subsets",
+    "difficulty": "M",
+    "topic": "Backtracking",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/subsets/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 79,
+    "title": "Word Search",
+    "difficulty": "M",
+    "topic": "Backtracking",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/word-search/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 131,
+    "title": "Palindrome Partitioning",
+    "difficulty": "M",
+    "topic": "Backtracking",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/palindrome-partitioning/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 133,
+    "title": "Clone Graph",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [
+      "G",
+      "M",
+      "A"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "file": "clone.graph.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 200,
+    "title": "Number of Islands",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "file": "no_of_islands.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 207,
+    "title": "Course Schedule",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AP"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "file": "course_scheduler.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 210,
+    "title": "Course Schedule II",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/course-schedule-ii/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 417,
+    "title": "Pacific Atlantic Water Flow",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [
+      "G",
+      "M",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 695,
+    "title": "Max Area of Island",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [
+      "G",
+      "M",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/max-area-of-island/",
+    "file": "max_area_of_island.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 994,
+    "title": "Rotting Oranges",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/rotting-oranges/",
+    "file": "rotten_oranges.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1091,
+    "title": "Shortest Path in Binary Matrix",
+    "difficulty": "M",
+    "topic": "Graphs",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    "file": "shortest_path_in_binary_grid.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 127,
+    "title": "Word Ladder",
+    "difficulty": "H",
+    "topic": "Graphs",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AP"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/word-ladder/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 269,
+    "title": "Alien Dictionary",
+    "difficulty": "H",
+    "topic": "Graphs",
+    "companies": [
+      "G",
+      "M",
+      "A",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/alien-dictionary/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 329,
+    "title": "Longest Increasing Path in a Matrix",
+    "difficulty": "H",
+    "topic": "Graphs",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+    "file": "longest_increasing_path.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 684,
+    "title": "Redundant Connection",
+    "difficulty": "M",
+    "topic": "Adv. Graphs / UF",
+    "companies": [
+      "G",
+      "A",
+      "RH"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/redundant-connection/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 743,
+    "title": "Network Delay Time",
+    "difficulty": "M",
+    "topic": "Adv. Graphs / UF",
+    "companies": [
+      "A",
+      "G",
+      "W"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/network-delay-time/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 332,
+    "title": "Reconstruct Itinerary",
+    "difficulty": "H",
+    "topic": "Adv. Graphs / UF",
+    "companies": [
+      "G",
+      "AB",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 70,
+    "title": "Climbing Stairs",
+    "difficulty": "E",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "A",
+      "G",
+      "AP"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 5,
+    "title": "Longest Palindromic Substring",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 91,
+    "title": "Decode Ways",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 139,
+    "title": "Word Break",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "G",
+      "M",
+      "A",
+      "AB"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/word-break/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 152,
+    "title": "Maximum Product Subarray",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/maximum-product-subarray/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 198,
+    "title": "House Robber",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/house-robber/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 213,
+    "title": "House Robber II",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 300,
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "M",
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 322,
+    "title": "Coin Change",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/coin-change/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 416,
+    "title": "Partition Equal Subset Sum",
+    "difficulty": "M",
+    "topic": "DP \u00b7 1D",
+    "companies": [
+      "G",
+      "M",
+      "A"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 72,
+    "title": "Edit Distance",
+    "difficulty": "M",
+    "topic": "DP \u00b7 2D",
+    "companies": [
+      "G",
+      "M",
+      "A",
+      "AB"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/edit-distance/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 309,
+    "title": "Best Time to Buy/Sell Stock with Cooldown",
+    "difficulty": "M",
+    "topic": "DP \u00b7 2D",
+    "companies": [
+      "G",
+      "M",
+      "AB"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/best-time-to-buysell-stock-with-cooldown/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 518,
+    "title": "Coin Change II",
+    "difficulty": "M",
+    "topic": "DP \u00b7 2D",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/coin-change-ii/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1143,
+    "title": "Longest Common Subsequence",
+    "difficulty": "M",
+    "topic": "DP \u00b7 2D",
+    "companies": [
+      "G",
+      "M",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 10,
+    "title": "Regular Expression Matching",
+    "difficulty": "H",
+    "topic": "DP \u00b7 2D",
+    "companies": [
+      "G",
+      "M",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/regular-expression-matching/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 45,
+    "title": "Jump Game II",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [
+      "M",
+      "G",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 53,
+    "title": "Maximum Subarray",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "RD"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 55,
+    "title": "Jump Game",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/jump-game/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 134,
+    "title": "Gas Station",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/gas-station/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 670,
+    "title": "Maximum Swap",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/maximum-swap/",
+    "file": "swap_digits_for_max_number.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 252,
+    "title": "Meeting Rooms",
+    "difficulty": "E",
+    "topic": "Intervals",
+    "companies": [
+      "M",
+      "G",
+      "AB"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/meeting-rooms/",
+    "file": "meeting_rooms.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 56,
+    "title": "Merge Intervals",
+    "difficulty": "M",
+    "topic": "Intervals",
+    "companies": [
+      "G",
+      "M",
+      "A",
+      "AB",
+      "AP"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "file": "merged_intervals.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": 5,
+      "last_reviewed": "2026-06-06",
+      "due": "2026-08-01",
+      "reps": 1
+    },
+    "history": [
+      {
+        "date": "2026-06-06",
+        "conf": 5,
+        "note": "Clean optimal solve, essentially identical to saved 2024 soln (sort \u2192 sweep \u2192 merge on curr_start<=prev_end, max of ends). Minor: loop ran from i=0 (redundant self-compare) \u2014 use intervals[1:]. Solid muscle memory."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Insert Interval",
+    "difficulty": "M",
+    "topic": "Intervals",
+    "companies": [
+      "G",
+      "M",
+      "A",
+      "RD"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 253,
+    "title": "Meeting Rooms II",
+    "difficulty": "M",
+    "topic": "Intervals",
+    "companies": [
+      "G",
+      "M",
+      "AB",
+      "RH"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75"
+    ],
+    "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 435,
+    "title": "Non-overlapping Intervals",
+    "difficulty": "M",
+    "topic": "Intervals",
+    "companies": [
+      "M",
+      "G",
+      "A"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 986,
+    "title": "Interval List Intersections",
+    "difficulty": "M",
+    "topic": "Intervals",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/interval-list-intersections/",
+    "file": "interval_intersection.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 136,
+    "title": "Single Number",
+    "difficulty": "E",
+    "topic": "Bit / Math",
+    "companies": [
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/single-number/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 191,
+    "title": "Number of 1 Bits",
+    "difficulty": "E",
+    "topic": "Bit / Math",
+    "companies": [
+      "A",
+      "AP"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/number-of-1-bits/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 268,
+    "title": "Missing Number",
+    "difficulty": "E",
+    "topic": "Bit / Math",
+    "companies": [
+      "A",
+      "M",
+      "G"
+    ],
+    "sources": [
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/missing-number/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 338,
+    "title": "Counting Bits",
+    "difficulty": "E",
+    "topic": "Bit / Math",
+    "companies": [
+      "A",
+      "G"
+    ],
+    "sources": [
+      "B75",
+      "NC"
+    ],
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 50,
+    "title": "Pow(x, n)",
+    "difficulty": "M",
+    "topic": "Bit / Math",
+    "companies": [
+      "G",
+      "M",
+      "A"
+    ],
+    "sources": [
+      "NC",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/powx-n/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 359,
+    "title": "Logger Rate Limiter",
+    "difficulty": "E",
+    "topic": "Design",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/logger-rate-limiter/",
+    "file": "logger_rate_limiter.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 146,
+    "title": "LRU Cache",
+    "difficulty": "M",
+    "topic": "Design",
+    "companies": [
+      "A",
+      "M",
+      "G",
+      "AB",
+      "RD"
+    ],
+    "sources": [
+      "B75",
+      "NC",
+      "G75",
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/lru-cache/",
+    "file": "lru_cache.py",
+    "in_catalog": true,
+    "sr": {
+      "conf": 3,
+      "last_reviewed": "2026-06-07",
+      "due": "2026-06-14",
+      "reps": 1
+    },
+    "history": [
+      {
+        "date": "2026-06-07",
+        "conf": 3,
+        "note": "Design 100% correct (hashmap+DLL, dummy sentinels, key stored on node). But 3 impl bugs, one fatal: (1) put created the node TWICE -> dict and list referenced different objects -> get crashed on None.prev. (2) remove_tail defined with stray 'node' param but called with none. (3) del self.cache[key] used undefined name; should be lru.key (this is WHY key is stored on node). Abstraction lesson: unlink surgery was duplicated in move_to_head AND remove_tail -> extract atomic _remove(node) primitive, compose everything from _remove + _add_front. Helpers were conceptually right, just redundant + buggy. WATCH: DLL pointer surgery, and 'stored the data but forgot to use it'."
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "M",
+    "topic": "Design",
+    "companies": [
+      "G",
+      "M",
+      "A",
+      "RH"
+    ],
+    "sources": [
+      "LC150"
+    ],
+    "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "file": null,
+    "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  }
+]
