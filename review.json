@@ -1015,15 +1015,21 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-    "file": null,
+    "file": "search_rotated_array.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 2,
+      "last_reviewed": "2026-06-07",
+      "due": "2026-06-10",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-07",
+        "conf": 2,
+        "note": "Right approach (which-half-is-sorted) but needed ~4 iterations + heavy hints + final solution. Bug sequence (all classic rotated-array traps): missing pointer-move (hang), strict-vs-inclusive range bounds, slice-index offset, helper low=mid infinite loop, high=mid+1 wrong direction, mid==low misclassification (> vs >=), no final return -1, and -1 offset producing a FALSE-POSITIVE index. Also the two-level slice design is secretly O(n) (slice copies) -> fails O(log n). LESSON: single loop, check nums[mid]==target FIRST, detect sorted half with nums[lo]<=nums[mid] (INCLUSIVE), bracket target in that half. The <= that owns mid==low is the whole game. REDO SOON."
+      }
+    ]
   },
   {
     "id": 74,

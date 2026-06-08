@@ -2,13 +2,17 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **3**.
+Total attempts logged: **4**.
 
 ---
 
 ### 2026-06-07 · LC20 Valid Parentheses · conf 5/5  (Stack, E)
 `valid_parentheses.py`  
 Remembered the whole solution unaided. Correct, clean, O(n)/O(n). Stated both failure modes (empty-on-close, top-mismatch) upfront. Used open->close map (equally valid); saved the close->open + 'not stack' idiom version to valid_parentheses.py.
+
+### 2026-06-07 · LC33 Search in Rotated Sorted Array · conf 2/5  (Binary Search, M)
+`search_rotated_array.py`  
+Right approach (which-half-is-sorted) but needed ~4 iterations + heavy hints + final solution. Bug sequence (all classic rotated-array traps): missing pointer-move (hang), strict-vs-inclusive range bounds, slice-index offset, helper low=mid infinite loop, high=mid+1 wrong direction, mid==low misclassification (> vs >=), no final return -1, and -1 offset producing a FALSE-POSITIVE index. Also the two-level slice design is secretly O(n) (slice copies) -> fails O(log n). LESSON: single loop, check nums[mid]==target FIRST, detect sorted half with nums[lo]<=nums[mid] (INCLUSIVE), bracket target in that half. The <= that owns mid==low is the whole game. REDO SOON.
 
 ### 2026-06-07 · LC146 LRU Cache · conf 3/5  (Design, M)
 `lru_cache.py`  

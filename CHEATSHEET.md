@@ -34,6 +34,20 @@ knowing. Grouped by pattern. Updated every review session.
 
 ---
 
+## Binary Search
+**Reach for it when:** sorted (or rotated-sorted) data + need better than O(n). The art is the loop invariant and inclusive-vs-strict boundaries.
+
+### LC33 · Search in Rotated Sorted Array · M  ⚠️ high-miss
+- **Idea:** one binary search. At each `mid`, **at least one half `[lo..mid]` / `[mid..hi]` is cleanly sorted** (pivot is in the other). Find the sorted half; if target is in its range, go there, else the other half.
+- **Approach:** check `nums[mid]==target` first. Then `if nums[lo] <= nums[mid]:` left sorted → go left iff `nums[lo] <= target < nums[mid]`, else right. Else right sorted → go right iff `nums[mid] < target <= nums[hi]`, else left.
+- **Complexity:** O(log n) time, O(1) space.
+- **Gotcha #1 (the one that bites):** detect the sorted half with **`<=` (inclusive)** — when the window is 1–2 elements `mid==lo`, strict `>` misclassifies and you miss present targets.
+- **Gotcha #2:** **never slice** (`nums[lo:mid+1]`) — it copies O(n), silently breaking the O(log n) bound. Pass indices.
+- **Gotcha #3:** check `nums[mid]==target` at the top so the boundary comparisons only *route*, never *find* → kills off-by-ones. End with `return -1`.
+- **Python:** `(lo+hi)//2` is overflow-safe in Python (bigints); write `lo+(hi-lo)//2` in C++/Java. Chained `a <= x < b` is one-shot and idiomatic.
+
+---
+
 ## Design
 **Reach for it when:** "implement X with O(1) operations." Usually = combine a hashmap (O(1) lookup) with a structure that gives O(1) ordering.
 

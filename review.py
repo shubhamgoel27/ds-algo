@@ -30,6 +30,7 @@ INTERVAL = {1: 1, 2: 3, 3: 7, 4: 21, 5: 56}
 # marks them as having a local answer key (survives `build`).
 OVERLAP = {
     20: "valid_parentheses.py",  # solved 2026-06-07 session
+    33: "search_rotated_array.py",  # solved 2026-06-07 session (with help)
     146: "lru_cache.py", 560: "subarray_sum_k.py", 543: "diameter_of_tree.py",
     155: "min_stack.py", 199: "right_view_of_tree.py", 207: "course_scheduler.py",
     695: "max_area_of_island.py", 973: "k_closest_to_origin.py",
