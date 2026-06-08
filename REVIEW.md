@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 54 with a local answer key (active recall vs your saved solution), 86 new (learn from scratch). **4 reviewed, 136 due today (2026-06-07).**
+**140 problems** — 55 with a local answer key (active recall vs your saved solution), 85 new (learn from scratch). **5 reviewed, 135 due today (2026-06-07).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -86,12 +86,12 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | M | new | — | — | now | 0 |
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | M | ✓ | — | — | now | 0 |
 
-## Linked List  (4/10 solved)
+## Linked List  (5/10 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | E | new | — | — | now | 0 |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | E | new | — | — | now | 0 |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | E | new | — | — | now | 0 |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | E | ✓ | 5 | 2026-06-07 | 2026-08-02 | 1 |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | E | ✓ | — | — | now | 0 |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | M | new | — | — | now | 0 |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | M | ✓ | — | — | now | 0 |

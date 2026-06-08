@@ -48,6 +48,19 @@ knowing. Grouped by pattern. Updated every review session.
 
 ---
 
+## Linked List
+**Reach for it when:** pointer manipulation. The universal rule: **save `next` before you overwrite it.** Most hard problems decompose into reverse + two-pointer (fast/slow).
+
+### LC206 · Reverse Linked List · E
+- **Idea:** three pointers. Invariant: `prev` = already-reversed prefix, `curr` = untouched suffix. Peel one node at a time.
+- **Approach:** `prev=None, curr=head`; loop: `temp=curr.next; curr.next=prev; prev=curr; curr=temp`. Return `prev`.
+- **Complexity:** O(n) time, O(1) space. (Recursive: O(n) stack.)
+- **Gotcha:** must save `curr.next` *before* `curr.next=prev`, else the suffix is lost. Empty list handled naturally (returns `None`).
+- **Python:** one-liner `curr.next, prev, curr = prev, curr, curr.next` (RHS evaluated first). Use `while curr is not None` for pointer checks.
+- **Builds:** Reverse in k-Groups (25), Reverse Sublist (92), Palindrome List, Reorder List.
+
+---
+
 ## Design
 **Reach for it when:** "implement X with O(1) operations." Usually = combine a hashmap (O(1) lookup) with a structure that gives O(1) ordering.
 

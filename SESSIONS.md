@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **4**.
+Total attempts logged: **5**.
 
 ---
 
@@ -13,6 +13,10 @@ Remembered the whole solution unaided. Correct, clean, O(n)/O(n). Stated both fa
 ### 2026-06-07 · LC33 Search in Rotated Sorted Array · conf 2/5  (Binary Search, M)
 `search_rotated_array.py`  
 Right approach (which-half-is-sorted) but needed ~4 iterations + heavy hints + final solution. Bug sequence (all classic rotated-array traps): missing pointer-move (hang), strict-vs-inclusive range bounds, slice-index offset, helper low=mid infinite loop, high=mid+1 wrong direction, mid==low misclassification (> vs >=), no final return -1, and -1 offset producing a FALSE-POSITIVE index. Also the two-level slice design is secretly O(n) (slice copies) -> fails O(log n). LESSON: single loop, check nums[mid]==target FIRST, detect sorted half with nums[lo]<=nums[mid] (INCLUSIVE), bracket target in that half. The <= that owns mid==low is the whole game. REDO SOON.
+
+### 2026-06-07 · LC206 Reverse Linked List · conf 5/5  (Linked List, E)
+`reverse_linked_list.py`  
+Clean unaided iterative 3-pointer reversal, invariant (prev=reversed prefix) stated upfront. Correct O(n)/O(1). Minor: redundant 'if not head' guard (loop handles empty). Knows the pattern cold. Saved file includes recursive variant + one-liner swap idiom.
 
 ### 2026-06-07 · LC146 LRU Cache · conf 3/5  (Design, M)
 `lru_cache.py`  
