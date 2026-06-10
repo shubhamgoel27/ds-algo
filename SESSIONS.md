@@ -2,13 +2,17 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **7**.
+Total attempts logged: **8**.
 
 ---
 
 ### 2026-06-09 · LC226 Invert Binary Tree · conf 4/5  (Trees, E)
 `invert_binary_tree.py`  
 DFS warm-up after a long gap. Conceptual answers right (base None, op=swap, mutate-in-place). 2 hints, both EXECUTION slips: (1) swapped local vars instead of node.left/node.right attributes, (2) defined dfs but never called it. Recursion reflex returning. META: user is comfortable with the helper-fn/mutation style but wants fluency with return-value recursion ('trust the call, define what the subtree returns'). Coach the return-value framing on tree problems.
+
+### 2026-06-09 · LC98 Validate Binary Search Tree · conf 5/5  (Trees, M)
+`validate_bst.py`  
+Strong solve. Nailed the hard insight UNAIDED: pass (low,high) bounds DOWN and tighten per node (not naive local left<node<right) — caught the ancestor-bound trap [5,4,6,null,null,3,7] first try. One nudge: strict boundary, used < / > so duplicates [2,2]/[1,1] slipped -> fixed to <= / >= (same strict-vs-inclusive lesson as LC33 rotated search). RECURSION-COMFORT WIN: clean DOWN-params/UP-bool recursion, trusted the dfs calls — exactly the fluency goal. Knows in-order-sorted alt too now.
 
 ### 2026-06-07 · LC20 Valid Parentheses · conf 5/5  (Stack, E)
 `valid_parentheses.py`  

@@ -1587,15 +1587,21 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/validate-binary-search-tree/",
-    "file": null,
+    "file": "validate_bst.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-09",
+      "due": "2026-08-04",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-09",
+        "conf": 5,
+        "note": "Strong solve. Nailed the hard insight UNAIDED: pass (low,high) bounds DOWN and tighten per node (not naive local left<node<right) \u2014 caught the ancestor-bound trap [5,4,6,null,null,3,7] first try. One nudge: strict boundary, used < / > so duplicates [2,2]/[1,1] slipped -> fixed to <= / >= (same strict-vs-inclusive lesson as LC33 rotated search). RECURSION-COMFORT WIN: clean DOWN-params/UP-bool recursion, trusted the dfs calls \u2014 exactly the fluency goal. Knows in-order-sorted alt too now."
+      }
+    ]
   },
   {
     "id": 102,
