@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 56 with a local answer key (active recall vs your saved solution), 84 new (learn from scratch). **6 reviewed, 134 due today (2026-06-07).**
+**140 problems** — 57 with a local answer key (active recall vs your saved solution), 83 new (learn from scratch). **7 reviewed, 133 due today (2026-06-09).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -100,12 +100,12 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 708 | [Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) | M | ✓ | — | — | now | 0 |
 | 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | H | new | — | — | now | 0 |
 
-## Trees  (9/17 solved)
+## Trees  (10/17 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | E | new | — | — | now | 0 |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | E | new | — | — | now | 0 |
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | E | new | — | — | now | 0 |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | E | ✓ | 4 | 2026-06-09 | 2026-06-30 | 1 |
 | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | E | ✓ | — | — | now | 0 |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | E | ✓ | — | — | now | 0 |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | E | ✓ | — | — | now | 0 |

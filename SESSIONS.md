@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **6**.
+Total attempts logged: **7**.
 
 ---
+
+### 2026-06-09 · LC226 Invert Binary Tree · conf 4/5  (Trees, E)
+`invert_binary_tree.py`  
+DFS warm-up after a long gap. Conceptual answers right (base None, op=swap, mutate-in-place). 2 hints, both EXECUTION slips: (1) swapped local vars instead of node.left/node.right attributes, (2) defined dfs but never called it. Recursion reflex returning. META: user is comfortable with the helper-fn/mutation style but wants fluency with return-value recursion ('trust the call, define what the subtree returns'). Coach the return-value framing on tree problems.
 
 ### 2026-06-07 · LC20 Valid Parentheses · conf 5/5  (Stack, E)
 `valid_parentheses.py`  

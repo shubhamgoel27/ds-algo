@@ -1490,15 +1490,21 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/invert-binary-tree/",
-    "file": null,
+    "file": "invert_binary_tree.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-09",
+      "due": "2026-06-30",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-09",
+        "conf": 4,
+        "note": "DFS warm-up after a long gap. Conceptual answers right (base None, op=swap, mutate-in-place). 2 hints, both EXECUTION slips: (1) swapped local vars instead of node.left/node.right attributes, (2) defined dfs but never called it. Recursion reflex returning. META: user is comfortable with the helper-fn/mutation style but wants fluency with return-value recursion ('trust the call, define what the subtree returns'). Coach the return-value framing on tree problems."
+      }
+    ]
   },
   {
     "id": 270,
