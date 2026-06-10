@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **8 reviewed, 132 due today (2026-06-09).**
+**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **9 reviewed, 131 due today (2026-06-09).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -107,7 +107,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | E | new | — | — | now | 0 |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | E | ✓ | 4 | 2026-06-09 | 2026-06-30 | 1 |
 | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | E | ✓ | — | — | now | 0 |
-| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | E | ✓ | — | — | now | 0 |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | E | ✓ | 3 | 2026-06-09 | 2026-06-16 | 1 |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | E | ✓ | — | — | now | 0 |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | M | ✓ | 5 | 2026-06-09 | 2026-08-04 | 1 |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | M | ✓ | 4 | 2026-06-07 | 2026-06-28 | 1 |

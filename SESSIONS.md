@@ -2,13 +2,17 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **8**.
+Total attempts logged: **9**.
 
 ---
 
 ### 2026-06-09 · LC226 Invert Binary Tree · conf 4/5  (Trees, E)
 `invert_binary_tree.py`  
 DFS warm-up after a long gap. Conceptual answers right (base None, op=swap, mutate-in-place). 2 hints, both EXECUTION slips: (1) swapped local vars instead of node.left/node.right attributes, (2) defined dfs but never called it. Recursion reflex returning. META: user is comfortable with the helper-fn/mutation style but wants fluency with return-value recursion ('trust the call, define what the subtree returns'). Coach the return-value framing on tree problems.
+
+### 2026-06-09 · LC543 Diameter of Binary Tree · conf 3/5  (Trees, E)
+`diameter_of_tree.py`  
+Reconstructed the 'return one thing, track another' idiom (return height, track diameter=left_h+right_h via nonlocal). 2 hints: (1) capture child heights into vars (don't call dfs twice), (2) drop the +1 (left_h+right_h already counts both arms meeting at the node). Concept landed; matches 2024 saved soln exactly. Now primed for Max Path Sum 124 (same idiom + max(0,..)). Boundary/formula precision still needs reps.
 
 ### 2026-06-09 · LC98 Validate Binary Search Tree · conf 5/5  (Trees, M)
 `validate_bst.py`  

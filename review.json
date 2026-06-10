@@ -1544,12 +1544,18 @@
     "file": "diameter_of_tree.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-06-09",
+      "due": "2026-06-16",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-09",
+        "conf": 3,
+        "note": "Reconstructed the 'return one thing, track another' idiom (return height, track diameter=left_h+right_h via nonlocal). 2 hints: (1) capture child heights into vars (don't call dfs twice), (2) drop the +1 (left_h+right_h already counts both arms meeting at the node). Concept landed; matches 2024 saved soln exactly. Now primed for Max Path Sum 124 (same idiom + max(0,..)). Boundary/formula precision still needs reps."
+      }
+    ]
   },
   {
     "id": 938,
