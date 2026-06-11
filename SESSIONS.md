@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **13**.
+Total attempts logged: **14**.
 
 ---
+
+### 2026-06-11 11:28 · LC695 Max Area of Island · conf 5/5  (Graphs, M)
+`max_area_of_island.py`  
+Solved correctly first try, unaided, using mutate-as-visited + accumulator style. Then proactively proposed a cleaner refactor: explicit max_area var + double loop + dfs returning the blob area (1 + sum of neighbor dfs), preferring readability over the generator one-liner. Good code-clarity judgment emerging. Graphs transferring well from tree DFS; return-value flood-fill is the idiom to keep using.
 
 ### 2026-06-10 22:23 · LC200 Number of Islands · conf 3/5  (Graphs, M)
 `no_of_islands.py`  
