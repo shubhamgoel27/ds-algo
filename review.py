@@ -14,7 +14,7 @@ Subcommands:
   stats   coverage + confidence summary.
 """
 import json, sys, os
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "review.json")
@@ -103,6 +103,16 @@ def save(probs):
 
 def today():
     return date.today()
+
+
+def now_ts():
+    """Full local timestamp (minute precision) for the attempt history."""
+    return datetime.now().isoformat(timespec="minutes")
+
+
+def when(h):
+    """Best available time for a history entry: full ts if present, else date."""
+    return h.get("ts") or h.get("date") or ""
 
 
 def parse_due(p):
@@ -198,7 +208,7 @@ def log(argv):
     p["sr"] = {"conf": rating, "last_reviewed": today().isoformat(),
                "due": nxt.isoformat(), "reps": p["sr"]["reps"] + 1}
     p.setdefault("history", []).append(
-        {"date": today().isoformat(), "conf": rating, "note": note})
+        {"date": today().isoformat(), "ts": now_ts(), "conf": rating, "note": note})
     save(probs)
     print(f"logged LC{p['id']} {p['title']}: conf {rating}, "
           f"rep {p['sr']['reps']}, next due {p['sr']['due']}")
@@ -210,12 +220,12 @@ def journal():
     entries = []
     for p in probs:
         for h in p.get("history", []):
-            entries.append((h["date"], p, h))
+            entries.append((when(h), p, h))
     entries.sort(key=lambda e: e[0], reverse=True)
-    for d, p, h in entries:
-        print(f"{d}  LC{p['id']:<5} conf {h['conf']}  {p['title']}")
+    for w, p, h in entries:
+        print(f"{w:16}  LC{p['id']:<5} conf {h['conf']}  {p['title']}")
         if h.get("note"):
-            print(f"           ↳ {h['note']}")
+            print(f"                    ↳ {h['note']}")
 
 
 def stats():
@@ -283,15 +293,16 @@ def gen_journal(probs, t):
     entries = []
     for p in probs:
         for h in p.get("history", []):
-            entries.append((h["date"], p, h))
+            entries.append((when(h), p, h))
     entries.sort(key=lambda e: e[0], reverse=True)
     out = ["# Session Journal — what tripped me, per attempt\n",
            "> Auto-generated from `review.json` history by `review.py gen`. "
-           "Newest first. Read this at the start of a session to target weak spots.\n",
+           "Newest first (timestamped). Read this at the start of a session to target weak spots.\n",
            f"Total attempts logged: **{len(entries)}**.\n", "---\n"]
-    for d, p, h in entries:
+    for w, p, h in entries:
         key = p["file"] or f"LC{p['id']}"
-        out.append(f"### {d} · LC{p['id']} {p['title']} · conf {h['conf']}/5  ({p['topic']}, {p['difficulty']})")
+        stamp = w.replace("T", " ") if "T" in w else w
+        out.append(f"### {stamp} · LC{p['id']} {p['title']} · conf {h['conf']}/5  ({p['topic']}, {p['difficulty']})")
         out.append(f"`{key}`  ")
         out.append(f"{h['note'] or '_(no note)_'}\n")
     with open(JOURNAL, "w") as f:

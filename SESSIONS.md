@@ -1,6 +1,6 @@
 # Session Journal — what tripped me, per attempt
 
-> Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
+> Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
 Total attempts logged: **12**.
 
