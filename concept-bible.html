@@ -1413,6 +1413,35 @@ queue drains by LEVEL:
 <ul><li><code>from collections import deque</code> → O(1) <code>append</code> / <code>popleft</code>. The BFS workhorse.</li><li><code>defaultdict(list)</code> for adjacency lists; <code>defaultdict(int)</code> won&#x27;t help in-degrees directly — build a <code>[0]*n</code> array or a dict.</li><li>Direction vectors: <code>for dr, dc in ((1,0),(-1,0),(0,1),(0,-1))</code> (8-dir for 1091: add the four diagonals).</li><li>Bounds-check inline: <code>0 &lt;= nr &lt; R and 0 &lt;= nc &lt; C</code>.</li><li>Clone-style map: <code>clone = {}</code> mapping <code>old_node -&gt; new_node</code> doubles as the visited set (133).</li><li>DFS+memo on a DAG: <code>@functools.lru_cache(None)</code> or a <code>memo</code> dict turns exponential path-search into O(V+E) (329).</li><li>Recursion depth caps ~1000 — a 200×200 grid flood fill (200/695) can overflow; prefer an explicit stack or BFS for huge grids.</li></ul>
 </div>
 <div class="section section--default">
+<h2>Boilerplate &amp; idioms</h2>
+<p>The single biggest cleanup: <strong>guard-clause DFS.</strong> Don&#x27;t write a separate <code>valid()</code> and check before each call. Put the bounds / wall / visited check at the <strong>top of <code>dfs</code> as an early return</strong>, then recurse into all neighbors blindly. Each call bails on entry if it&#x27;s off-grid, water, or seen.</p>
+<pre class="code"><code><span class="kw">def</span> numIslands(self, grid):
+    R, C = <span class="bi">len</span>(grid), <span class="bi">len</span>(grid[<span class="nu">0</span>])           <span class="cm"># dimensions once</span>
+    seen = <span class="bi">set</span>()
+    <span class="kw">def</span> dfs(i, j):                            <span class="cm"># close over grid/R/C/seen; pass only coords</span>
+        <span class="kw">if</span> <span class="kw">not</span> (<span class="nu">0</span> &lt;= i &lt; R <span class="kw">and</span> <span class="nu">0</span> &lt;= j &lt; C) <span class="kw">or</span> grid[i][j] != <span class="st">&quot;1&quot;</span> <span class="kw">or</span> (i, j) <span class="kw">in</span> seen:
+            <span class="kw">return</span>                            <span class="cm"># ONE guard handles all three exits</span>
+        seen.add((i, j))
+        <span class="kw">for</span> di, dj <span class="kw">in</span> ((<span class="nu">0</span>,<span class="nu">1</span>),(<span class="nu">0</span>,-<span class="nu">1</span>),(<span class="nu">1</span>,<span class="nu">0</span>),(-<span class="nu">1</span>,<span class="nu">0</span>)):
+            dfs(i+di, j+dj)                   <span class="cm"># recurse blindly; the guard filters</span>
+    islands = <span class="nu">0</span>
+    <span class="kw">for</span> i <span class="kw">in</span> <span class="bi">range</span>(R):
+        <span class="kw">for</span> j <span class="kw">in</span> <span class="bi">range</span>(C):
+            <span class="kw">if</span> grid[i][j] == <span class="st">&quot;1&quot;</span> <span class="kw">and</span> (i, j) <span class="kw">not</span> <span class="kw">in</span> seen:
+                islands += <span class="nu">1</span>
+                dfs(i, j)
+    <span class="kw">return</span> islands</code></pre>
+<p>More reusable hacks:</p>
+<ul><li><strong>Mutate the grid as your visited marker</strong> to drop the <code>seen</code> set: set <code>grid[i][j] = &quot;0&quot;</code> when you enter. O(1) space, but it destroys the input (say so in an interview).</li><li><strong><code>neighbors()</code> generator</strong> so bounds-checking lives in one place:</li></ul>
+<pre class="code"><code>DIRS = ((<span class="nu">0</span>,<span class="nu">1</span>),(<span class="nu">0</span>,-<span class="nu">1</span>),(<span class="nu">1</span>,<span class="nu">0</span>),(-<span class="nu">1</span>,<span class="nu">0</span>))
+<span class="kw">def</span> neighbors(i, j):
+    <span class="kw">for</span> di, dj <span class="kw">in</span> DIRS:
+        ni, nj = i + di, j + dj
+        <span class="kw">if</span> <span class="nu">0</span> &lt;= ni &lt; R <span class="kw">and</span> <span class="nu">0</span> &lt;= nj &lt; C:
+            <span class="kw">yield</span> ni, nj</code></pre>
+<ul><li><strong>BFS: mark visited on ENQUEUE, not dequeue</strong> — else the same cell is queued by several neighbors and you do duplicate work. Multi-source is free: seed the queue + seen with every start at once (Rotting Oranges, Pacific Atlantic).</li><li><strong>8 neighbors:</strong> <code>[(di,dj) for di in (-1,0,1) for dj in (-1,0,1) if (di,dj) != (0,0)]</code>.</li><li><strong>Non-grid graph:</strong> <code>adj = defaultdict(list); adj[u].append(v)</code> (drop the reverse edge if directed) — no key-existence checks.</li><li><strong>Huge grids overflow recursion (~1000 frames):</strong> <code>sys.setrecursionlimit(10**6)</code> or use the iterative BFS.</li></ul>
+</div>
+<div class="section section--default">
 <h2>Problem map</h2>
 <div class="tablewrap"><table><thead><tr><th>LC</th><th>Problem</th><th>Df</th><th>How it instantiates the pattern</th></tr></thead><tbody><tr><td>133</td><td>Clone Graph</td><td>M</td><td>DFS/BFS + <code>old→new</code> dict as visited; copy node, then recurse neighbors</td></tr><tr><td>200</td><td>Number of Islands</td><td>M</td><td>flood fill; <code>neighbors</code>=4-dir; each unvisited land cell launches one DFS, count launches</td></tr><tr><td>695</td><td>Max Area of Island</td><td>M</td><td>flood fill returning size; DFS returns <code>1 + sum(children)</code>, track global max</td></tr><tr><td>1091</td><td>Shortest Path in Binary Matrix</td><td>M</td><td>BFS, <strong>8-dir</strong>; shortest hops on unweighted grid; level count = path length</td></tr><tr><td>994</td><td>Rotting Oranges</td><td>M</td><td><strong>multi-source BFS</strong>; seed all rotten cells; level = minutes; leftover fresh ⇒ -1</td></tr><tr><td>417</td><td>Pacific Atlantic Water Flow</td><td>M</td><td><strong>multi-source, reverse flow</strong>; DFS inward from each ocean&#x27;s border to ≥ cells; intersect sets</td></tr><tr><td>127</td><td>Word Ladder</td><td>H</td><td>BFS on implicit graph; <code>neighbors</code>=words 1 letter apart; level = transform count</td></tr><tr><td>207</td><td>Course Schedule</td><td>M</td><td>topo sort; can finish ⇔ <code>len(order)==n</code> (no cycle)</td></tr><tr><td>210</td><td>Course Schedule II</td><td>M</td><td>topo sort; <strong>return the order</strong> (or <code>[]</code> if cycle)</td></tr><tr><td>269</td><td>Alien Dictionary</td><td>H</td><td>build edges from adjacent-word first diff, then topo sort; cycle ⇒ invalid</td></tr><tr><td>329</td><td>Longest Increasing Path in Matrix</td><td>H</td><td><strong>DFS + memo</strong> on implicit DAG (edges to strictly-greater neighbors); answer = max memo</td></tr></tbody></table></div>
 </div>

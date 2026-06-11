@@ -156,6 +156,42 @@ Each orange flips the instant the wavefront reaches it — its first (and only) 
 - DFS+memo on a DAG: `@functools.lru_cache(None)` or a `memo` dict turns exponential path-search into O(V+E) (329).
 - Recursion depth caps ~1000 — a 200×200 grid flood fill (200/695) can overflow; prefer an explicit stack or BFS for huge grids.
 
+## Boilerplate & idioms
+The single biggest cleanup: **guard-clause DFS.** Don't write a separate `valid()` and check before each call. Put the bounds / wall / visited check at the **top of `dfs` as an early return**, then recurse into all neighbors blindly. Each call bails on entry if it's off-grid, water, or seen.
+```python
+def numIslands(self, grid):
+    R, C = len(grid), len(grid[0])           # dimensions once
+    seen = set()
+    def dfs(i, j):                            # close over grid/R/C/seen; pass only coords
+        if not (0 <= i < R and 0 <= j < C) or grid[i][j] != "1" or (i, j) in seen:
+            return                            # ONE guard handles all three exits
+        seen.add((i, j))
+        for di, dj in ((0,1),(0,-1),(1,0),(-1,0)):
+            dfs(i+di, j+dj)                   # recurse blindly; the guard filters
+    islands = 0
+    for i in range(R):
+        for j in range(C):
+            if grid[i][j] == "1" and (i, j) not in seen:
+                islands += 1
+                dfs(i, j)
+    return islands
+```
+More reusable hacks:
+- **Mutate the grid as your visited marker** to drop the `seen` set: set `grid[i][j] = "0"` when you enter. O(1) space, but it destroys the input (say so in an interview).
+- **`neighbors()` generator** so bounds-checking lives in one place:
+```python
+DIRS = ((0,1),(0,-1),(1,0),(-1,0))
+def neighbors(i, j):
+    for di, dj in DIRS:
+        ni, nj = i + di, j + dj
+        if 0 <= ni < R and 0 <= nj < C:
+            yield ni, nj
+```
+- **BFS: mark visited on ENQUEUE, not dequeue** — else the same cell is queued by several neighbors and you do duplicate work. Multi-source is free: seed the queue + seen with every start at once (Rotting Oranges, Pacific Atlantic).
+- **8 neighbors:** `[(di,dj) for di in (-1,0,1) for dj in (-1,0,1) if (di,dj) != (0,0)]`.
+- **Non-grid graph:** `adj = defaultdict(list); adj[u].append(v)` (drop the reverse edge if directed) — no key-existence checks.
+- **Huge grids overflow recursion (~1000 frames):** `sys.setrecursionlimit(10**6)` or use the iterative BFS.
+
 ## Problem map
 | LC | Problem | Df | How it instantiates the pattern |
 |---|---|---|---|
