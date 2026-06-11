@@ -612,12 +612,18 @@
     "file": "longest_substring_without_repeating.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 2,
+      "last_reviewed": "2026-06-10",
+      "due": "2026-06-13",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-10",
+        "conf": 2,
+        "note": "First rep in sliding-window, needed the full structure handed over. Root bug: split into if(duplicate)=shrink vs else=add+record, so the current char was never added and answer never recorded on duplicate steps -> set drifted out of sync with window -> KeyError. Fix: shrink FIRST (while char in window), THEN add + record UNCONDITIONALLY every iteration. Learned the dict-jump upgrade (last[char]+1) and the critical max(left, last[char]+1) guard so left never moves backward (the abba case). Pattern not yet in muscle memory; needs more longest-valid reps."
+      }
+    ]
   },
   {
     "id": 424,

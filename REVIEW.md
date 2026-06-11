@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **10 reviewed, 131 due today (2026-06-10).**
+**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **11 reviewed, 130 due today (2026-06-10).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -53,7 +53,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | E | new | — | — | now | 0 |
-| 3 | [Longest Substring Without Repeating Chars](https://leetcode.com/problems/longest-substring-without-repeating-chars/) | M | ✓ | — | — | now | 0 |
+| 3 | [Longest Substring Without Repeating Chars](https://leetcode.com/problems/longest-substring-without-repeating-chars/) | M | ✓ | 2 | 2026-06-10 | 2026-06-13 | 1 |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | M | new | — | — | now | 0 |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | M | ✓ | — | — | now | 0 |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | M | new | — | — | now | 0 |

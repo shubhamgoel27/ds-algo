@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **10**.
+Total attempts logged: **11**.
 
 ---
+
+### 2026-06-10 · LC3 Longest Substring Without Repeating Chars · conf 2/5  (Sliding Window, M)
+`longest_substring_without_repeating.py`  
+First rep in sliding-window, needed the full structure handed over. Root bug: split into if(duplicate)=shrink vs else=add+record, so the current char was never added and answer never recorded on duplicate steps -> set drifted out of sync with window -> KeyError. Fix: shrink FIRST (while char in window), THEN add + record UNCONDITIONALLY every iteration. Learned the dict-jump upgrade (last[char]+1) and the critical max(left, last[char]+1) guard so left never moves backward (the abba case). Pattern not yet in muscle memory; needs more longest-valid reps.
 
 ### 2026-06-10 · LC236 Lowest Common Ancestor of Binary Tree · conf 5/5  (Trees, M)
 `lca_of_binary_tree.py`  
