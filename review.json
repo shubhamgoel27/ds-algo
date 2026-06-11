@@ -1738,12 +1738,18 @@
     "file": "lca_of_binary_tree.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-10",
+      "due": "2026-08-05",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-10",
+        "conf": 5,
+        "note": "Algorithm correct on first attempt, fully unaided: post-order, return the found node up; both-sides-non-null means this node is the LCA, else pass up the non-null side. Got the self-ancestor short-circuit right too. Only nits were mechanical (compared node.val to a node object; trailing comma was a paste artifact). Different idiom from diameter: return value IS the answer, no nonlocal. Strong solve. Refinements noted: 'return left or right', and identity comparison (node is p) is the bulletproof form."
+      }
+    ]
   },
   {
     "id": 426,

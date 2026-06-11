@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **9 reviewed, 131 due today (2026-06-09).**
+**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **10 reviewed, 131 due today (2026-06-10).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -114,7 +114,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 105 | [Construct BT from Preorder + Inorder](https://leetcode.com/problems/construct-bt-from-preorder-inorder/) | M | new | — | — | now | 0 |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | M | ✓ | — | — | now | 0 |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | M | new | — | — | now | 0 |
-| 236 | [Lowest Common Ancestor of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-binary-tree/) | M | ✓ | — | — | now | 0 |
+| 236 | [Lowest Common Ancestor of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-binary-tree/) | M | ✓ | 5 | 2026-06-10 | 2026-08-05 | 1 |
 | 426 | [Convert BST to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | M | ✓ | — | — | now | 0 |
 | 1650 | [Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | M | ✓ | — | — | now | 0 |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | H | new | — | — | now | 0 |

@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **9**.
+Total attempts logged: **10**.
 
 ---
+
+### 2026-06-10 · LC236 Lowest Common Ancestor of Binary Tree · conf 5/5  (Trees, M)
+`lca_of_binary_tree.py`  
+Algorithm correct on first attempt, fully unaided: post-order, return the found node up; both-sides-non-null means this node is the LCA, else pass up the non-null side. Got the self-ancestor short-circuit right too. Only nits were mechanical (compared node.val to a node object; trailing comma was a paste artifact). Different idiom from diameter: return value IS the answer, no nonlocal. Strong solve. Refinements noted: 'return left or right', and identity comparison (node is p) is the bulletproof form.
 
 ### 2026-06-09 · LC226 Invert Binary Tree · conf 4/5  (Trees, E)
 `invert_binary_tree.py`  
