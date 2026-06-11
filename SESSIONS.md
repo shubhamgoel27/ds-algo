@@ -2,13 +2,17 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first. Read this at the start of a session to target weak spots.
 
-Total attempts logged: **11**.
+Total attempts logged: **12**.
 
 ---
 
 ### 2026-06-10 · LC3 Longest Substring Without Repeating Chars · conf 2/5  (Sliding Window, M)
 `longest_substring_without_repeating.py`  
 First rep in sliding-window, needed the full structure handed over. Root bug: split into if(duplicate)=shrink vs else=add+record, so the current char was never added and answer never recorded on duplicate steps -> set drifted out of sync with window -> KeyError. Fix: shrink FIRST (while char in window), THEN add + record UNCONDITIONALLY every iteration. Learned the dict-jump upgrade (last[char]+1) and the critical max(left, last[char]+1) guard so left never moves backward (the abba case). Pattern not yet in muscle memory; needs more longest-valid reps.
+
+### 2026-06-10 · LC1004 Max Consecutive Ones III · conf 1/5  (Sliding Window, M)
+`max_consecutive_ones.py`  
+Second sliding-window rep, same longest-valid shape. Still needed the full 5-slot skeleton handed over; fell back into the if(current element)/else branching anti-pattern again (the exact LC3 mistake). Once given the template, assembled and ran it correctly. The blocker is structural: not yet separating 'element updates state' from 'state drives the shrink decision'. Pattern needs 2-3 more reps; SR will resurface tomorrow. Element->state->decision separation is the thing to drill.
 
 ### 2026-06-10 · LC236 Lowest Common Ancestor of Binary Tree · conf 5/5  (Trees, M)
 `lca_of_binary_tree.py`  

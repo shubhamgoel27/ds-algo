@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **11 reviewed, 130 due today (2026-06-10).**
+**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **12 reviewed, 129 due today (2026-06-10).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -57,7 +57,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | M | new | — | — | now | 0 |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | M | ✓ | — | — | now | 0 |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | M | new | — | — | now | 0 |
-| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | M | ✓ | — | — | now | 0 |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | M | ✓ | 1 | 2026-06-10 | 2026-06-11 | 1 |
 | 2134 | [Minimum Number of Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-number-of-swaps-to-group-all-1s-together-ii/) | M | ✓ | — | — | now | 0 |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | H | new | — | — | now | 0 |
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | H | new | — | — | now | 0 |

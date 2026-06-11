@@ -706,12 +706,18 @@
     "file": "max_consecutive_ones.py",
     "in_catalog": false,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 1,
+      "last_reviewed": "2026-06-10",
+      "due": "2026-06-11",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-10",
+        "conf": 1,
+        "note": "Second sliding-window rep, same longest-valid shape. Still needed the full 5-slot skeleton handed over; fell back into the if(current element)/else branching anti-pattern again (the exact LC3 mistake). Once given the template, assembled and ran it correctly. The blocker is structural: not yet separating 'element updates state' from 'state drives the shrink decision'. Pattern needs 2-3 more reps; SR will resurface tomorrow. Element->state->decision separation is the thing to drill."
+      }
+    ]
   },
   {
     "id": 2134,
