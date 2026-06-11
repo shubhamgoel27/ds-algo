@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **12**.
+Total attempts logged: **13**.
 
 ---
+
+### 2026-06-10 22:23 · LC200 Number of Islands · conf 3/5  (Graphs, M)
+`no_of_islands.py`  
+Flood-fill structure (scan -> count unvisited land -> flood rest) was theirs from the start. 2 hints, both same root: visited stores COORDINATES not cell values -> used grid[i][j] (the char) where (i,j) was needed, in BOTH the outer scan and valid(). Crash was the classic missing-visited-guard cycle (graph vs tree). Count-in-outer-loop, flood-marks-rest: correct. Asked for boilerplate-efficiency tricks (felt their version verbose: passed grid around, separate valid()).
 
 ### 2026-06-10 · LC3 Longest Substring Without Repeating Chars · conf 2/5  (Sliding Window, M)
 `longest_substring_without_repeating.py`  

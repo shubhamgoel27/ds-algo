@@ -2332,12 +2332,19 @@
     "file": "no_of_islands.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-06-10",
+      "due": "2026-06-17",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-10",
+        "ts": "2026-06-10T22:23",
+        "conf": 3,
+        "note": "Flood-fill structure (scan -> count unvisited land -> flood rest) was theirs from the start. 2 hints, both same root: visited stores COORDINATES not cell values -> used grid[i][j] (the char) where (i,j) was needed, in BOTH the outer scan and valid(). Crash was the classic missing-visited-guard cycle (graph vs tree). Count-in-outer-loop, flood-marks-rest: correct. Asked for boilerplate-efficiency tricks (felt their version verbose: passed grid around, separate valid())."
+      }
+    ]
   },
   {
     "id": 207,

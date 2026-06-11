@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **12 reviewed, 129 due today (2026-06-10).**
+**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **13 reviewed, 128 due today (2026-06-10).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -153,7 +153,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | M | ✓ | — | — | now | 0 |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | M | ✓ | — | — | now | 0 |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | M | ✓ | 3 | 2026-06-10 | 2026-06-17 | 1 |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | M | ✓ | — | — | now | 0 |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | M | new | — | — | now | 0 |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | M | new | — | — | now | 0 |
