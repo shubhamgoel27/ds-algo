@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **15**.
+Total attempts logged: **16**.
 
 ---
+
+### 2026-06-11 22:18 · LC207 Course Schedule · conf 3/5  (Graphs, M)
+`course_scheduler.py`  
+First-ever attempt at topological sort. Wrote the entire Kahn's BFS loop correctly and unaided (pop, completed++, decrement neighbors, enqueue on 0, completed==numCourses). Needed 2 setup nudges: (1) edge direction (wrote adj[a].append(b) instead of adj[b].append(a) -> decremented prereqs not dependents), (2) seed list iterated indeg VALUES not indices (needs enumerate). Both setup, not algorithmic. Clean canonical solution. Now one line from Course Schedule II / 210 (append to order list instead of counting). Strong first exposure.
 
 ### 2026-06-11 18:33 · LC994 Rotting Oranges · conf 3/5  (Graphs, M)
 `rotten_oranges.py`  

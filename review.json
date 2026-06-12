@@ -2367,12 +2367,19 @@
     "file": "course_scheduler.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-06-11",
+      "due": "2026-06-18",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-11",
+        "ts": "2026-06-11T22:18",
+        "conf": 3,
+        "note": "First-ever attempt at topological sort. Wrote the entire Kahn's BFS loop correctly and unaided (pop, completed++, decrement neighbors, enqueue on 0, completed==numCourses). Needed 2 setup nudges: (1) edge direction (wrote adj[a].append(b) instead of adj[b].append(a) -> decremented prereqs not dependents), (2) seed list iterated indeg VALUES not indices (needs enumerate). Both setup, not algorithmic. Clean canonical solution. Now one line from Course Schedule II / 210 (append to order list instead of counting). Strong first exposure."
+      }
+    ]
   },
   {
     "id": 210,
