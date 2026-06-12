@@ -528,15 +528,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-    "file": null,
+    "file": "two_sum_sorted.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-11",
+      "due": "2026-08-06",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-11",
+        "ts": "2026-06-11T22:42",
+        "conf": 5,
+        "note": "First two-pointer problem, clean unaided solve. Converging pointers on sorted array: total>target -> hi--, else lo++, equal -> return 1-based. Correct, O(n)/O(1). Stated the move logic. Tip taught: the safety argument (lo paired with largest still short -> lo never reaches target -> discard). Toolkit: defensive return [], sorted->two-pointer vs unsorted->hashmap. History: merge-sort merge (von Neumann 1945) is the ancestor; Floyd tortoise-hare for fast/slow. Strong start to the pattern."
+      }
+    ]
   },
   {
     "id": 42,

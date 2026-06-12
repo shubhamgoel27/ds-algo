@@ -8,6 +8,16 @@ knowing. Grouped by pattern. Updated every review session.
 
 ---
 
+## Two Pointers
+**Reach for it when:** sorted arrays or palindromes (converging from both ends), in-place compaction (read/write), or cycle/middle (fast/slow). The skill is arguing the pointer you *don't* move can be safely discarded.
+
+### LC167 · Two Sum II (sorted) · M
+- **Idea:** converging pointers on a sorted array. `total = a[lo] + a[hi]`; too big -> `hi -= 1`, too small -> `lo += 1`, equal -> done.
+- **Complexity:** O(n) time, O(1) space (sortedness replaces the hash map's O(n) space).
+- **Safety argument:** if `total < target`, `a[lo]` paired with the largest available still falls short, so `lo` can never reach target -> advance it, never revisit. Say this out loud in interviews.
+- **Gotcha:** return **1-based** indices here; add a defensive `return []` after the loop.
+- **Family:** 3Sum (fix one, two-pointer the rest), Container With Most Water (move the shorter wall), Valid Palindrome, Trapping Rain Water.
+
 ## Stack
 **Reach for it when:** nesting / matching, "most-recently-seen" semantics, or monotonic-stack range problems. LIFO mirrors nesting.
 

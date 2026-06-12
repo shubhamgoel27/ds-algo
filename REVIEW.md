@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **16 reviewed, 126 due today (2026-06-11).**
+**140 problems** — 59 with a local answer key (active recall vs your saved solution), 81 new (learn from scratch). **17 reviewed, 125 due today (2026-06-11).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -35,7 +35,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | M | ✓ | — | — | now | 0 |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | M | ✓ | — | — | now | 0 |
 
-## Two Pointers  (5/10 solved)
+## Two Pointers  (6/10 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | E | ✓ | — | — | now | 0 |
@@ -46,7 +46,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | M | new | — | — | now | 0 |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | M | new | — | — | now | 0 |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | M | ✓ | — | — | now | 0 |
-| 167 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | M | new | — | — | now | 0 |
+| 167 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | M | ✓ | 5 | 2026-06-11 | 2026-08-06 | 1 |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | H | new | — | — | now | 0 |
 
 ## Sliding Window  (4/9 solved)

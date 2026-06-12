@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **16**.
+Total attempts logged: **17**.
 
 ---
+
+### 2026-06-11 22:42 · LC167 Two Sum II — Input Array Is Sorted · conf 5/5  (Two Pointers, M)
+`two_sum_sorted.py`  
+First two-pointer problem, clean unaided solve. Converging pointers on sorted array: total>target -> hi--, else lo++, equal -> return 1-based. Correct, O(n)/O(1). Stated the move logic. Tip taught: the safety argument (lo paired with largest still short -> lo never reaches target -> discard). Toolkit: defensive return [], sorted->two-pointer vs unsorted->hashmap. History: merge-sort merge (von Neumann 1945) is the ancestor; Floyd tortoise-hare for fast/slow. Strong start to the pattern.
 
 ### 2026-06-11 22:18 · LC207 Course Schedule · conf 3/5  (Graphs, M)
 `course_scheduler.py`  

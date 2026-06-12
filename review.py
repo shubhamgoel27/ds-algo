@@ -33,6 +33,7 @@ OVERLAP = {
     33: "search_rotated_array.py",  # solved 2026-06-07 session (with help)
     206: "reverse_linked_list.py",  # solved 2026-06-07 session
     102: "level_order_traversal.py",  # solved 2026-06-07 session (one hint)
+    167: "two_sum_sorted.py",  # solved 2026-06-11 session (two pointers, clean)
     226: "invert_binary_tree.py",  # solved 2026-06-09 session (DFS warm-up)
     98: "validate_bst.py",  # solved 2026-06-09 session (bounds-down, clean)
     146: "lru_cache.py", 560: "subarray_sum_k.py", 543: "diameter_of_tree.py",
