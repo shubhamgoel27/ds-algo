@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **18**.
+Total attempts logged: **19**.
 
 ---
+
+### 2026-06-12 16:04 · LC33 Search in Rotated Sorted Array · conf 3/5  (Binary Search, M)
+`search_rotated_array.py`  
+COLD RE-REVIEW, big improvement from the conf-2 4-iteration saga last time. Mechanics now in muscle memory unaided: single loop, mid==target first, inclusive <=, no slicing, return -1. Needed ONE hint: missed the 'which half is sorted' branch (nums[low]<=nums[mid]) -- had collapsed to left-sorted-only. Then SELF-CORRECTED the right-half boundary < nums[high] -> <= nums[high] before I ran it. Spaced-rep payoff visible. User rates the floor (conservative) on purpose. Two-level template (which-half-sorted, then range-check) is landing.
 
 ### 2026-06-11 23:43 · LC11 Container With Most Water · conf 5/5  (Two Pointers, M)
 `container_with_water.py`  

@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 60 with a local answer key (active recall vs your saved solution), 80 new (learn from scratch). **18 reviewed, 124 due today (2026-06-11).**
+**140 problems** — 60 with a local answer key (active recall vs your saved solution), 80 new (learn from scratch). **18 reviewed, 123 due today (2026-06-12).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -78,7 +78,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | E | new | — | — | now | 0 |
-| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | M | ✓ | 2 | 2026-06-07 | 2026-06-10 | 1 |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | M | ✓ | 3 | 2026-06-12 | 2026-06-19 | 2 |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | M | new | — | — | now | 0 |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | M | new | — | — | now | 0 |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | M | ✓ | — | — | now | 0 |

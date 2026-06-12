@@ -1044,16 +1044,22 @@
     "file": "search_rotated_array.py",
     "in_catalog": true,
     "sr": {
-      "conf": 2,
-      "last_reviewed": "2026-06-07",
-      "due": "2026-06-10",
-      "reps": 1
+      "conf": 3,
+      "last_reviewed": "2026-06-12",
+      "due": "2026-06-19",
+      "reps": 2
     },
     "history": [
       {
         "date": "2026-06-07",
         "conf": 2,
         "note": "Right approach (which-half-is-sorted) but needed ~4 iterations + heavy hints + final solution. Bug sequence (all classic rotated-array traps): missing pointer-move (hang), strict-vs-inclusive range bounds, slice-index offset, helper low=mid infinite loop, high=mid+1 wrong direction, mid==low misclassification (> vs >=), no final return -1, and -1 offset producing a FALSE-POSITIVE index. Also the two-level slice design is secretly O(n) (slice copies) -> fails O(log n). LESSON: single loop, check nums[mid]==target FIRST, detect sorted half with nums[lo]<=nums[mid] (INCLUSIVE), bracket target in that half. The <= that owns mid==low is the whole game. REDO SOON."
+      },
+      {
+        "date": "2026-06-12",
+        "ts": "2026-06-12T16:04",
+        "conf": 3,
+        "note": "COLD RE-REVIEW, big improvement from the conf-2 4-iteration saga last time. Mechanics now in muscle memory unaided: single loop, mid==target first, inclusive <=, no slicing, return -1. Needed ONE hint: missed the 'which half is sorted' branch (nums[low]<=nums[mid]) -- had collapsed to left-sorted-only. Then SELF-CORRECTED the right-half boundary < nums[high] -> <= nums[high] before I ran it. Spaced-rep payoff visible. User rates the floor (conservative) on purpose. Two-level template (which-half-sorted, then range-check) is landing."
       }
     ]
   },
