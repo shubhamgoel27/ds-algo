@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **19**.
+Total attempts logged: **20**.
 
 ---
+
+### 2026-06-12 16:16 · LC704 Binary Search · conf 5/5  (Binary Search, E)
+`binary_search.py`  
+Vanilla binary search, clean airtight unaided solve. Closed-interval [low,high] used consistently: while low<=high, low=mid+1/high=mid-1, return -1. All boundary decisions correct (empty array, single element, both ends). Deliberately drilling binary search to lock margin discipline after the LC33 saga. Tip taught: pick ONE interval convention and never mix. Toolkit: bisect_left for prod. Next escalate to Find Min Rotated (153) then binary-search-on-answer (Koko).
 
 ### 2026-06-12 16:04 · LC33 Search in Rotated Sorted Array · conf 3/5  (Binary Search, M)
 `search_rotated_array.py`  

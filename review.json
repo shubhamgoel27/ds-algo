@@ -1013,15 +1013,22 @@
       "G75"
     ],
     "url": "https://leetcode.com/problems/binary-search/",
-    "file": null,
+    "file": "binary_search.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-12",
+      "due": "2026-08-07",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-12",
+        "ts": "2026-06-12T16:16",
+        "conf": 5,
+        "note": "Vanilla binary search, clean airtight unaided solve. Closed-interval [low,high] used consistently: while low<=high, low=mid+1/high=mid-1, return -1. All boundary decisions correct (empty array, single element, both ends). Deliberately drilling binary search to lock margin discipline after the LC33 saga. Tip taught: pick ONE interval convention and never mix. Toolkit: bisect_left for prod. Next escalate to Find Min Rotated (153) then binary-search-on-answer (Koko)."
+      }
+    ]
   },
   {
     "id": 33,

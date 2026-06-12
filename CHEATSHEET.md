@@ -53,6 +53,12 @@ knowing. Grouped by pattern. Updated every review session.
 ## Binary Search
 **Reach for it when:** sorted (or rotated-sorted) data + need better than O(n). The art is the loop invariant and inclusive-vs-strict boundaries.
 
+### LC704 · Binary Search · E  (the template)
+- **Idea:** closed interval `[low, high]`, used consistently. Margins come from never mixing conventions.
+- **The three decisions:** `while low <= high` (check the 1-element window) · `low=mid+1` / `high=mid-1` (mid already checked; guarantees progress, no infinite loop) · `return -1` when interval empties.
+- **Python:** `bisect_left(nums, x)` gives the leftmost insertion index; `i if i<len(nums) and nums[i]==x else -1`. Use it in prod, hand-write in interviews.
+- **Rule:** pick `[low, high]` (closed) OR `[low, high)` (half-open) and never mix; mixing = off-by-one / infinite loop.
+
 ### LC33 · Search in Rotated Sorted Array · M  ⚠️ high-miss
 - **Idea:** one binary search. At each `mid`, **at least one half `[lo..mid]` / `[mid..hi]` is cleanly sorted** (pivot is in the other). Find the sorted half; if target is in its range, go there, else the other half.
 - **Approach:** check `nums[mid]==target` first. Then `if nums[lo] <= nums[mid]:` left sorted → go left iff `nums[lo] <= target < nums[mid]`, else right. Else right sorted → go right iff `nums[mid] < target <= nums[hi]`, else left.
