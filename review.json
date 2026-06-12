@@ -457,15 +457,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/container-with-most-water/",
-    "file": null,
+    "file": "container_with_water.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-11",
+      "due": "2026-08-06",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-11",
+        "ts": "2026-06-11T23:43",
+        "conf": 5,
+        "note": "Clean unaided solve, the trickier converging problem. Converging pointers, area=(hi-lo)*min(walls), move the shorter wall. Correct O(n)/O(1) vs brute O(n^2). Got the greedy instinct right. Tip taught: exchange argument (moving the taller wall loses width with same cap -> can't improve -> move shorter). Toolkit: ties safe either way, micro-opt skip-shorter exists but not needed. History: modern problem; proof technique is the exchange argument behind Huffman 1952 / Kruskal 1956. Two-pointer converging flavor solid (167 and 11 both clean 5s)."
+      }
+    ]
   },
   {
     "id": 15,

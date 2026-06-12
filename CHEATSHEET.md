@@ -18,6 +18,12 @@ knowing. Grouped by pattern. Updated every review session.
 - **Gotcha:** return **1-based** indices here; add a defensive `return []` after the loop.
 - **Family:** 3Sum (fix one, two-pointer the rest), Container With Most Water (move the shorter wall), Valid Palindrome, Trapping Rain Water.
 
+### LC11 · Container With Most Water · M
+- **Idea:** converging pointers; area = `(hi-lo) * min(h[lo], h[hi])`. Move the **shorter** wall inward each step.
+- **Complexity:** O(n) time, O(1) space (vs brute O(n^2)).
+- **Why move the shorter wall (exchange argument):** moving the taller wall loses width while the height stays capped by the shorter, so it can never improve. The only hope of a bigger area is replacing the shorter wall. Ties: move either.
+- **Family:** the "advance the limiting side" greedy; cousin of Trapping Rain Water.
+
 ## Stack
 **Reach for it when:** nesting / matching, "most-recently-seen" semantics, or monotonic-stack range problems. LIFO mirrors nesting.
 

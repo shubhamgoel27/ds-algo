@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **17**.
+Total attempts logged: **18**.
 
 ---
+
+### 2026-06-11 23:43 · LC11 Container With Most Water · conf 5/5  (Two Pointers, M)
+`container_with_water.py`  
+Clean unaided solve, the trickier converging problem. Converging pointers, area=(hi-lo)*min(walls), move the shorter wall. Correct O(n)/O(1) vs brute O(n^2). Got the greedy instinct right. Tip taught: exchange argument (moving the taller wall loses width with same cap -> can't improve -> move shorter). Toolkit: ties safe either way, micro-opt skip-shorter exists but not needed. History: modern problem; proof technique is the exchange argument behind Huffman 1952 / Kruskal 1956. Two-pointer converging flavor solid (167 and 11 both clean 5s).
 
 ### 2026-06-11 22:42 · LC167 Two Sum II — Input Array Is Sorted · conf 5/5  (Two Pointers, M)
 `two_sum_sorted.py`  
