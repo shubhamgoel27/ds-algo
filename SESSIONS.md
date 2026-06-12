@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **14**.
+Total attempts logged: **15**.
 
 ---
+
+### 2026-06-11 18:33 · LC994 Rotting Oranges · conf 3/5  (Graphs, M)
+`rotten_oranges.py`  
+Multi-source BFS STRUCTURE correct on first attempt, unaided: seeded all rotten sources, level-snapshot per minute, fresh counter, impossible-check at end. That conceptual design is the hard part and it was solid. But output was -1 (fully wrong) due to 4 execution bugs needing hints: used current (i,j) instead of neighbor (ni,nj) in 3 spots (the check, the rot, the enqueue), == instead of = for the rot assignment, and >1 instead of >0 in the final impossible-check. Cleaner idiom to internalize: 'while q and fresh > 0' guard removes the off-by-one (no early return + unconditional tim+=1). Tired-slip cluster; redo cold in ~1 week.
 
 ### 2026-06-11 11:28 · LC695 Max Area of Island · conf 5/5  (Graphs, M)
 `max_area_of_island.py`  

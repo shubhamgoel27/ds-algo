@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **14 reviewed, 128 due today (2026-06-11).**
+**140 problems** — 58 with a local answer key (active recall vs your saved solution), 82 new (learn from scratch). **15 reviewed, 127 due today (2026-06-11).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -158,7 +158,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | M | new | — | — | now | 0 |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | M | new | — | — | now | 0 |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | M | ✓ | 5 | 2026-06-11 | 2026-08-06 | 1 |
-| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | M | ✓ | — | — | now | 0 |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | M | ✓ | 3 | 2026-06-11 | 2026-06-18 | 1 |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | M | ✓ | — | — | now | 0 |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | H | new | — | — | now | 0 |
 | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | H | new | — | — | now | 0 |

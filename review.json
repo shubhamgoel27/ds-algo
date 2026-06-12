@@ -2476,12 +2476,19 @@
     "file": "rotten_oranges.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-06-11",
+      "due": "2026-06-18",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-11",
+        "ts": "2026-06-11T18:33",
+        "conf": 3,
+        "note": "Multi-source BFS STRUCTURE correct on first attempt, unaided: seeded all rotten sources, level-snapshot per minute, fresh counter, impossible-check at end. That conceptual design is the hard part and it was solid. But output was -1 (fully wrong) due to 4 execution bugs needing hints: used current (i,j) instead of neighbor (ni,nj) in 3 spots (the check, the rot, the enqueue), == instead of = for the rot assignment, and >1 instead of >0 in the final impossible-check. Cleaner idiom to internalize: 'while q and fresh > 0' guard removes the off-by-one (no early return + unconditional tim+=1). Tired-slip cluster; redo cold in ~1 week."
+      }
+    ]
   },
   {
     "id": 1091,
