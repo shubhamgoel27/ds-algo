@@ -36,6 +36,7 @@ OVERLAP = {
     167: "two_sum_sorted.py",  # solved 2026-06-11 session (two pointers, clean)
     11: "container_with_water.py",  # solved 2026-06-11 session (greedy two pointers)
     704: "binary_search.py",  # solved 2026-06-12 session (vanilla template, clean)
+    153: "find_min_rotated.py",  # solved 2026-06-13 session (boundary/keep-mid convention)
     226: "invert_binary_tree.py",  # solved 2026-06-09 session (DFS warm-up)
     98: "validate_bst.py",  # solved 2026-06-09 session (bounds-down, clean)
     146: "lru_cache.py", 560: "subarray_sum_k.py", 543: "diameter_of_tree.py",

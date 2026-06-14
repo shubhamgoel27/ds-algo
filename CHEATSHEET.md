@@ -59,6 +59,12 @@ knowing. Grouped by pattern. Updated every review session.
 - **Python:** `bisect_left(nums, x)` gives the leftmost insertion index; `i if i<len(nums) and nums[i]==x else -1`. Use it in prod, hand-write in interviews.
 - **Rule:** pick `[low, high]` (closed) OR `[low, high)` (half-open) and never mix; mixing = off-by-one / infinite loop.
 
+### LC153 · Find Minimum in Rotated Sorted Array · M
+- **Idea:** no target -> binary-search the **boundary of a predicate**. P(i) = `nums[i] <= nums[high]` (i is in the tail run that holds the min). Array reads `F...F T...T`; first True = the minimum.
+- **Convention (keep-mid):** `while low < high`; `nums[mid] > nums[high]` -> upper run -> `low = mid+1`; else `high = mid` (mid might BE the min, don't discard). Return `nums[low]`.
+- **Anchor rule:** compare against the endpoint guaranteed to be on the side of what you seek (the min lives in the tail, which ends at `high`, so anchor on `nums[high]`, not `nums[low]`).
+- **Fundamental:** binary search = find the first True in a monotonic `F...T`. Every BS problem is "what is the predicate?"
+
 ### LC33 · Search in Rotated Sorted Array · M  ⚠️ high-miss
 - **Idea:** one binary search. At each `mid`, **at least one half `[lo..mid]` / `[mid..hi]` is cleanly sorted** (pivot is in the other). Find the sorted half; if target is in its range, go there, else the other half.
 - **Approach:** check `nums[mid]==target` first. Then `if nums[lo] <= nums[mid]:` left sorted → go left iff `nums[lo] <= target < nums[mid]`, else right. Else right sorted → go right iff `nums[mid] < target <= nums[hi]`, else left.

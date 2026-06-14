@@ -1111,15 +1111,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
-    "file": null,
+    "file": "find_min_rotated.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-13",
+      "due": "2026-07-04",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-13",
+        "ts": "2026-06-13T21:54",
+        "conf": 4,
+        "note": "Correct unaided code (boundary/keep-mid convention: while low<high, high=mid not mid-1, low=mid+1, compare nums[mid] vs nums[high]). Correctly reached for the harder keep-mid convention. BUT picked the nums[high] anchor partly from my hint, not derived -> honest 4. Taught the FUNDAMENTAL view: binary search finds the first True in a monotonic F...T predicate; here P(i)=nums[i]<=nums[high] (i in tail run with the min). Anchor rule: compare to the endpoint guaranteed to be on the side of what you seek. This predicate framing sets up binary-search-on-answer next."
+      }
+    ]
   },
   {
     "id": 162,

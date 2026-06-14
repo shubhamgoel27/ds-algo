@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **20**.
+Total attempts logged: **21**.
 
 ---
+
+### 2026-06-13 21:54 · LC153 Find Minimum in Rotated Sorted Array · conf 4/5  (Binary Search, M)
+`find_min_rotated.py`  
+Correct unaided code (boundary/keep-mid convention: while low<high, high=mid not mid-1, low=mid+1, compare nums[mid] vs nums[high]). Correctly reached for the harder keep-mid convention. BUT picked the nums[high] anchor partly from my hint, not derived -> honest 4. Taught the FUNDAMENTAL view: binary search finds the first True in a monotonic F...T predicate; here P(i)=nums[i]<=nums[high] (i in tail run with the min). Anchor rule: compare to the endpoint guaranteed to be on the side of what you seek. This predicate framing sets up binary-search-on-answer next.
 
 ### 2026-06-12 16:16 · LC704 Binary Search · conf 5/5  (Binary Search, E)
 `binary_search.py`  

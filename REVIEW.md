@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 61 with a local answer key (active recall vs your saved solution), 79 new (learn from scratch). **19 reviewed, 122 due today (2026-06-12).**
+**140 problems** — 62 with a local answer key (active recall vs your saved solution), 78 new (learn from scratch). **20 reviewed, 122 due today (2026-06-13).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -74,13 +74,13 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | M | ✓ | — | — | now | 0 |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | H | ✓ | — | — | now | 0 |
 
-## Binary Search  (5/8 solved)
+## Binary Search  (6/8 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | E | ✓ | 5 | 2026-06-12 | 2026-08-07 | 1 |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | M | ✓ | 3 | 2026-06-12 | 2026-06-19 | 2 |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | M | new | — | — | now | 0 |
-| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | M | new | — | — | now | 0 |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | M | ✓ | 4 | 2026-06-13 | 2026-07-04 | 1 |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | M | ✓ | — | — | now | 0 |
 | 528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | M | ✓ | — | — | now | 0 |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | M | new | — | — | now | 0 |
