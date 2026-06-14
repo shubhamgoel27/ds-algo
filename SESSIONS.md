@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **21**.
+Total attempts logged: **22**.
 
 ---
+
+### 2026-06-14 00:04 · LC875 Koko Eating Bananas · conf 3/5  (Binary Search, M)
+`koko_bananas.py`  
+Binary search on the answer. Got the CONCEPTUAL LEAP unaided: recognized it as searching the answer space, built [1,max(piles)] range and the feasible() predicate himself (the hard part). One hint on the strict-vs-inclusive boundary AGAIN (curr_time < h -> <= h; 'within h hours' includes exactly h). Recurring signature bug: strict vs inclusive. Improvements taught: integer ceil (a+b-1)//b not float (precision at 1e9), name predicate feasible()->bool. History: parametric search (Megiddo 1983). Wants Capacity to Ship next (same pattern, missed the trick in a past Meta interview).
 
 ### 2026-06-13 21:54 · LC153 Find Minimum in Rotated Sorted Array · conf 4/5  (Binary Search, M)
 `find_min_rotated.py`  

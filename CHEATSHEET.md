@@ -65,6 +65,13 @@ knowing. Grouped by pattern. Updated every review session.
 - **Anchor rule:** compare against the endpoint guaranteed to be on the side of what you seek (the min lives in the tail, which ends at `high`, so anchor on `nums[high]`, not `nums[low]`).
 - **Fundamental:** binary search = find the first True in a monotonic `F...T`. Every BS problem is "what is the predicate?"
 
+### Binary search ON THE ANSWER (LC875 Koko, LC1011 Capacity to Ship)
+- **The leap:** no array to search. Search the **space of possible answers**; test a `feasible(x)` predicate at each. Turns an optimization ("min speed / min capacity") into repeated yes/no feasibility checks (parametric search, Megiddo 1983).
+- **Koko 875:** space `[1, max(piles)]`; `feasible(speed) = sum(ceil(pile/speed)) <= h`. Answer = smallest feasible speed.
+- **Capacity to Ship 1011:** space `[max(weights), sum(weights)]` (low = must fit heaviest; high = ship all in one day); `feasible(cap) = greedy_days(cap) <= days`. Answer = smallest feasible capacity.
+- **Shape:** keep-mid (`while low < high`, `if feasible(mid): high=mid else low=mid+1`), return `low` = first feasible.
+- **Gotcha:** "within / at most" is **inclusive** (`<= h`). Use **integer ceil** `(a+b-1)//b`, not float `ceil(a/b)`, for big values.
+
 ### LC33 · Search in Rotated Sorted Array · M  ⚠️ high-miss
 - **Idea:** one binary search. At each `mid`, **at least one half `[lo..mid]` / `[mid..hi]` is cleanly sorted** (pivot is in the other). Find the sorted half; if target is in its range, go there, else the other half.
 - **Approach:** check `nums[mid]==target` first. Then `if nums[lo] <= nums[mid]:` left sorted → go left iff `nums[lo] <= target < nums[mid]`, else right. Else right sorted → go right iff `nums[mid] < target <= nums[hi]`, else left.

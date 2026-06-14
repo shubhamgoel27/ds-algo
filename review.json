@@ -1182,15 +1182,22 @@
       "NC"
     ],
     "url": "https://leetcode.com/problems/koko-eating-bananas/",
-    "file": null,
+    "file": "koko_bananas.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-06-14",
+      "due": "2026-06-21",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-14",
+        "ts": "2026-06-14T00:04",
+        "conf": 3,
+        "note": "Binary search on the answer. Got the CONCEPTUAL LEAP unaided: recognized it as searching the answer space, built [1,max(piles)] range and the feasible() predicate himself (the hard part). One hint on the strict-vs-inclusive boundary AGAIN (curr_time < h -> <= h; 'within h hours' includes exactly h). Recurring signature bug: strict vs inclusive. Improvements taught: integer ceil (a+b-1)//b not float (precision at 1e9), name predicate feasible()->bool. History: parametric search (Megiddo 1983). Wants Capacity to Ship next (same pattern, missed the trick in a past Meta interview)."
+      }
+    ]
   },
   {
     "id": 1011,
