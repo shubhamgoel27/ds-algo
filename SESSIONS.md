@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **23**.
+Total attempts logged: **24**.
 
 ---
+
+### 2026-06-14 19:50 · LC1004 Max Consecutive Ones III · conf 4/5  (Sliding Window, M)
+`max_consecutive_ones.py`  
+COLD RE-REVIEW, huge jump from conf-1 (needed full skeleton) to writing the entire thing from first principles unaided. Correct expand/shrink structure. Only bug: recorded max BEFORE expand+shrink (measured un-validated windows -> [0] k=0 gave 1 not 0). Self-fixed off a single failing-case hint by moving record to the BOTTOM. Lesson now owned: order is EXPAND -> SHRINK-while-invalid -> RECORD-when-valid. Sliding window finally clicking. Biggest improvement of any pattern.
 
 ### 2026-06-14 19:26 · LC1011 Capacity To Ship Packages Within D Days · conf 4/5  (Binary Search, M)
 `capacity_to_ship_packages.py`  

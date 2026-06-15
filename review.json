@@ -720,16 +720,22 @@
     "file": "max_consecutive_ones.py",
     "in_catalog": false,
     "sr": {
-      "conf": 1,
-      "last_reviewed": "2026-06-10",
-      "due": "2026-06-11",
-      "reps": 1
+      "conf": 4,
+      "last_reviewed": "2026-06-14",
+      "due": "2026-07-05",
+      "reps": 2
     },
     "history": [
       {
         "date": "2026-06-10",
         "conf": 1,
         "note": "Second sliding-window rep, same longest-valid shape. Still needed the full 5-slot skeleton handed over; fell back into the if(current element)/else branching anti-pattern again (the exact LC3 mistake). Once given the template, assembled and ran it correctly. The blocker is structural: not yet separating 'element updates state' from 'state drives the shrink decision'. Pattern needs 2-3 more reps; SR will resurface tomorrow. Element->state->decision separation is the thing to drill."
+      },
+      {
+        "date": "2026-06-14",
+        "ts": "2026-06-14T19:50",
+        "conf": 4,
+        "note": "COLD RE-REVIEW, huge jump from conf-1 (needed full skeleton) to writing the entire thing from first principles unaided. Correct expand/shrink structure. Only bug: recorded max BEFORE expand+shrink (measured un-validated windows -> [0] k=0 gave 1 not 0). Self-fixed off a single failing-case hint by moving record to the BOTTOM. Lesson now owned: order is EXPAND -> SHRINK-while-invalid -> RECORD-when-valid. Sliding window finally clicking. Biggest improvement of any pattern."
       }
     ]
   },
