@@ -653,15 +653,22 @@
       "NC"
     ],
     "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
-    "file": null,
+    "file": "longest_repeating_char_replacement.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-06-14",
+      "due": "2026-06-21",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-14",
+        "ts": "2026-06-14T20:29",
+        "conf": 3,
+        "note": "Longest-valid window with a RICHER state (frequency map, not a single counter). Got the basic shape unaided but first tried an incremental 'changes' counter that drifted because d_max keeps moving (overcounted AABABBA). One conceptual hint: drop the counter, compute replacements directly as window_length - max(d.values()); decrement d on shrink; always advance left. Then clean. LESSON: if a running counter depends on a value that itself changes, recompute don't increment. Also learned the never-decrease-max_freq O(n) optimization (subtle but correct) and why the clear O(26n) version is better to store."
+      }
+    ]
   },
   {
     "id": 438,

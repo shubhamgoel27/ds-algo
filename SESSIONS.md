@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **24**.
+Total attempts logged: **25**.
 
 ---
+
+### 2026-06-14 20:29 · LC424 Longest Repeating Character Replacement · conf 3/5  (Sliding Window, M)
+`longest_repeating_char_replacement.py`  
+Longest-valid window with a RICHER state (frequency map, not a single counter). Got the basic shape unaided but first tried an incremental 'changes' counter that drifted because d_max keeps moving (overcounted AABABBA). One conceptual hint: drop the counter, compute replacements directly as window_length - max(d.values()); decrement d on shrink; always advance left. Then clean. LESSON: if a running counter depends on a value that itself changes, recompute don't increment. Also learned the never-decrease-max_freq O(n) optimization (subtle but correct) and why the clear O(26n) version is better to store.
 
 ### 2026-06-14 19:50 · LC1004 Max Consecutive Ones III · conf 4/5  (Sliding Window, M)
 `max_consecutive_ones.py`  

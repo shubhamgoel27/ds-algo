@@ -35,6 +35,7 @@ OVERLAP = {
     102: "level_order_traversal.py",  # solved 2026-06-07 session (one hint)
     167: "two_sum_sorted.py",  # solved 2026-06-11 session (two pointers, clean)
     11: "container_with_water.py",  # solved 2026-06-11 session (greedy two pointers)
+    424: "longest_repeating_char_replacement.py",  # solved 2026-06-14 session (window, richer state)
     704: "binary_search.py",  # solved 2026-06-12 session (vanilla template, clean)
     153: "find_min_rotated.py",  # solved 2026-06-13 session (boundary/keep-mid convention)
     875: "koko_bananas.py",  # solved 2026-06-14 session (binary search on the answer)
