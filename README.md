@@ -1,73 +1,59 @@
-# ds-algo — a memory that fights back
+# ds-algo
 
-This is not a folder of LeetCode solutions. It is a **spaced-repetition training system** that re-serves problems cold, makes me re-derive them from scratch, grades the attempt, and schedules the next showing based on how badly it went. Solutions are just the answer key. The point is the forgetting curve, and beating it.
+In 2024 I solved about fifty of these for interviews. By 2026 I had forgotten nearly all of it, which is the normal and slightly humbling fate of anything you cram and never revisit.
 
-> Most algo repos are a graveyard: solve it once, paste it, never look again. This one drags problems back out of the grave on a schedule and asks, "OK, do it again. No looking."
+This is the second attempt, built so it sticks. It is a spaced-repetition system that re-serves problems cold on a schedule, plus a coaching loop (run with Claude) that will not hand over the answer and fuzz-tests every solution before it counts. The `.py` files are just the answer keys. The actual work is the forgetting curve losing.
 
----
-
-## How it works
-
-**Active recall + spaced repetition.** Every session: I get the problem statement only, re-solve it from memory, the solution gets fuzz-tested against a reference, I rate myself 1 to 5, and the tracker reschedules. A clean solve disappears for 8 weeks. A blank comes back tomorrow.
+## How a session actually goes
 
 ```
-rating  1 blank   2 partial   3 effort   4 clean   5 instant
-next    +1 day    +3 days     +1 week    +3 weeks  +8 weeks
+coach   LC153, find the minimum in a rotated sorted array. Statement only. Go.
+me      <writes a binary search>
+coach   8000 random rotations vs min(): all pass. But you picked nums[high] as
+        the anchor from my hint, not from first principles. Here is why it is the
+        only anchor that keeps the predicate monotonic...
+me      rate it a 4, I leaned on the hint
+coach   logged. next due July 4.
 ```
 
-## The machine
+No solutions until I have genuinely tried. Stuck gets a hint, not the answer. Every solve is fuzz-tested against an independent brute force before it is allowed to count. Then I rate it 1 to 5 and the scheduler decides when I see it again: a clean solve disappears for eight weeks, a blank comes back tomorrow.
 
-| File | What it is |
+## The pieces
+
+| file | what it is |
 |---|---|
-| `review.py` | the engine. `build` / `due` / `log` / `gen` / `journal` / `stats`. Schedules by confidence, prioritizes by ask-frequency at target companies. |
-| `review.json` | source of truth: 140 problems, per-problem SR state + full timestamped attempt history. |
-| `REVIEW.md` | the tracker board (what is due, by topic). |
-| `SESSIONS.md` | the journal of **what tripped me**, per attempt. The most useful file here. |
-| `CHEATSHEET.md` | concise pre-interview notes, one block per pattern. |
-| `concept-bible.html` | a tabbed reference of all 18 patterns in the "here's the unlock" voice, with rendered figures. Open it. |
-| `SESSION_WORKFLOW.md` | the per-problem ritual so no step gets skipped. |
-| `*.py` | the answer keys. Each runs its own tests (`python3 file.py`). |
+| `review.py` | the scheduler. `due` / `log` / `journal` / `stats`. Orders by confidence and by how often each problem actually shows up at the companies I care about. |
+| `review.json` | every problem, its schedule, and a timestamped log of every attempt and what went wrong. |
+| `REVIEW.md` · `SESSIONS.md` | the board (what is due) and the journal (what tripped me last time). |
+| `CHEATSHEET.md` · `concept-bible.html` | pre-interview notes, and a tabbed reference for all 18 patterns. Open the bible. |
+| `*.py` | the answer keys. Each runs its own tests. |
 
-## How to play
+## The scoreboard *(2026-06-14, eight days in)*
 
-Talk to the coach, not the files:
-- `what's due?` — today's re-reviews + the queue
-- `review N` — the N most overdue / weakest, one at a time
-- `quiz me on <pattern>` — drill a topic (graphs, sliding window, binary search...)
-- `random` — interview mode, no pattern hint
-
----
-
-## Current standings *(snapshot, 2026-06-14)*
-
-**21 / 140 reviewed · 63 answer keys · 9 fives · 1 one.**
-
-Patterns ranked by confidence (the leaderboard):
+23 problems back in memory, 25 attempts, 64 answer keys on file. Confidence by pattern (1 to 5):
 
 ```
-5.0  ██████████  Two Pointers · Stack · Linked List · Intervals
-4.2  ████████░░  Trees
-3.8  ███████░░░  Binary Search
-3.5  ███████░░░  Graphs
-3.0  ██████░░░░  Design
-1.5  ███░░░░░░░  Sliding Window   <- the boss to beat
+Two Pointers · Stack · Linked List · Intervals   5.0
+Trees                                            4.2
+Binary Search                                    3.8
+Graphs                                           3.5
+Sliding Window                                   3.0   (was 1.5 two days ago)
+Design                                           3.0
 ```
 
-## The Nemesis
+## The one stat I actually care about
 
-One bug has shown up in the journal **20 times** across rotated-array search, BST validation, sliding windows, and binary-search-on-the-answer:
+Max Consecutive Ones III, a sliding-window problem: **rated 1 on June 11** (needed the whole solution handed to me). Re-served cold three days later, **rated 4** (wrote it from scratch, fixed my own bug). That jump, from "no idea" to "got it, mostly alone," is the entire reason this repo exists. Search in Rotated Sorted Array did the same thing, 2 to 3.
 
-> **strict vs inclusive** (`<` where it should be `<=`).
+## Things I reliably get wrong
 
-The standing rule, earned the hard way: **when the problem says "within / at most / no more than / at least," the comparison is inclusive.** "Within `h` hours" is `<= h`. If this repo has a final exam, it is that one character.
+One bug has now shown up across rotated-array search, BST validation, two sliding-window problems, and binary-search-on-the-answer: **using `<` where it should be `<=`.** Same mistake, five disguises. The rule I keep re-learning: if the problem says *within / at most / at least*, the comparison is inclusive. "Within `h` hours" is `<= h`. Also a recurring fencepost or two (counting `n` days as `n-1`).
 
----
+## The rules I run on
 
-## House rules
+- Hints before answers. The answer is the last resort.
+- Rate the floor. When unsure, rate lower; it just means I see it again sooner.
+- Fuzz everything. A solution that has not beaten a brute-force reference does not count.
+- Clear beats clever. The readable version wins, especially in an interview.
 
-- **Hints, not solutions.** Stuck means a nudge, not the answer. The answer is the last resort.
-- **Rate the floor.** When in doubt, rate lower. Costs a little review time, buys certainty it actually stuck.
-- **Evidence over vibes.** Every solve is fuzz-tested against an independent reference before it counts.
-- **The clear version beats the clever one-liner.** Readability is graded.
-
-Built as a daily coaching loop. The forgetting curve is undefeated, but the gap is closing.
+Eight days, 23 patterns relearned, one off-by-one I still cannot shake.
