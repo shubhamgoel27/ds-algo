@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 63 with a local answer key (active recall vs your saved solution), 77 new (learn from scratch). **21 reviewed, 122 due today (2026-06-14).**
+**140 problems** — 63 with a local answer key (active recall vs your saved solution), 77 new (learn from scratch). **22 reviewed, 121 due today (2026-06-14).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -84,7 +84,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | M | ✓ | — | — | now | 0 |
 | 528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | M | ✓ | — | — | now | 0 |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | M | ✓ | 3 | 2026-06-14 | 2026-06-21 | 1 |
-| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | M | ✓ | — | — | now | 0 |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | M | ✓ | 4 | 2026-06-14 | 2026-07-05 | 1 |
 
 ## Linked List  (5/10 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |

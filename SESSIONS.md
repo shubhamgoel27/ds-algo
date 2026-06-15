@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **22**.
+Total attempts logged: **23**.
 
 ---
+
+### 2026-06-14 19:26 · LC1011 Capacity To Ship Packages Within D Days · conf 4/5  (Binary Search, M)
+`capacity_to_ship_packages.py`  
+The one that got away at a Meta interview, now owned. Wrote it from the predicate idea (primed: had just seen Koko + the mapping). Binary search on the answer: space [max(weights), sum(weights)], greedy can_ship day-count, keep-mid. Self-caught the numDays=0->1 fencepost (days = resets + 1, already on day 1). Same machine as Koko 875; only feasible() differs. Pattern (binary-search-on-answer / parametric search) finally clicked. Canonical cousins: Split Array Largest Sum 410.
 
 ### 2026-06-14 00:04 · LC875 Koko Eating Bananas · conf 3/5  (Binary Search, M)
 `koko_bananas.py`  

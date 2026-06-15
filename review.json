@@ -1212,12 +1212,19 @@
     "file": "capacity_to_ship_packages.py",
     "in_catalog": false,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-14",
+      "due": "2026-07-05",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-14",
+        "ts": "2026-06-14T19:26",
+        "conf": 4,
+        "note": "The one that got away at a Meta interview, now owned. Wrote it from the predicate idea (primed: had just seen Koko + the mapping). Binary search on the answer: space [max(weights), sum(weights)], greedy can_ship day-count, keep-mid. Self-caught the numDays=0->1 fencepost (days = resets + 1, already on day 1). Same machine as Koko 875; only feasible() differs. Pattern (binary-search-on-answer / parametric search) finally clicked. Canonical cousins: Split Array Largest Sum 410."
+      }
+    ]
   },
   {
     "id": 21,
