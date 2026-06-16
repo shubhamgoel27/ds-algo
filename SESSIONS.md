@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **25**.
+Total attempts logged: **26**.
 
 ---
+
+### 2026-06-15 18:39 · LC567 Permutation in String · conf 3/5  (Sliding Window, M)
+`permutation_in_string.py`  
+Fixed-size sliding window (new shape). First version recomputed Counter(slice) every step (O(n*m)) AND missed the last window (while right < len(s2), classic fencepost again). Two hints: (1) off-by-one on the loop bound, (2) restructure to ONE incremental counter (add entering, drop leaving). Restructuring fixed both at once. Nailed the Counter zero-key gotcha (del keys at 0 or == breaks). Clean O(n) after. Lesson: real sliding window keeps one counter alive, never rebuilds.
 
 ### 2026-06-14 20:29 · LC424 Longest Repeating Character Replacement · conf 3/5  (Sliding Window, M)
 `longest_repeating_char_replacement.py`  

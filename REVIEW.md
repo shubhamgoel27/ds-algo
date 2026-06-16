@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 64 with a local answer key (active recall vs your saved solution), 76 new (learn from scratch). **23 reviewed, 119 due today (2026-06-14).**
+**140 problems** — 65 with a local answer key (active recall vs your saved solution), 75 new (learn from scratch). **24 reviewed, 118 due today (2026-06-15).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -49,14 +49,14 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 167 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | M | ✓ | 5 | 2026-06-11 | 2026-08-06 | 1 |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | H | new | — | — | now | 0 |
 
-## Sliding Window  (5/9 solved)
+## Sliding Window  (6/9 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | E | new | — | — | now | 0 |
 | 3 | [Longest Substring Without Repeating Chars](https://leetcode.com/problems/longest-substring-without-repeating-chars/) | M | ✓ | 2 | 2026-06-10 | 2026-06-13 | 1 |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | M | ✓ | 3 | 2026-06-14 | 2026-06-21 | 1 |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | M | ✓ | — | — | now | 0 |
-| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | M | new | — | — | now | 0 |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | M | ✓ | 3 | 2026-06-15 | 2026-06-22 | 1 |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | M | ✓ | 4 | 2026-06-14 | 2026-07-05 | 2 |
 | 2134 | [Minimum Number of Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-number-of-swaps-to-group-all-1s-together-ii/) | M | ✓ | — | — | now | 0 |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | H | new | — | — | now | 0 |

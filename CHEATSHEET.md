@@ -8,6 +8,18 @@ knowing. Grouped by pattern. Updated every review session.
 
 ---
 
+## Sliding Window
+**Reach for it when:** longest/shortest/fixed contiguous subarray or substring under a constraint. Rigid loop: **expand always · shrink while invalid · record when valid · no `else` on the current element.** Element updates the state; state drives the decision. O(n) because both pointers only move forward (amortized).
+
+Three shapes:
+- **Longest-valid** (LC1004 ≤k zeros, LC424 ≤k replacements): shrink *while invalid*, record *every* step. State can be a counter or a freq map (`window_len - max_freq` for 424).
+- **Shortest-valid** (Min Window): expand to valid, then shrink *while valid*, record *when valid*.
+- **Fixed-size** (LC567 Permutation in String, LC438 Anagrams): constant width = `len(pattern)`; slide and update **one** counter incrementally (add entering, drop leaving), match when `window == need`.
+
+### LC567 · Permutation in String · M
+- **Idea:** fixed window of width `len(s1)`; `need = Counter(s1)`; slide a live `window` Counter, `window == need` means a permutation.
+- **Gotcha:** on decrement, **`del` keys that hit 0** or `Counter ==` breaks (`{'a':1,'b':0} != {'a':1}`). Incremental update is O(1)/step; rebuilding `Counter(slice)` each step is O(n·m).
+
 ## Two Pointers
 **Reach for it when:** sorted arrays or palindromes (converging from both ends), in-place compaction (read/write), or cycle/middle (fast/slow). The skill is arguing the pointer you *don't* move can be safely discarded.
 

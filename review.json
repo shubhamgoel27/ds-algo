@@ -704,15 +704,22 @@
       "NC"
     ],
     "url": "https://leetcode.com/problems/permutation-in-string/",
-    "file": null,
+    "file": "permutation_in_string.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-06-15",
+      "due": "2026-06-22",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-15",
+        "ts": "2026-06-15T18:39",
+        "conf": 3,
+        "note": "Fixed-size sliding window (new shape). First version recomputed Counter(slice) every step (O(n*m)) AND missed the last window (while right < len(s2), classic fencepost again). Two hints: (1) off-by-one on the loop bound, (2) restructure to ONE incremental counter (add entering, drop leaving). Restructuring fixed both at once. Nailed the Counter zero-key gotcha (del keys at 0 or == breaks). Clean O(n) after. Lesson: real sliding window keeps one counter alive, never rebuilds."
+      }
+    ]
   },
   {
     "id": 1004,
