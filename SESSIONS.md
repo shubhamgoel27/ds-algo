@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **27**.
+Total attempts logged: **28**.
 
 ---
+
+### 2026-06-15 19:03 · LC973 K Closest Points to Origin · conf 5/5  (Heap / PQ, M)
+`k_closest_to_origin.py`  
+Bounded MAX-heap of size k for k-closest (k smallest distances). Clean unaided, and TRANSFERRED the bounded-heap idiom from LC215 AND correctly flipped min->max (k smallest needs max-heap, evict the farthest). Beat his own 2024 version (which heaped all n then popped k, O(n log n)). Drilled the inversion fundamentally: heap root = the one on the chopping block = the anti-goal extreme; you keep the goal extreme by always being ready to evict the worst-kept. Skipped sqrt (x^2+y^2 monotonic). Index tiebreaker in (-dist,i). Vocab: parsimonious. Replaced k_closest_to_origin.py with the bounded version.
 
 ### 2026-06-15 18:48 · LC215 Kth Largest Element in an Array · conf 4/5  (Heap / PQ, M)
 `kth_largest.py`  

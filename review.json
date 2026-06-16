@@ -2168,12 +2168,19 @@
     "file": "k_closest_to_origin.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-15",
+      "due": "2026-08-10",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-15",
+        "ts": "2026-06-15T19:03",
+        "conf": 5,
+        "note": "Bounded MAX-heap of size k for k-closest (k smallest distances). Clean unaided, and TRANSFERRED the bounded-heap idiom from LC215 AND correctly flipped min->max (k smallest needs max-heap, evict the farthest). Beat his own 2024 version (which heaped all n then popped k, O(n log n)). Drilled the inversion fundamentally: heap root = the one on the chopping block = the anti-goal extreme; you keep the goal extreme by always being ready to evict the worst-kept. Skipped sqrt (x^2+y^2 monotonic). Index tiebreaker in (-dist,i). Vocab: parsimonious. Replaced k_closest_to_origin.py with the bounded version."
+      }
+    ]
   },
   {
     "id": 295,

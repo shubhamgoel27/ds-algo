@@ -13,8 +13,12 @@ recall + spaced repetition**: serve the statement only, the user re-solves, then
 4. **PYTHON TOOLKIT.** Language/stdlib specifics for this pattern: the idioms, the
    gotchas (e.g. `[[]]*n` aliasing), complexity traps (`list.pop(0)` is O(n)), the
    stdlib shortcut (`deque`, `heapq`, `bisect`, `enumerate`, `defaultdict`, ...).
-5. **HISTORY.** A short origin/history note: who invented it, when, the real-world
-   problem it came from, where it runs in production today. (Added 2026-06-11 per user.)
+5. **HISTORY + VOCAB.** A short origin/history note (who invented it, when, the
+   real-world problem it came from, where it runs today). PLUS one "word of the
+   problem": a fun/useful vocab word with a one-line definition and a daily-life
+   flex sentence. Pick a word that relates to the problem (e.g. parsimonious for a
+   memory-frugal bounded heap). User is building vocab. (History added 2026-06-11,
+   vocab added 2026-06-15, both per user request.)
 6. **LOG with a note.** `python3 review.py log <key> <1-5> "<what tripped them>"`.
    Honest ratings (drives the spaced-rep schedule). Updates REVIEW.md + SESSIONS.md.
 7. **SAVE clean file** (if newly solved or a cleaner rewrite): repo-style `.py` with
