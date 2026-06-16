@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **29**.
+Total attempts logged: **30**.
 
 ---
+
+### 2026-06-16 16:26 · LC78 Subsets · conf 3/5  (Backtracking, M)
+`LC78`  
+First backtracking problem. Wrote it correctly but leaned on the template I provided (-> honest 3). Got a deep step-by-step instrumented trace to understand the execution: DFS dives leftmost-deep first, path 'breathes' (append descending, pop ascending), empty for-loop = natural base case, start index = forward-only = no duplicates, record at EVERY node for subsets. Mental model: backtracking = DFS on a decision tree; design knob = the next-state passed down (i+1 no-reuse, i reuse, used[] permutations). Vocab: labyrinthine.
 
 ### 2026-06-15 19:12 · LC347 Top K Frequent Elements · conf 5/5  (Arrays & Hashing, M)
 `k_most_frequent.py`  

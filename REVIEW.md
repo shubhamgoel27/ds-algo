@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 66 with a local answer key (active recall vs your saved solution), 74 new (learn from scratch). **27 reviewed, 115 due today (2026-06-15).**
+**140 problems** — 66 with a local answer key (active recall vs your saved solution), 74 new (learn from scratch). **28 reviewed, 115 due today (2026-06-16).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -145,7 +145,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | M | new | — | — | now | 0 |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | M | new | — | — | now | 0 |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | M | new | — | — | now | 0 |
-| 78 | [Subsets](https://leetcode.com/problems/subsets/) | M | new | — | — | now | 0 |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | M | new | 3 | 2026-06-16 | 2026-06-23 | 1 |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | M | new | — | — | now | 0 |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | M | new | — | — | now | 0 |
 

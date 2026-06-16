@@ -8,6 +8,19 @@ knowing. Grouped by pattern. Updated every review session.
 
 ---
 
+## Backtracking
+**Reach for it when:** "generate all / list every / find all combinations-permutations-partitions." It is **DFS over a decision tree**: each node = a partial solution (`path`), each edge = a choice. Skeleton: **record → for each choice: append (choose), recurse (explore), pop (un-choose)**. The `pop` restores state so the next sibling starts clean (the maze: walk back to the junction). Always record a **copy** `path[:]`. Exponential output is expected.
+
+The one knob that changes everything = **what limits the choices / the next state passed down:**
+- **Subsets / Combinations:** a `start` index, recurse `i+1` (only go rightward) → no duplicates.
+- **Combination Sum (reuse ok):** `start` index but recurse `i` (not `i+1`).
+- **Permutations:** a `used[]`/set, any unused element, record at leaves (`len(path)==len(nums)`).
+- **Grid (Word Search):** the 4 neighbors + mark/unmark visited.
+
+### LC78 · Subsets · M
+- **Idea:** every node of the tree is a subset → record at every node. `start` index forward-only.
+- **Body:** `result.append(path[:]); for i in range(start,n): path.append(nums[i]); backtrack(i+1); path.pop()`.
+
 ## Heap / Priority Queue
 **Reach for it when:** "top k", "k closest/largest/smallest", running median, or repeatedly pulling the min/max. Python `heapq` is a **MIN-heap**; for max-heap push negatives.
 
