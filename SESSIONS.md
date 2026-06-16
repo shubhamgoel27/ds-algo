@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **28**.
+Total attempts logged: **29**.
 
 ---
+
+### 2026-06-15 19:12 · LC347 Top K Frequent Elements · conf 5/5  (Arrays & Hashing, M)
+`k_most_frequent.py`  
+Top K Frequent: Counter + bounded MIN-heap of size k on frequency (keep k largest freqs -> evict the least frequent). Clean unaided, applied the inversion rule correctly a 3rd time -> locked in. Refreshed k_most_frequent.py with the heap version. Taught (not stored) the O(n) bucket-sort alternative (counting-sort idea: bound the key, skip comparison sort) and Counter.most_common(k) prod one-liner. Vocab: preponderance (and mode/modal). Strong.
 
 ### 2026-06-15 19:03 · LC973 K Closest Points to Origin · conf 5/5  (Heap / PQ, M)
 `k_closest_to_origin.py`  

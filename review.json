@@ -283,12 +283,19 @@
     "file": "k_most_frequent.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-06-15",
+      "due": "2026-08-10",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-15",
+        "ts": "2026-06-15T19:12",
+        "conf": 5,
+        "note": "Top K Frequent: Counter + bounded MIN-heap of size k on frequency (keep k largest freqs -> evict the least frequent). Clean unaided, applied the inversion rule correctly a 3rd time -> locked in. Refreshed k_most_frequent.py with the heap version. Taught (not stored) the O(n) bucket-sort alternative (counting-sort idea: bound the key, skip comparison sort) and Counter.most_common(k) prod one-liner. Vocab: preponderance (and mode/modal). Strong."
+      }
+    ]
   },
   {
     "id": 560,

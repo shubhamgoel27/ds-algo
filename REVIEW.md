@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 66 with a local answer key (active recall vs your saved solution), 74 new (learn from scratch). **26 reviewed, 116 due today (2026-06-15).**
+**140 problems** — 66 with a local answer key (active recall vs your saved solution), 74 new (learn from scratch). **27 reviewed, 115 due today (2026-06-15).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -31,7 +31,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | M | ✓ | — | — | now | 0 |
 | 249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | M | ✓ | — | — | now | 0 |
 | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | M | new | — | — | now | 0 |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | M | ✓ | — | — | now | 0 |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | M | ✓ | 5 | 2026-06-15 | 2026-08-10 | 1 |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | M | ✓ | — | — | now | 0 |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | M | ✓ | — | — | now | 0 |
 
