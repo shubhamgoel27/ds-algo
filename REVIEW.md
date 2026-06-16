@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 65 with a local answer key (active recall vs your saved solution), 75 new (learn from scratch). **24 reviewed, 118 due today (2026-06-15).**
+**140 problems** — 66 with a local answer key (active recall vs your saved solution), 74 new (learn from scratch). **25 reviewed, 117 due today (2026-06-15).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -129,11 +129,11 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 1698 | [Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/) | M | ✓ | — | — | now | 0 |
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | H | new | — | — | now | 0 |
 
-## Heap / PQ  (3/6 solved)
+## Heap / PQ  (4/6 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | E | new | — | — | now | 0 |
-| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | M | new | — | — | now | 0 |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | M | ✓ | 4 | 2026-06-15 | 2026-07-06 | 1 |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | M | new | — | — | now | 0 |
 | 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string/) | M | ✓ | — | — | now | 0 |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | M | ✓ | — | — | now | 0 |

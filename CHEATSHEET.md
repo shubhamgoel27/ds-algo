@@ -8,6 +8,15 @@ knowing. Grouped by pattern. Updated every review session.
 
 ---
 
+## Heap / Priority Queue
+**Reach for it when:** "top k", "k closest/largest/smallest", running median, or repeatedly pulling the min/max. Python `heapq` is a **MIN-heap**; for max-heap push negatives.
+
+### LC215 · Kth Largest Element · M
+- **Idea:** bounded **min-heap of size k**. Push each num; pop the smallest when size > k. The k largest survive; the root is the k-th largest.
+- **Complexity:** O(n log k) (vs O(n log n) if you heap all n then trim). Works on a stream (LC703).
+- **The inversion:** a *min*-heap tracks the *largest* k. Root = smallest of the k largest = k-th largest.
+- **Python:** `heappush`/`heappop`; `heappushpop(h,x)` (push+pop in one) once full; `heapq.nlargest(k, nums)[-1]` is the stdlib one-liner; `heapify(lst)` is O(n). Quickselect is the O(n)-average alternative.
+
 ## Sliding Window
 **Reach for it when:** longest/shortest/fixed contiguous subarray or substring under a constraint. Rigid loop: **expand always · shrink while invalid · record when valid · no `else` on the current element.** Element updates the state; state drives the decision. O(n) because both pointers only move forward (amortized).
 

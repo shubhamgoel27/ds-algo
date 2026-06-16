@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **26**.
+Total attempts logged: **27**.
 
 ---
+
+### 2026-06-15 18:48 · LC215 Kth Largest Element in an Array · conf 4/5  (Heap / PQ, M)
+`kth_largest.py`  
+First heap problem. Correct unaided with a heap, but used full-heap-then-trim (push all n, pop while >k) = O(n log n). One tip: pop INSIDE the loop to keep the heap bounded at size k -> O(n log k), the actual idiom (and stream-friendly). Self-applied the fix immediately. Concept lock: min-heap of size k holds the k LARGEST; root = k-th largest (the inversion). Toolkit: heappushpop, heapq.nlargest, heapify O(n), quickselect alt. History: binary heap = Williams + Floyd 1964 (from heapsort).
 
 ### 2026-06-15 18:39 · LC567 Permutation in String · conf 3/5  (Sliding Window, M)
 `permutation_in_string.py`  

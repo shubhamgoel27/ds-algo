@@ -2086,15 +2086,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-    "file": null,
+    "file": "kth_largest.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-15",
+      "due": "2026-07-06",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-15",
+        "ts": "2026-06-15T18:48",
+        "conf": 4,
+        "note": "First heap problem. Correct unaided with a heap, but used full-heap-then-trim (push all n, pop while >k) = O(n log n). One tip: pop INSIDE the loop to keep the heap bounded at size k -> O(n log k), the actual idiom (and stream-friendly). Self-applied the fix immediately. Concept lock: min-heap of size k holds the k LARGEST; root = k-th largest (the inversion). Toolkit: heappushpop, heapq.nlargest, heapify O(n), quickselect alt. History: binary heap = Williams + Floyd 1964 (from heapsort)."
+      }
+    ]
   },
   {
     "id": 621,
