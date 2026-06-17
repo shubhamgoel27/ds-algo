@@ -2299,7 +2299,7 @@
         "date": "2026-06-16",
         "ts": "2026-06-16T17:03",
         "conf": 4,
-        "note": "Permutations, correct unaided. Flipped both knobs from Subsets: record at LEAVES (len==len) + 'any unused element' instead of a start index (order matters -> want [1,2] and [2,1]). First version used a result set (unnecessary for distinct inputs) and nums[i] not in path (O(n)). Rewrote with a  SET companion: path (list) carries order + is recorded, used (set) gives O(1) membership; both move in lockstep (add on choose, remove on un-choose). Understood path-must-stay-list vs set-is-aux, and the used-by-index array generalizes to duplicates (Perm II). Vocab: protean. History: Heap's algorithm 1963."
+        "note": "Permutations, correct unaided. Flipped both knobs from Subsets: record at LEAVES (len==len) + 'any unused element' instead of a start index (order matters -> want [1,2] and [2,1]). First version used a result set (unnecessary for distinct inputs) and nums[i] not in path (O(n)). Rewrote with a 'used' SET companion: path (list) carries order + is recorded, used (set) gives O(1) membership; both move in lockstep (add on choose, remove on un-choose). Understood path-must-stay-list vs set-is-aux, and the used-by-index array generalizes to duplicates (Perm II). Vocab: protean. History: Heap's algorithm 1963."
       }
     ]
   },

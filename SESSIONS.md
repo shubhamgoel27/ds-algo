@@ -8,7 +8,7 @@ Total attempts logged: **31**.
 
 ### 2026-06-16 17:03 · LC46 Permutations · conf 4/5  (Backtracking, M)
 `LC46`  
-Permutations, correct unaided. Flipped both knobs from Subsets: record at LEAVES (len==len) + 'any unused element' instead of a start index (order matters -> want [1,2] and [2,1]). First version used a result set (unnecessary for distinct inputs) and nums[i] not in path (O(n)). Rewrote with a  SET companion: path (list) carries order + is recorded, used (set) gives O(1) membership; both move in lockstep (add on choose, remove on un-choose). Understood path-must-stay-list vs set-is-aux, and the used-by-index array generalizes to duplicates (Perm II). Vocab: protean. History: Heap's algorithm 1963.
+Permutations, correct unaided. Flipped both knobs from Subsets: record at LEAVES (len==len) + 'any unused element' instead of a start index (order matters -> want [1,2] and [2,1]). First version used a result set (unnecessary for distinct inputs) and nums[i] not in path (O(n)). Rewrote with a 'used' SET companion: path (list) carries order + is recorded, used (set) gives O(1) membership; both move in lockstep (add on choose, remove on un-choose). Understood path-must-stay-list vs set-is-aux, and the used-by-index array generalizes to duplicates (Perm II). Vocab: protean. History: Heap's algorithm 1963.
 
 ### 2026-06-16 16:26 · LC78 Subsets · conf 3/5  (Backtracking, M)
 `LC78`  
