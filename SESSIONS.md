@@ -6,9 +6,9 @@ Total attempts logged: **32**.
 
 ---
 
-### 2026-06-18 17:40 · LC79 Word Search · conf 2/5  (Backtracking, M)
+### 2026-06-18 17:40 · LC79 Word Search · conf 3/5  (Backtracking, M)
 `word_search.py`  
-Grid backtracking. Solution given (rated 2 honestly). User's own attempt (grow a path string, match vs word) was VALID intuition and works once fixed -- it even naturally discovered copy-passing (immutable string = each branch its own path = no undo). His path.pop() was wrong precisely because strings dont mutate, nothing to pop. Missing: propagate the bool (if dfs(): return True) and the prune word.startswith(path) instead of always-word[0]. KEY INSIGHT taught: TWO kinds of state -- copy-passed path (no undo) vs shared-mutable board (needs mark/unmark); un-choose is only ever for shared mutable state. Index version dfs(r,c,i) cleaner (O(1)/step). restore-to-word[i] avoids board copy. Vocab: serpentine. History: Tremaux 1882 maze marking.
+Grid backtracking. Solution shown initially (would have been a 2), but through sharp optimization questions the user iterated it to the OPTIMAL form himself: pre-check the next letter word[len(path)] before recursing (also serves as the visited check), and drop the deepcopy by restoring the cell to path[-1] (its own letter). Ends O(m*n*4^L) time, O(L) space. Realized his path-string approach was secretly copy-passing (no path-undo); only the shared board needs mark/unmark. Prefers this version (more intuitive to him) -> good, write what you can do correctly under pressure. Vocab: serpentine. History: Tremaux 1882.
 
 ### 2026-06-16 17:03 · LC46 Permutations · conf 4/5  (Backtracking, M)
 `permutations.py`  

@@ -146,7 +146,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | M | new | — | — | now | 0 |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | M | ✓ | 4 | 2026-06-16 | 2026-07-07 | 1 |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | M | ✓ | 3 | 2026-06-16 | 2026-06-23 | 1 |
-| 79 | [Word Search](https://leetcode.com/problems/word-search/) | M | ✓ | 2 | 2026-06-18 | 2026-06-21 | 1 |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | M | ✓ | 3 | 2026-06-18 | 2026-06-25 | 1 |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | M | new | — | — | now | 0 |
 
 ## Graphs  (7/11 solved)
