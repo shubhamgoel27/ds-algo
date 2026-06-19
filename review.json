@@ -2286,7 +2286,7 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/permutations/",
-    "file": null,
+    "file": "permutations.py",
     "in_catalog": true,
     "sr": {
       "conf": 4,
@@ -2320,7 +2320,7 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/subsets/",
-    "file": null,
+    "file": "subsets.py",
     "in_catalog": true,
     "sr": {
       "conf": 3,
@@ -2353,15 +2353,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/word-search/",
-    "file": null,
+    "file": "word_search.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 2,
+      "last_reviewed": "2026-06-18",
+      "due": "2026-06-21",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-18",
+        "ts": "2026-06-18T17:40",
+        "conf": 2,
+        "note": "Grid backtracking. Solution given (rated 2 honestly). User's own attempt (grow a path string, match vs word) was VALID intuition and works once fixed -- it even naturally discovered copy-passing (immutable string = each branch its own path = no undo). His path.pop() was wrong precisely because strings dont mutate, nothing to pop. Missing: propagate the bool (if dfs(): return True) and the prune word.startswith(path) instead of always-word[0]. KEY INSIGHT taught: TWO kinds of state -- copy-passed path (no undo) vs shared-mutable board (needs mark/unmark); un-choose is only ever for shared mutable state. Index version dfs(r,c,i) cleaner (O(1)/step). restore-to-word[i] avoids board copy. Vocab: serpentine. History: Tremaux 1882 maze marking."
+      }
+    ]
   },
   {
     "id": 131,

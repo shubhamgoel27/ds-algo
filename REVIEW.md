@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 66 with a local answer key (active recall vs your saved solution), 74 new (learn from scratch). **29 reviewed, 114 due today (2026-06-16).**
+**140 problems** — 69 with a local answer key (active recall vs your saved solution), 71 new (learn from scratch). **30 reviewed, 116 due today (2026-06-18).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -139,14 +139,14 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | M | ✓ | 5 | 2026-06-15 | 2026-08-10 | 1 |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | H | ✓ | — | — | now | 0 |
 
-## Backtracking  (0/6 solved)
+## Backtracking  (3/6 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | M | new | — | — | now | 0 |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | M | new | — | — | now | 0 |
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | M | new | 4 | 2026-06-16 | 2026-07-07 | 1 |
-| 78 | [Subsets](https://leetcode.com/problems/subsets/) | M | new | 3 | 2026-06-16 | 2026-06-23 | 1 |
-| 79 | [Word Search](https://leetcode.com/problems/word-search/) | M | new | — | — | now | 0 |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | M | ✓ | 4 | 2026-06-16 | 2026-07-07 | 1 |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | M | ✓ | 3 | 2026-06-16 | 2026-06-23 | 1 |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | M | ✓ | 2 | 2026-06-18 | 2026-06-21 | 1 |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | M | new | — | — | now | 0 |
 
 ## Graphs  (7/11 solved)

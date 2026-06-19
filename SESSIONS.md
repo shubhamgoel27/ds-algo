@@ -2,16 +2,20 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **31**.
+Total attempts logged: **32**.
 
 ---
 
+### 2026-06-18 17:40 · LC79 Word Search · conf 2/5  (Backtracking, M)
+`word_search.py`  
+Grid backtracking. Solution given (rated 2 honestly). User's own attempt (grow a path string, match vs word) was VALID intuition and works once fixed -- it even naturally discovered copy-passing (immutable string = each branch its own path = no undo). His path.pop() was wrong precisely because strings dont mutate, nothing to pop. Missing: propagate the bool (if dfs(): return True) and the prune word.startswith(path) instead of always-word[0]. KEY INSIGHT taught: TWO kinds of state -- copy-passed path (no undo) vs shared-mutable board (needs mark/unmark); un-choose is only ever for shared mutable state. Index version dfs(r,c,i) cleaner (O(1)/step). restore-to-word[i] avoids board copy. Vocab: serpentine. History: Tremaux 1882 maze marking.
+
 ### 2026-06-16 17:03 · LC46 Permutations · conf 4/5  (Backtracking, M)
-`LC46`  
+`permutations.py`  
 Permutations, correct unaided. Flipped both knobs from Subsets: record at LEAVES (len==len) + 'any unused element' instead of a start index (order matters -> want [1,2] and [2,1]). First version used a result set (unnecessary for distinct inputs) and nums[i] not in path (O(n)). Rewrote with a 'used' SET companion: path (list) carries order + is recorded, used (set) gives O(1) membership; both move in lockstep (add on choose, remove on un-choose). Understood path-must-stay-list vs set-is-aux, and the used-by-index array generalizes to duplicates (Perm II). Vocab: protean. History: Heap's algorithm 1963.
 
 ### 2026-06-16 16:26 · LC78 Subsets · conf 3/5  (Backtracking, M)
-`LC78`  
+`subsets.py`  
 First backtracking problem. Wrote it correctly but leaned on the template I provided (-> honest 3). Got a deep step-by-step instrumented trace to understand the execution: DFS dives leftmost-deep first, path 'breathes' (append descending, pop ascending), empty for-loop = natural base case, start index = forward-only = no duplicates, record at EVERY node for subsets. Mental model: backtracking = DFS on a decision tree; design knob = the next-state passed down (i+1 no-reuse, i reuse, used[] permutations). Vocab: labyrinthine.
 
 ### 2026-06-15 19:12 · LC347 Top K Frequent Elements · conf 5/5  (Arrays & Hashing, M)
