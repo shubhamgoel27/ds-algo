@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 71 with a local answer key (active recall vs your saved solution), 69 new (learn from scratch). **32 reviewed, 115 due today (2026-06-20).**
+**140 problems** — 72 with a local answer key (active recall vs your saved solution), 68 new (learn from scratch). **33 reviewed, 114 due today (2026-06-20).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -17,7 +17,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 
 ---
 
-## Arrays & Hashing  (7/14 solved)
+## Arrays & Hashing  (8/14 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | E | new | — | — | now | 0 |
@@ -26,7 +26,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | E | ✓ | — | — | now | 0 |
 | 893 | [Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | E | ✓ | — | — | now | 0 |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | M | new | — | — | now | 0 |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | M | new | — | — | now | 0 |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | M | ✓ | 4 | 2026-06-20 | 2026-07-11 | 1 |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | M | new | — | — | now | 0 |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | M | ✓ | — | — | now | 0 |
 | 249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | M | ✓ | — | — | now | 0 |

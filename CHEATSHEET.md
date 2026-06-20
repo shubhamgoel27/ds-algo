@@ -42,6 +42,13 @@ Three shapes:
 - **Idea:** fixed window of width `len(s1)`; `need = Counter(s1)`; slide a live `window` Counter, `window == need` means a permutation.
 - **Gotcha:** on decrement, **`del` keys that hit 0** or `Counter ==` breaks (`{'a':1,'b':0} != {'a':1}`). Incremental update is O(1)/step; rebuilding `Counter(slice)` each step is O(n·m).
 
+## Arrays & Hashing
+**Reach for it when:** you keep re-asking "have I seen X / how many X / which things share a key / what's the complement". A dict/set turns O(n) re-scans into O(1) lookups. Ask: **"what do I wish I could look up in O(1)?"** -> the key is a complement (Two Sum), seen-set (dedup), count (frequency), or a canonical signature (grouping).
+
+### LC49 · Group Anagrams · M
+- **Idea:** canonical signature -> bucket. Anagrams share an identical 26-letter count tuple (O(k)) or sorted string (O(k log k)); group by it in `defaultdict(list)`.
+- **Gotcha:** a `Counter`/list is unhashable -> use a **tuple** as the dict key. `ord(ch)-ord('a')` for the index.
+
 ## Two Pointers
 **Reach for it when:** sorted arrays or palindromes (converging from both ends), in-place compaction (read/write), or cycle/middle (fast/slow). The skill is arguing the pointer you *don't* move can be safely discarded.
 

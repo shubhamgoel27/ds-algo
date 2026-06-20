@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **34**.
+Total attempts logged: **35**.
 
 ---
+
+### 2026-06-20 14:50 · LC49 Group Anagrams · conf 4/5  (Arrays & Hashing, M)
+`group_anagrams.py`  
+Group Anagrams, canonical-signature hashing. Correct/clean; picked the O(k) 26-count tuple over O(k log k) sorted-string. One nudge: a Counter object is unhashable -> use tuple(sig) as the dict key. Pattern: group equivalent things by a signature that's identical for equivalents (the 'fungibility class'). defaultdict(list). Vocab: fungible (explained at length). History: hashing born 1953, Luhn at IBM.
 
 ### 2026-06-20 14:32 · LC55 Jump Game · conf 4/5  (Greedy, M)
 `jump_game.py`  

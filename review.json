@@ -157,15 +157,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/group-anagrams/",
-    "file": null,
+    "file": "group_anagrams.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-20",
+      "due": "2026-07-11",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-20",
+        "ts": "2026-06-20T14:50",
+        "conf": 4,
+        "note": "Group Anagrams, canonical-signature hashing. Correct/clean; picked the O(k) 26-count tuple over O(k log k) sorted-string. One nudge: a Counter object is unhashable -> use tuple(sig) as the dict key. Pattern: group equivalent things by a signature that's identical for equivalents (the 'fungibility class'). defaultdict(list). Vocab: fungible (explained at length). History: hashing born 1953, Luhn at IBM."
+      }
+    ]
   },
   {
     "id": 128,
