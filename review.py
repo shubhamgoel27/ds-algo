@@ -175,25 +175,37 @@ def build():
           f"({solved} with local answer key, {len(probs) - solved} new)")
 
 
+# Upcoming-interview companies present in the catalog tags (set 2026-06-20).
+# Of the 5 targets, only these two are tagged; Pinterest/DoorDash/OpenAI are not
+# in the catalog (no per-problem data, so not faked). Bias toward these.
+TARGET_COMPANIES = {"RD", "AP"}  # Reddit, Apple
+
+
 def freq(p):
     """Ask-frequency proxy = # of companies tagging it (catalog signal)."""
     return len(p.get("companies", []))
 
 
+def target_hits(p):
+    """How many of the user's upcoming-interview companies tag this problem."""
+    return len(TARGET_COMPANIES.intersection(p.get("companies", [])))
+
+
 def due(argv):
     n = int(argv[0]) if argv else None
     probs = [p for p in load() if is_due(p)]
-    # overdue first, then highest company-frequency, then lowest confidence
-    probs.sort(key=lambda p: (parse_due(p), -freq(p), p["sr"]["conf"] or 0))
+    # overdue first, then upcoming-interview companies, then overall freq, then weak
+    probs.sort(key=lambda p: (parse_due(p), -target_hits(p), -freq(p), p["sr"]["conf"] or 0))
     if n:
         probs = probs[:n]
     for p in probs:
         key = p["file"] or f"LC{p['id']}"
         flag = "✓key" if p["file"] else "new"
         co = ",".join(p.get("companies", [])) or "-"
+        star = "★" * target_hits(p)
         print(f"LC{p['id']:<5} {p['difficulty']} {p['title']:<46} {p['topic']:<18} "
-              f"f{freq(p)} [{co:<8}] [{flag}]  {key}")
-    print(f"\n{len(probs)} shown.")
+              f"f{freq(p)}{star:<2} [{co:<8}] [{flag}]  {key}")
+    print(f"\n{len(probs)} shown.  (★ = tagged at an upcoming-interview company: Reddit/Apple)")
 
 
 def find(probs, key):
