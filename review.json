@@ -3206,15 +3206,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/maximum-subarray/",
-    "file": null,
+    "file": "maximum_subarray.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-20",
+      "due": "2026-07-11",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-20",
+        "ts": "2026-06-20T13:10",
+        "conf": 4,
+        "note": "Kadane's / Maximum Subarray, clean unaided. Nailed the key subtlety: record best BEFORE the negative reset, so all-negative arrays keep the least-negative element (seed best=-inf). Greedy reset-on-negative justified by exchange argument (negative prefix only drags down what follows). User wanted the FUNDAMENTAL greedy lesson -> taught: greedy = DP collapsed to one candidate; valid only when local best is provably part of global best; practical skill = propose a greedy rule then ATTACK it with a counterexample (Coin Change [1,3,4] target 6 breaks 'biggest coin'). Shapes: accumulator/sort-sweep/extreme/furthest-reach. Vocab: myopic. History: Grenander posed 1977, Kadane solved, Bentley popularized."
+      }
+    ]
   },
   {
     "id": 55,

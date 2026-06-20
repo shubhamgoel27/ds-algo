@@ -42,6 +42,7 @@ OVERLAP = {
     875: "koko_bananas.py",  # solved 2026-06-14 session (binary search on the answer)
     215: "kth_largest.py",  # solved 2026-06-15 session (bounded heap)
     79: "word_search.py",  # solved 2026-06-18 session (grid backtracking, given)
+    53: "maximum_subarray.py",  # solved 2026-06-20 session (Kadane, greedy)
     78: "subsets.py",  # solved 2026-06-16 session (backtracking intro)
     46: "permutations.py",  # solved 2026-06-16 session (backtracking, used set)
     226: "invert_binary_tree.py",  # solved 2026-06-09 session (DFS warm-up)

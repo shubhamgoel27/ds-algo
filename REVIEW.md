@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 69 with a local answer key (active recall vs your saved solution), 71 new (learn from scratch). **30 reviewed, 116 due today (2026-06-18).**
+**140 problems** — 70 with a local answer key (active recall vs your saved solution), 70 new (learn from scratch). **31 reviewed, 116 due today (2026-06-20).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -194,11 +194,11 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | M | new | — | — | now | 0 |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | H | new | — | — | now | 0 |
 
-## Greedy  (1/5 solved)
+## Greedy  (2/5 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | M | new | — | — | now | 0 |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | M | new | — | — | now | 0 |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | M | ✓ | 4 | 2026-06-20 | 2026-07-11 | 1 |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | M | new | — | — | now | 0 |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | M | new | — | — | now | 0 |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | M | ✓ | — | — | now | 0 |

@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **32**.
+Total attempts logged: **33**.
 
 ---
+
+### 2026-06-20 13:10 · LC53 Maximum Subarray · conf 4/5  (Greedy, M)
+`maximum_subarray.py`  
+Kadane's / Maximum Subarray, clean unaided. Nailed the key subtlety: record best BEFORE the negative reset, so all-negative arrays keep the least-negative element (seed best=-inf). Greedy reset-on-negative justified by exchange argument (negative prefix only drags down what follows). User wanted the FUNDAMENTAL greedy lesson -> taught: greedy = DP collapsed to one candidate; valid only when local best is provably part of global best; practical skill = propose a greedy rule then ATTACK it with a counterexample (Coin Change [1,3,4] target 6 breaks 'biggest coin'). Shapes: accumulator/sort-sweep/extreme/furthest-reach. Vocab: myopic. History: Grenander posed 1977, Kadane solved, Bentley popularized.
 
 ### 2026-06-18 17:40 · LC79 Word Search · conf 3/5  (Backtracking, M)
 `word_search.py`  

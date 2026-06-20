@@ -58,6 +58,17 @@ Three shapes:
 - **Why move the shorter wall (exchange argument):** moving the taller wall loses width while the height stays capped by the shorter, so it can never improve. The only hope of a bigger area is replacing the shorter wall. Ties: move either.
 - **Family:** the "advance the limiting side" greedy; cousin of Trapping Rain Water.
 
+## Greedy
+**Reach for it when:** "max/min contiguous", "fewest/most non-overlapping", "can you reach", "minimum number of". Greedy = DP collapsed to ONE candidate (commit to the local best, never reconsider). Code is trivial; the work is **proving** it. Practical method: **propose a greedy rule, then try to break it with a tiny counterexample.** If it survives, trust it; if not, it's a DP problem (e.g. Coin Change [1,3,4] target 6).
+
+Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (intervals) | always-take-extreme (heap) | furthest-reach (Jump Game).
+
+### LC53 · Maximum Subarray (Kadane's) · M
+- **Idea:** running sum; reset to 0 when it goes negative (a negative prefix only hurts). `best` = max running seen.
+- **Gotcha:** record `best` BEFORE the reset, else all-negative arrays wrongly return 0. Seed `best = -inf`.
+- **Why safe (exchange):** an optimal subarray never carries a negative-sum prefix; deleting it only raises the sum.
+- **= DP** `dp[i]=max(nums[i], dp[i-1]+nums[i])` in O(1) space.
+
 ## Stack
 **Reach for it when:** nesting / matching, "most-recently-seen" semantics, or monotonic-stack range problems. LIFO mirrors nesting.
 
