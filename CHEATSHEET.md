@@ -69,6 +69,11 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 - **Why safe (exchange):** an optimal subarray never carries a negative-sum prefix; deleting it only raises the sum.
 - **= DP** `dp[i]=max(nums[i], dp[i-1]+nums[i])` in O(1) space.
 
+
+### LC55 · Jump Game · M
+- **Idea:** furthest-reach greedy. Track `furthest`; if ever `i > furthest` you hit an uncrossable gap -> False. Else extend `furthest = max(furthest, i+nums[i])`.
+- **Why one number suffices:** reachability is **contiguous** (you can jump short), so there are no holes below `furthest`; the only failure is a gap. O(n)/O(1) vs O(n^2) DP.
+
 ## Stack
 **Reach for it when:** nesting / matching, "most-recently-seen" semantics, or monotonic-stack range problems. LIFO mirrors nesting.
 

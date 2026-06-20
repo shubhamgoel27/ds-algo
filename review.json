@@ -3240,15 +3240,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/jump-game/",
-    "file": null,
+    "file": "jump_game.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-06-20",
+      "due": "2026-07-11",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-06-20",
+        "ts": "2026-06-20T14:32",
+        "conf": 4,
+        "note": "Jump Game, furthest-reach greedy. Needed the CONCEPT taught first (didn't grok the furthest-reach idea), then executed cleanly unaided. Key insight: track one number (furthest reachable); reachability is contiguous (can jump short) so no holes -> only failure is a gap (i>furthest). Collapses O(n^2) reachability DP to O(n)/O(1). Greedy shape #4 (furthest-reach). Vocab: contiguous."
+      }
+    ]
   },
   {
     "id": 134,

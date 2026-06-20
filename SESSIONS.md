@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **33**.
+Total attempts logged: **34**.
 
 ---
+
+### 2026-06-20 14:32 · LC55 Jump Game · conf 4/5  (Greedy, M)
+`jump_game.py`  
+Jump Game, furthest-reach greedy. Needed the CONCEPT taught first (didn't grok the furthest-reach idea), then executed cleanly unaided. Key insight: track one number (furthest reachable); reachability is contiguous (can jump short) so no holes -> only failure is a gap (i>furthest). Collapses O(n^2) reachability DP to O(n)/O(1). Greedy shape #4 (furthest-reach). Vocab: contiguous.
 
 ### 2026-06-20 13:10 · LC53 Maximum Subarray · conf 4/5  (Greedy, M)
 `maximum_subarray.py`  
