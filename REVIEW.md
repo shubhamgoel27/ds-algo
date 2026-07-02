@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 72 with a local answer key (active recall vs your saved solution), 68 new (learn from scratch). **33 reviewed, 114 due today (2026-06-20).**
+**140 problems** — 73 with a local answer key (active recall vs your saved solution), 67 new (learn from scratch). **34 reviewed, 120 due today (2026-07-02).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -203,13 +203,13 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | M | new | — | — | now | 0 |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | M | ✓ | — | — | now | 0 |
 
-## Intervals  (3/6 solved)
+## Intervals  (4/6 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | E | ✓ | — | — | now | 0 |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | M | ✓ | 5 | 2026-06-06 | 2026-08-01 | 1 |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | M | new | — | — | now | 0 |
-| 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | M | new | — | — | now | 0 |
+| 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | M | ✓ | 4 | 2026-07-02 | 2026-07-23 | 1 |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | M | new | — | — | now | 0 |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | M | ✓ | — | — | now | 0 |
 

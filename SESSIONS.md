@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **35**.
+Total attempts logged: **36**.
 
 ---
+
+### 2026-07-02 15:44 · LC253 Meeting Rooms II · conf 4/5  (Intervals, M)
+`meeting_rooms_ii.py`  
+reused meeting-rooms heap pattern; solid on why len(heap)=peak concurrency and why pop-at-most-one is correct; missed empty-guard reflex but constraint made it moot
 
 ### 2026-06-20 14:50 · LC49 Group Anagrams · conf 4/5  (Arrays & Hashing, M)
 `group_anagrams.py`  

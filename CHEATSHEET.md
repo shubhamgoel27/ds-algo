@@ -105,6 +105,15 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 - **Python:** `sorted()` returns a copy (no input mutation); `.sort()` mutates the arg — mention you avoid mutating inputs. Timsort is adaptive (≈O(n) on sorted data) + stable.
 - **Family (same skeleton):** Insert Interval (57), Non-overlapping Intervals (435), Meeting Rooms II (253).
 
+### LC253 · Meeting Rooms II · M  (min rooms = peak concurrency)
+- **Idea:** process meetings by **start**, but the only question you ever ask is about **end** — "did the earliest-freeing room free up yet?" That "min of a changing set" = a **min-heap of end times**.
+- **Approach:** `sort by start`; `heap=[first.end]`; for each next: if `heap[0] <= start` → `heappop` (reuse room); always `heappush(end)`; answer = `len(heap)`.
+- **Why `len(heap)` works:** each iter pushes once, pops at most once → size **never decreases** → final size = peak overlap. Pop at most one because you place one meeting → free at most one room.
+- **Complexity:** O(n log n), O(n).
+- **Boundary:** half-open `[s,e)` → touching shares a room → strict `rooms[0] <= start`.
+- **Alt engine (know both):** +1 at each start, −1 at each end, sort events, running max = concurrency. Generalizes to "how many active at time t." Ties: process −1 before +1.
+- **Family:** this IS the reported Pinterest "engagements per interval" question; register allocation / gate scheduling are the same problem.
+
 ---
 
 ## Binary Search
@@ -179,4 +188,4 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 
 ---
 
-_Last updated: 2026-06-07 (session: Merge Intervals, LRU Cache, Valid Parentheses)._
+_Last updated: 2026-07-02 (session: Meeting Rooms II, heap-of-end-times / Pinterest prep)._
