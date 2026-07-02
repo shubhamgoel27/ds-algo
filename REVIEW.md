@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**140 problems** — 73 with a local answer key (active recall vs your saved solution), 67 new (learn from scratch). **34 reviewed, 120 due today (2026-07-02).**
+**140 problems** — 73 with a local answer key (active recall vs your saved solution), 67 new (learn from scratch). **35 reviewed, 119 due today (2026-07-02).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -206,7 +206,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 ## Intervals  (4/6 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
-| 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | E | ✓ | — | — | now | 0 |
+| 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | E | ✓ | 5 | 2026-07-02 | 2026-08-27 | 1 |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | M | ✓ | 5 | 2026-06-06 | 2026-08-01 | 1 |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | M | new | — | — | now | 0 |
 | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | M | ✓ | 4 | 2026-07-02 | 2026-07-23 | 1 |

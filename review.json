@@ -3326,12 +3326,19 @@
     "file": "meeting_rooms.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 5,
+      "last_reviewed": "2026-07-02",
+      "due": "2026-08-27",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-02",
+        "ts": "2026-07-02T15:59",
+        "conf": 5,
+        "note": "MR I (can-attend-all): sort + adjacent start<prev_end scan, clean first-try; strict < for half-open"
+      }
+    ]
   },
   {
     "id": 56,

@@ -105,6 +105,10 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 - **Python:** `sorted()` returns a copy (no input mutation); `.sort()` mutates the arg — mention you avoid mutating inputs. Timsort is adaptive (≈O(n) on sorted data) + stable.
 - **Family (same skeleton):** Insert Interval (57), Non-overlapping Intervals (435), Meeting Rooms II (253).
 
+### LC252 · Meeting Rooms · E  (can attend all?)
+- **Idea:** sort by start; any conflict is an **adjacent** pair. One scan comparing each start to the previous end. Half-open → strict `<`. Empty/single → True.
+- **Complexity:** O(n log n), O(1) extra. Return a count instead of a bool → Meeting Rooms II.
+
 ### LC253 · Meeting Rooms II · M  (min rooms = peak concurrency)
 - **Idea:** process meetings by **start**, but the only question you ever ask is about **end** — "did the earliest-freeing room free up yet?" That "min of a changing set" = a **min-heap of end times**.
 - **Approach:** `sort by start`; `heap=[first.end]`; for each next: if `heap[0] <= start` → `heappop` (reuse room); always `heappush(end)`; answer = `len(heap)`.

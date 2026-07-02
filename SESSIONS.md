@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **36**.
+Total attempts logged: **37**.
 
 ---
+
+### 2026-07-02 15:59 · LC252 Meeting Rooms · conf 5/5  (Intervals, E)
+`meeting_rooms.py`  
+MR I (can-attend-all): sort + adjacent start<prev_end scan, clean first-try; strict < for half-open
 
 ### 2026-07-02 15:44 · LC253 Meeting Rooms II · conf 4/5  (Intervals, M)
 `meeting_rooms_ii.py`  
