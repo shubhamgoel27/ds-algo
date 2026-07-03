@@ -2132,15 +2132,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/task-scheduler/",
-    "file": null,
+    "file": "task_scheduler.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 2,
+      "last_reviewed": "2026-07-02",
+      "due": "2026-07-05",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-02",
+        "ts": "2026-07-02T23:58",
+        "conf": 2,
+        "note": "heap simulation: needed the 'ready-set + waiting-set' insight explained twice; and/or loop-condition flip bug (De Morgan). greedy-most-frequent + cooldown queue"
+      }
+    ]
   },
   {
     "id": 767,

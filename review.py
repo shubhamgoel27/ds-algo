@@ -58,6 +58,7 @@ OVERLAP = {
     295: "median_of_stream.py", 3: "longest_substring_without_repeating.py",
     252: "meeting_rooms.py", 236: "lca_of_binary_tree.py", 19: "delete_nth_from_last.py",
     253: "meeting_rooms_ii.py",  # solved 2026-07-02 session (heap of end-times, rated 4)
+    621: "task_scheduler.py",  # solved 2026-07-02 session (ready-set+waiting-set heap sim, rated 2)
 }
 
 # --- extras: solved locally but NOT in the catalog (mostly company-specific) ---

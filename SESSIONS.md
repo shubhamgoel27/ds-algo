@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **37**.
+Total attempts logged: **38**.
 
 ---
+
+### 2026-07-02 23:58 · LC621 Task Scheduler · conf 2/5  (Heap / PQ, M)
+`task_scheduler.py`  
+heap simulation: needed the 'ready-set + waiting-set' insight explained twice; and/or loop-condition flip bug (De Morgan). greedy-most-frequent + cooldown queue
 
 ### 2026-07-02 15:59 · LC252 Meeting Rooms · conf 5/5  (Intervals, E)
 `meeting_rooms.py`  

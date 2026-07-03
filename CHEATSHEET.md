@@ -30,6 +30,13 @@ The one knob that changes everything = **what limits the choices / the next stat
 - **The inversion:** a *min*-heap tracks the *largest* k. Root = smallest of the k largest = k-th largest.
 - **Python:** `heappush`/`heappop`; `heappushpop(h,x)` (push+pop in one) once full; `heapq.nlargest(k, nums)[-1]` is the stdlib one-liner; `heapify(lst)` is O(n). Quickselect is the O(n)-average alternative.
 
+### LC621 · Task Scheduler · M  (ready-set + waiting-set)
+- **Reach for two containers when:** picking an item **benches it for a while, then it returns**. One heap can't model "hide, then bring back" (it's ordered by priority, not by wake-time). So split: **ready** = max-heap by count; **waiting** = deque of `(count, ready_time)`.
+- **Loop:** `while heap or q` (stop only when BOTH empty — the `and`→`or` De Morgan flip). Each tick: wake `q`'s front if `ready_time == sec`, then pop heap top, `+1` (neg counts), requeue with `ready_time = sec + n + 1`; empty heap + non-empty q = **idle**.
+- **Why FIFO deque works:** equal cooldowns → tasks wake in insertion order. **Unequal durations (bank/N-agents) → waiting set becomes a HEAP by finish-time.** Same skeleton.
+- **Alt:** greedy formula `max((m-1)*(n+1) + k, len(tasks))`, m=max freq, k=#tasks at max. O(n), watch the `max()`.
+- **Complexity:** O(T log K), K distinct ≤ 26.
+
 ## Sliding Window
 **Reach for it when:** longest/shortest/fixed contiguous subarray or substring under a constraint. Rigid loop: **expand always · shrink while invalid · record when valid · no `else` on the current element.** Element updates the state; state drives the decision. O(n) because both pointers only move forward (amortized).
 
@@ -192,4 +199,4 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 
 ---
 
-_Last updated: 2026-07-02 (session: Meeting Rooms II, heap-of-end-times / Pinterest prep)._
+_Last updated: 2026-07-02 (session: Meeting Rooms I+II, Task Scheduler heap-sim / Pinterest prep)._
