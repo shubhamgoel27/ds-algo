@@ -30,6 +30,12 @@ The one knob that changes everything = **what limits the choices / the next stat
 - **The inversion:** a *min*-heap tracks the *largest* k. Root = smallest of the k largest = k-th largest.
 - **Python:** `heappush`/`heappop`; `heappushpop(h,x)` (push+pop in one) once full; `heapq.nlargest(k, nums)[-1]` is the stdlib one-liner; `heapify(lst)` is O(n). Quickselect is the O(n)-average alternative.
 
+### LC703 · Kth Largest in a Stream · E  (bounded heap)
+- **Inversion:** k-th **largest** → **min**-heap of size **k**. Root (smallest of the k biggest) = k-th largest. Bounded heap = O(k) memory on an infinite stream.
+- **add:** push, then pop if `len > k`, then return `heap[0]` — **order matters** (read the root only after trimming back to k).
+- **Traps:** reading a size-(k+1) heap → off-by-one; `self.nums = nums` aliasing → corrupts data while iterating (build into a fresh list).
+- **Optimized add once full:** `if val > heap[0]: heapreplace(heap, val)`. Complexity O(log k)/add, O(k) space. Sibling: LC215 (static array, quickselect alt).
+
 ### LC621 · Task Scheduler · M  (ready-set + waiting-set)
 - **Reach for two containers when:** picking an item **benches it for a while, then it returns**. One heap can't model "hide, then bring back" (it's ordered by priority, not by wake-time). So split: **ready** = max-heap by count; **waiting** = deque of `(count, ready_time)`.
 - **Loop:** `while heap or q` (stop only when BOTH empty — the `and`→`or` De Morgan flip). Each tick: wake `q`'s front if `ready_time == sec`, then pop heap top, `+1` (neg counts), requeue with `ready_time = sec + n + 1`; empty heap + non-empty q = **idle**.
@@ -199,4 +205,4 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 
 ---
 
-_Last updated: 2026-07-02 (session: Meeting Rooms I+II, Task Scheduler heap-sim / Pinterest prep)._
+_Last updated: 2026-07-03 (session: Kth Largest in a Stream, bounded heap / Pinterest prep)._

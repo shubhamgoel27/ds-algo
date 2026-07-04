@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **38**.
+Total attempts logged: **39**.
 
 ---
+
+### 2026-07-03 22:57 · LC703 Kth Largest Element in a Stream · conf 4/5  (Heap / PQ, E)
+`kth_largest_in_stream.py`  
+bounded min-heap of size k, root=kth largest; algo first-try, two mechanic hints (push-then-trim order + aliasing on init)
 
 ### 2026-07-02 23:58 · LC621 Task Scheduler · conf 2/5  (Heap / PQ, M)
 `task_scheduler.py`  

@@ -59,6 +59,7 @@ OVERLAP = {
     252: "meeting_rooms.py", 236: "lca_of_binary_tree.py", 19: "delete_nth_from_last.py",
     253: "meeting_rooms_ii.py",  # solved 2026-07-02 session (heap of end-times, rated 4)
     621: "task_scheduler.py",  # solved 2026-07-02 session (ready-set+waiting-set heap sim, rated 2)
+    703: "kth_largest_in_stream.py",  # solved 2026-07-03 session (bounded min-heap size k, rated 4)
 }
 
 # --- extras: solved locally but NOT in the catalog (mostly company-specific) ---

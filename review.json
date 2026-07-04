@@ -2072,15 +2072,22 @@
       "NC"
     ],
     "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
-    "file": null,
+    "file": "kth_largest_in_stream.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-07-03",
+      "due": "2026-07-24",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-03",
+        "ts": "2026-07-03T22:57",
+        "conf": 4,
+        "note": "bounded min-heap of size k, root=kth largest; algo first-try, two mechanic hints (push-then-trim order + aliasing on init)"
+      }
+    ]
   },
   {
     "id": 215,
