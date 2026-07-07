@@ -83,6 +83,12 @@ Three shapes:
 
 Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (intervals) | always-take-extreme (heap) | furthest-reach (Jump Game).
 
+### LC465 · Suggested Payments / Settle Expenses · M  (Pinterest-asked)
+- **Reduce to net balance first:** per person, `+amount` when they pay, `−amount/len(payees)` per share. Balances always sum to 0. This step is the whole trick; the settling is easy after.
+- **Greedy settle (what's asked):** sort creditors (+) and debtors (−), two-pointer, each transfer = `min(debt, credit)`. Valid settlement, ≤ (#people−1) transfers, O(n log n).
+- **Optimal min-transfers is NP-hard** → backtrack over the non-zero debts (cancel opposite signs, recurse). Name the tradeoff; a screen wants the greedy.
+- File: `suggested_payments.py`.
+
 ### LC53 · Maximum Subarray (Kadane's) · M
 - **Idea:** running sum; reset to 0 when it goes negative (a negative prefix only hurts). `best` = max running seen.
 - **Gotcha:** record `best` BEFORE the reset, else all-negative arrays wrongly return 0. Seed `best = -inf`.
@@ -205,4 +211,4 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 
 ---
 
-_Last updated: 2026-07-03 (session: Kth Largest in a Stream, bounded heap / Pinterest prep)._
+_Last updated: 2026-07-07 (session: Suggested Payments / settle-expenses, from the Pinterest screen)._

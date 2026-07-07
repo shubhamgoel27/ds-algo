@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **39**.
+Total attempts logged: **40**.
 
 ---
+
+### 2026-07-07 14:27 · LC465 Suggested Payments / Optimal Account Balancing · conf 3/5  (Greedy, M)
+`suggested_payments.py`  
+Pinterest screen problem, simplified Splitwise. Net-balance dict + greedy two-pointer settle. Solved it live via money-given dict + greedy left-to-right matching. Optimal-min-transfers is LC465 backtracking (not asked).
 
 ### 2026-07-03 22:57 · LC703 Kth Largest Element in a Stream · conf 4/5  (Heap / PQ, E)
 `kth_largest_in_stream.py`  

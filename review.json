@@ -3304,6 +3304,33 @@
     "history": []
   },
   {
+    "id": 465,
+    "title": "Suggested Payments / Optimal Account Balancing",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [],
+    "sources": [
+      "ds-algo"
+    ],
+    "url": "https://leetcode.com/problems/optimal-account-balancing/",
+    "file": "suggested_payments.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": 3,
+      "last_reviewed": "2026-07-07",
+      "due": "2026-07-14",
+      "reps": 1
+    },
+    "history": [
+      {
+        "date": "2026-07-07",
+        "ts": "2026-07-07T14:27",
+        "conf": 3,
+        "note": "Pinterest screen problem, simplified Splitwise. Net-balance dict + greedy two-pointer settle. Solved it live via money-given dict + greedy left-to-right matching. Optimal-min-transfers is LC465 backtracking (not asked)."
+      }
+    ]
+  },
+  {
     "id": 670,
     "title": "Maximum Swap",
     "difficulty": "M",

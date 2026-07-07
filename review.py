@@ -65,6 +65,7 @@ OVERLAP = {
 # --- extras: solved locally but NOT in the catalog (mostly company-specific) ---
 # (id, title, difficulty, topic, file). LC ids are best-effort; urls built from slug.
 EXTRAS = [
+    (465, "Suggested Payments / Optimal Account Balancing", "M", "Greedy", "suggested_payments.py", "optimal-account-balancing"),  # Pinterest screen 2026-07-07
     (224, "Basic Calculator", "H", "Stack", "basic_calculator.py", "basic-calculator"),
     (628, "Maximum Product of Three Numbers", "E", "Arrays & Hashing", "max_product_of_three.py", "maximum-product-of-three-numbers"),
     (26, "Remove Duplicates from Sorted Array", "E", "Two Pointers", "remove_duplicates_from_sorted_array.py", "remove-duplicates-from-sorted-array"),
