@@ -142,6 +142,28 @@
     "history": []
   },
   {
+    "id": 43,
+    "title": "Multiply Strings",
+    "difficulty": "M",
+    "topic": "Arrays & Hashing",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/multiply-strings/",
+    "file": null,
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
     "id": 49,
     "title": "Group Anagrams",
     "difficulty": "M",
@@ -1261,6 +1283,28 @@
     ]
   },
   {
+    "id": 410,
+    "title": "Split Array Largest Sum",
+    "difficulty": "H",
+    "topic": "Binary Search",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/split-array-largest-sum/",
+    "file": null,
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
     "id": 21,
     "title": "Merge Two Sorted Lists",
     "difficulty": "E",
@@ -1461,6 +1505,28 @@
     "url": "https://leetcode.com/problems/reorder-list/",
     "file": null,
     "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 445,
+    "title": "Add Two Numbers II",
+    "difficulty": "M",
+    "topic": "Linked List",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/add-two-numbers-ii/",
+    "file": null,
+    "in_catalog": false,
     "sr": {
       "conf": null,
       "last_reviewed": null,
@@ -1866,6 +1932,28 @@
     "history": []
   },
   {
+    "id": 1110,
+    "title": "Delete Nodes And Return Forest",
+    "difficulty": "M",
+    "topic": "Trees",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/delete-nodes-and-return-forest/",
+    "file": null,
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
     "id": 1650,
     "title": "Lowest Common Ancestor of a Binary Tree III",
     "difficulty": "M",
@@ -1977,15 +2065,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
-    "file": null,
+    "file": "implement_trie.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-07-12",
+      "due": "2026-07-19",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-12",
+        "ts": "2026-07-12T14:08",
+        "conf": 3,
+        "note": "Apple prep: wrote it, had 3 bugs (is_end-after-walk, search final-node, prefix var), fixed after explanation"
+      }
+    ]
   },
   {
     "id": 211,
@@ -2002,15 +2097,22 @@
       "NC"
     ],
     "url": "https://leetcode.com/problems/design-add-and-search-words/",
-    "file": null,
+    "file": "add_search_words.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 2,
+      "last_reviewed": "2026-07-12",
+      "due": "2026-07-15",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-12",
+        "ts": "2026-07-12T14:08",
+        "conf": 2,
+        "note": "Apple prep: heavily scaffolded, did not produce independently; wildcard fork DFS + BFS/NFA variant - revisit before Monday"
+      }
+    ]
   },
   {
     "id": 1698,
@@ -2050,6 +2152,28 @@
     "url": "https://leetcode.com/problems/word-search-ii/",
     "file": null,
     "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 642,
+    "title": "Design Search Autocomplete System",
+    "difficulty": "H",
+    "topic": "Tries",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+    "file": null,
+    "in_catalog": false,
     "sr": {
       "conf": null,
       "last_reviewed": null,
@@ -2417,6 +2541,28 @@
     "history": []
   },
   {
+    "id": 282,
+    "title": "Expression Add Operators",
+    "difficulty": "H",
+    "topic": "Backtracking",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/expression-add-operators/",
+    "file": null,
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
     "id": 133,
     "title": "Clone Graph",
     "difficulty": "M",
@@ -2603,7 +2749,8 @@
     "companies": [
       "A",
       "M",
-      "G"
+      "G",
+      "PI"
     ],
     "sources": [
       "NC",
@@ -2723,6 +2870,28 @@
     "history": []
   },
   {
+    "id": 815,
+    "title": "Bus Routes",
+    "difficulty": "H",
+    "topic": "Graphs",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/bus-routes/",
+    "file": null,
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
     "id": 684,
     "title": "Redundant Connection",
     "difficulty": "M",
@@ -2778,7 +2947,8 @@
     "companies": [
       "G",
       "AB",
-      "A"
+      "A",
+      "PI"
     ],
     "sources": [
       "NC",
@@ -2946,15 +3116,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/house-robber/",
-    "file": null,
+    "file": "house_robber.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-07-12",
+      "due": "2026-08-02",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-12",
+        "ts": "2026-07-12T14:08",
+        "conf": 4,
+        "note": "Apple prep: derived state/recurrence/base solo, correct; learned O(1) rolling form"
+      }
+    ]
   },
   {
     "id": 213,
@@ -2971,15 +3148,22 @@
       "NC"
     ],
     "url": "https://leetcode.com/problems/house-robber-ii/",
-    "file": null,
+    "file": "house_robber_ii.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-07-12",
+      "due": "2026-08-02",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-12",
+        "ts": "2026-07-12T14:38",
+        "conf": 4,
+        "note": "Apple prep: circular->two linear slices (rob nums[:-1], rob nums[1:]); derived w/ one hint; explored why single-flag one-pass fails (lossy scalar)"
+      }
+    ]
   },
   {
     "id": 300,
@@ -3016,7 +3200,8 @@
       "A",
       "M",
       "G",
-      "RH"
+      "RH",
+      "PI"
     ],
     "sources": [
       "B75",
@@ -3025,15 +3210,22 @@
       "LC150"
     ],
     "url": "https://leetcode.com/problems/coin-change/",
-    "file": null,
+    "file": "coin_change.py",
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 3,
+      "last_reviewed": "2026-07-12",
+      "due": "2026-07-19",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-07-12",
+        "ts": "2026-07-12T17:28",
+        "conf": 3,
+        "note": "Apple prep: unbounded knapsack min-DP; needed help on recurrence+inf-init and the running-min idiom, then wrote it solo & handled edges"
+      }
+    ]
   },
   {
     "id": 416,
@@ -3308,7 +3500,9 @@
     "title": "Suggested Payments / Optimal Account Balancing",
     "difficulty": "M",
     "topic": "Greedy",
-    "companies": [],
+    "companies": [
+      "PI"
+    ],
     "sources": [
       "ds-algo"
     ],
@@ -3341,6 +3535,72 @@
     ],
     "url": "https://leetcode.com/problems/maximum-swap/",
     "file": "swap_digits_for_max_number.py",
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1055,
+    "title": "Shortest Way to Form String",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/shortest-way-to-form-string/",
+    "file": null,
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1564,
+    "title": "Put Boxes Into the Warehouse I",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/put-boxes-into-the-warehouse-i/",
+    "file": null,
+    "in_catalog": false,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1580,
+    "title": "Put Boxes Into the Warehouse II",
+    "difficulty": "M",
+    "topic": "Greedy",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/",
+    "file": null,
     "in_catalog": false,
     "sr": {
       "conf": null,
@@ -3716,6 +3976,28 @@
     "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
     "file": null,
     "in_catalog": true,
+    "sr": {
+      "conf": null,
+      "last_reviewed": null,
+      "due": "now",
+      "reps": 0
+    },
+    "history": []
+  },
+  {
+    "id": 1244,
+    "title": "Design A Leaderboard",
+    "difficulty": "M",
+    "topic": "Design",
+    "companies": [
+      "PI"
+    ],
+    "sources": [
+      "pinterest-tag"
+    ],
+    "url": "https://leetcode.com/problems/design-a-leaderboard/",
+    "file": null,
+    "in_catalog": false,
     "sr": {
       "conf": null,
       "last_reviewed": null,

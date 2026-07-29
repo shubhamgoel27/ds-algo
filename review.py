@@ -60,6 +60,11 @@ OVERLAP = {
     253: "meeting_rooms_ii.py",  # solved 2026-07-02 session (heap of end-times, rated 4)
     621: "task_scheduler.py",  # solved 2026-07-02 session (ready-set+waiting-set heap sim, rated 2)
     703: "kth_largest_in_stream.py",  # solved 2026-07-03 session (bounded min-heap size k, rated 4)
+    208: "implement_trie.py",  # 2026-07-12 Apple prep (trie base; is_end-after-walk bug fixed)
+    211: "add_search_words.py",  # 2026-07-12 Apple prep (wildcard fork DFS; +BFS/NFA variant)
+    198: "house_robber.py",  # 2026-07-12 Apple prep (take-or-skip DP, rolled to O(1), derived solo)
+    213: "house_robber_ii.py",  # 2026-07-12 Apple prep (circular -> two linear slices; one hint)
+    322: "coin_change.py",  # 2026-07-12 Apple prep (unbounded knapsack min-DP; wrote solo after min-idiom unpack)
 }
 
 # --- extras: solved locally but NOT in the catalog (mostly company-specific) ---
@@ -144,6 +149,25 @@ def is_due(p, ref=None):
     return parse_due(p) <= ref
 
 
+# --- Pinterest onsite: the company-tagged LC set to drill (LC tag, 6-month view) ---
+PINTEREST_IDS = {332, 465, 815, 282, 410, 642, 322, 1055, 1110, 1244, 43, 1580, 1564, 994, 445}
+# Pinterest-tagged problems not already in the catalog/EXTRAS; added as tracked-to-drill
+# (file=None => unsolved, shows up in `due`). (id, title, diff, topic, slug)
+PINTEREST_NEW = [
+    (815, "Bus Routes", "H", "Graphs", "bus-routes"),
+    (282, "Expression Add Operators", "H", "Backtracking", "expression-add-operators"),
+    (410, "Split Array Largest Sum", "H", "Binary Search", "split-array-largest-sum"),
+    (642, "Design Search Autocomplete System", "H", "Tries", "design-search-autocomplete-system"),
+    (1055, "Shortest Way to Form String", "M", "Greedy", "shortest-way-to-form-string"),
+    (1110, "Delete Nodes And Return Forest", "M", "Trees", "delete-nodes-and-return-forest"),
+    (1244, "Design A Leaderboard", "M", "Design", "design-a-leaderboard"),
+    (43, "Multiply Strings", "M", "Arrays & Hashing", "multiply-strings"),
+    (1580, "Put Boxes Into the Warehouse II", "M", "Greedy", "put-boxes-into-the-warehouse-ii"),
+    (1564, "Put Boxes Into the Warehouse I", "M", "Greedy", "put-boxes-into-the-warehouse-i"),
+    (445, "Add Two Numbers II", "M", "Linked List", "add-two-numbers-ii"),
+]
+
+
 def build():
     with open(CATALOG) as f:
         catalog = json.load(f)
@@ -173,6 +197,22 @@ def build():
             "url": f"https://leetcode.com/problems/{slug}/",
             "file": file, "in_catalog": False, "sr": sr, "history": hist,
         })
+    # tag problems Pinterest asks (from the LC company tag)
+    for p in probs:
+        if p["id"] in PINTEREST_IDS and "PI" not in p["companies"]:
+            p["companies"] = p["companies"] + ["PI"]
+    # add Pinterest-tagged problems not already tracked (unsolved -> to drill)
+    have = {p["id"] for p in probs}
+    for (cid, title, diff, topic, slug) in PINTEREST_NEW:
+        if cid in have:
+            continue
+        sr, hist = carry(cid)
+        probs.append({
+            "id": cid, "title": title, "difficulty": diff, "topic": topic,
+            "companies": ["PI"], "sources": ["pinterest-tag"],
+            "url": f"https://leetcode.com/problems/{slug}/",
+            "file": None, "in_catalog": False, "sr": sr, "history": hist,
+        })
     probs.sort(key=lambda p: (TOPIC_ORDER.index(p["topic"]) if p["topic"] in TOPIC_ORDER else 99,
                               DIFF_ORDER.get(p["difficulty"], 9), p["id"]))
     save(probs)
@@ -181,10 +221,11 @@ def build():
           f"({solved} with local answer key, {len(probs) - solved} new)")
 
 
-# Upcoming-interview companies present in the catalog tags (set 2026-06-20).
-# Of the 5 targets, only these two are tagged; Pinterest/DoorDash/OpenAI are not
-# in the catalog (no per-problem data, so not faked). Bias toward these.
-TARGET_COMPANIES = {"RD", "AP"}  # Reddit, Apple
+# Upcoming-interview companies present in the catalog tags (set 2026-07-13).
+# Google is the live loop; 97 of 141 problems are G-tagged, so the bias has real
+# signal here. Reddit (RD) rejected, Apple (AP) round passed. Pinterest/DoorDash/
+# OpenAI are not in the catalog (no per-problem data, so not faked).
+TARGET_COMPANIES = {"PI"}  # Pinterest onsite is the live loop (2026-07-28)
 
 
 def freq(p):
@@ -211,7 +252,7 @@ def due(argv):
         star = "★" * target_hits(p)
         print(f"LC{p['id']:<5} {p['difficulty']} {p['title']:<46} {p['topic']:<18} "
               f"f{freq(p)}{star:<2} [{co:<8}] [{flag}]  {key}")
-    print(f"\n{len(probs)} shown.  (★ = tagged at an upcoming-interview company: Reddit/Apple)")
+    print(f"\n{len(probs)} shown.  (★ = tagged at an upcoming-interview company: Pinterest)")
 
 
 def find(probs, key):

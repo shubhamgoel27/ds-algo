@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**141 problems** — 76 with a local answer key (active recall vs your saved solution), 65 new (learn from scratch). **38 reviewed, 123 due today (2026-07-07).**
+**141 problems** — 81 with a local answer key (active recall vs your saved solution), 60 new (learn from scratch). **43 reviewed, 121 due today (2026-07-12).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -121,11 +121,11 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | H | new | — | — | now | 0 |
 | 987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | H | ✓ | — | — | now | 0 |
 
-## Tries  (1/4 solved)
+## Tries  (3/4 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
-| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | M | new | — | — | now | 0 |
-| 211 | [Design Add and Search Words](https://leetcode.com/problems/design-add-and-search-words/) | M | new | — | — | now | 0 |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | M | ✓ | 3 | 2026-07-12 | 2026-07-19 | 1 |
+| 211 | [Design Add and Search Words](https://leetcode.com/problems/design-add-and-search-words/) | M | ✓ | 2 | 2026-07-12 | 2026-07-15 | 1 |
 | 1698 | [Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/) | M | ✓ | — | — | now | 0 |
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | H | new | — | — | now | 0 |
 
@@ -171,7 +171,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | M | new | — | — | now | 0 |
 | 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | H | new | — | — | now | 0 |
 
-## DP · 1D  (0/10 solved)
+## DP · 1D  (3/10 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | E | new | — | — | now | 0 |
@@ -179,10 +179,10 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | M | new | — | — | now | 0 |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | M | new | — | — | now | 0 |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | M | new | — | — | now | 0 |
-| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | M | new | — | — | now | 0 |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | M | new | — | — | now | 0 |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | M | ✓ | 4 | 2026-07-12 | 2026-08-02 | 1 |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | M | ✓ | 4 | 2026-07-12 | 2026-08-02 | 1 |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | M | new | — | — | now | 0 |
-| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | M | new | — | — | now | 0 |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | M | ✓ | 3 | 2026-07-12 | 2026-07-19 | 1 |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | M | new | — | — | now | 0 |
 
 ## DP · 2D  (0/5 solved)

@@ -2,9 +2,29 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **40**.
+Total attempts logged: **45**.
 
 ---
+
+### 2026-07-12 17:28 · LC322 Coin Change · conf 3/5  (DP · 1D, M)
+`coin_change.py`  
+Apple prep: unbounded knapsack min-DP; needed help on recurrence+inf-init and the running-min idiom, then wrote it solo & handled edges
+
+### 2026-07-12 14:38 · LC213 House Robber II · conf 4/5  (DP · 1D, M)
+`house_robber_ii.py`  
+Apple prep: circular->two linear slices (rob nums[:-1], rob nums[1:]); derived w/ one hint; explored why single-flag one-pass fails (lossy scalar)
+
+### 2026-07-12 14:08 · LC208 Implement Trie (Prefix Tree) · conf 3/5  (Tries, M)
+`implement_trie.py`  
+Apple prep: wrote it, had 3 bugs (is_end-after-walk, search final-node, prefix var), fixed after explanation
+
+### 2026-07-12 14:08 · LC211 Design Add and Search Words · conf 2/5  (Tries, M)
+`add_search_words.py`  
+Apple prep: heavily scaffolded, did not produce independently; wildcard fork DFS + BFS/NFA variant - revisit before Monday
+
+### 2026-07-12 14:08 · LC198 House Robber · conf 4/5  (DP · 1D, M)
+`house_robber.py`  
+Apple prep: derived state/recurrence/base solo, correct; learned O(1) rolling form
 
 ### 2026-07-07 14:27 · LC465 Suggested Payments / Optimal Account Balancing · conf 3/5  (Greedy, M)
 `suggested_payments.py`  
