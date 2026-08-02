@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**141 problems** — 81 with a local answer key (active recall vs your saved solution), 60 new (learn from scratch). **43 reviewed, 121 due today (2026-07-12).**
+**152 problems** — 82 with a local answer key (active recall vs your saved solution), 70 new (learn from scratch). **45 reviewed, 141 due today (2026-08-02).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -17,7 +17,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 
 ---
 
-## Arrays & Hashing  (8/14 solved)
+## Arrays & Hashing  (8/15 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | E | new | — | — | now | 0 |
@@ -26,6 +26,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | E | ✓ | — | — | now | 0 |
 | 893 | [Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | E | ✓ | — | — | now | 0 |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | M | new | — | — | now | 0 |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | M | new | — | — | now | 0 |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | M | ✓ | 4 | 2026-06-20 | 2026-07-11 | 1 |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | M | new | — | — | now | 0 |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | M | ✓ | — | — | now | 0 |
@@ -74,7 +75,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | M | ✓ | — | — | now | 0 |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | H | ✓ | — | — | now | 0 |
 
-## Binary Search  (7/8 solved)
+## Binary Search  (7/9 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | E | ✓ | 5 | 2026-06-12 | 2026-08-07 | 1 |
@@ -85,8 +86,9 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | M | ✓ | — | — | now | 0 |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | M | ✓ | 3 | 2026-06-14 | 2026-06-21 | 1 |
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | M | ✓ | 4 | 2026-06-14 | 2026-07-05 | 1 |
+| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | H | new | — | — | now | 0 |
 
-## Linked List  (5/10 solved)
+## Linked List  (5/11 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | E | new | — | — | now | 0 |
@@ -97,10 +99,11 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | M | ✓ | — | — | now | 0 |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | M | ✓ | — | — | now | 0 |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | M | new | — | — | now | 0 |
+| 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | M | new | — | — | now | 0 |
 | 708 | [Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) | M | ✓ | — | — | now | 0 |
 | 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | H | new | — | — | now | 0 |
 
-## Trees  (11/17 solved)
+## Trees  (11/18 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | E | new | — | — | now | 0 |
@@ -116,18 +119,20 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | M | new | — | — | now | 0 |
 | 236 | [Lowest Common Ancestor of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-binary-tree/) | M | ✓ | 5 | 2026-06-10 | 2026-08-05 | 1 |
 | 426 | [Convert BST to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | M | ✓ | — | — | now | 0 |
+| 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | M | new | — | — | now | 0 |
 | 1650 | [Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | M | ✓ | — | — | now | 0 |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | H | new | — | — | now | 0 |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | H | new | — | — | now | 0 |
 | 987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | H | ✓ | — | — | now | 0 |
 
-## Tries  (3/4 solved)
+## Tries  (3/5 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | M | ✓ | 3 | 2026-07-12 | 2026-07-19 | 1 |
 | 211 | [Design Add and Search Words](https://leetcode.com/problems/design-add-and-search-words/) | M | ✓ | 2 | 2026-07-12 | 2026-07-15 | 1 |
 | 1698 | [Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/) | M | ✓ | — | — | now | 0 |
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | H | new | — | — | now | 0 |
+| 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | H | new | — | — | now | 0 |
 
 ## Heap / PQ  (6/6 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
@@ -139,7 +144,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | M | ✓ | 5 | 2026-06-15 | 2026-08-10 | 1 |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | H | ✓ | — | — | now | 0 |
 
-## Backtracking  (3/6 solved)
+## Backtracking  (3/7 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | M | new | — | — | now | 0 |
@@ -148,8 +153,9 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | M | ✓ | 3 | 2026-06-16 | 2026-06-23 | 1 |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | M | ✓ | 3 | 2026-06-18 | 2026-06-25 | 1 |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | M | new | — | — | now | 0 |
+| 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | H | new | — | — | now | 0 |
 
-## Graphs  (7/11 solved)
+## Graphs  (7/12 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | M | ✓ | — | — | now | 0 |
@@ -163,13 +169,14 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | H | new | — | — | now | 0 |
 | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | H | new | — | — | now | 0 |
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | H | ✓ | — | — | now | 0 |
+| 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/) | H | new | — | — | now | 0 |
 
 ## Adv. Graphs / UF  (0/3 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | M | new | — | — | now | 0 |
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | M | new | — | — | now | 0 |
-| 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | H | new | — | — | now | 0 |
+| 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | H | new | 2 | 2026-08-01 | 2026-08-04 | 1 |
 
 ## DP · 1D  (3/10 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
@@ -194,7 +201,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | M | new | — | — | now | 0 |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | H | new | — | — | now | 0 |
 
-## Greedy  (4/6 solved)
+## Greedy  (5/9 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | M | new | — | — | now | 0 |
@@ -203,6 +210,9 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | M | new | — | — | now | 0 |
 | 465 | [Suggested Payments / Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) | M | ✓ | 3 | 2026-07-07 | 2026-07-14 | 1 |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | M | ✓ | — | — | now | 0 |
+| 1055 | [Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) | M | new | — | — | now | 0 |
+| 1564 | [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/) | M | ✓ | 4 | 2026-08-02 | 2026-08-23 | 1 |
+| 1580 | [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) | M | new | — | — | now | 0 |
 
 ## Intervals  (4/6 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
@@ -223,9 +233,10 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | E | new | — | — | now | 0 |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | M | new | — | — | now | 0 |
 
-## Design  (2/3 solved)
+## Design  (2/4 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | E | ✓ | — | — | now | 0 |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | M | ✓ | 3 | 2026-06-07 | 2026-06-14 | 1 |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | M | new | — | — | now | 0 |
+| 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | M | new | — | — | now | 0 |

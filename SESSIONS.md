@@ -2,9 +2,17 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **45**.
+Total attempts logged: **47**.
 
 ---
+
+### 2026-08-02 00:36 · LC1564 Put Boxes Into the Warehouse I · conf 4/5  (Greedy, M)
+`put_boxes_warehouse_i.py`  
+prefix-min effective heights + greedy two-pointer (smallest box vs deepest room). Approach right verbally; 2 code bugs first (prefix-min chaining + for-each couldn't retry box) -> fixed with while-loop. Lesson: make code match the plan, trace own logic.
+
+### 2026-08-01 17:19 · LC332 Reconstruct Itinerary · conf 2/5  (Adv. Graphs / UF, H)
+`LC332`  
+Eulerian path / Hierholzer — learned via teaching (Konigsberg deep-dive), not cold-solved; build-backward post-order + reverse; follow-ups: find-start via degree parity, feasibility, undirected edge-marking, iterative
 
 ### 2026-07-12 17:28 · LC322 Coin Change · conf 3/5  (DP · 1D, M)
 `coin_change.py`  

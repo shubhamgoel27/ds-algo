@@ -96,6 +96,13 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 - **= DP** `dp[i]=max(nums[i], dp[i-1]+nums[i])` in O(1) space.
 
 
+### LC1564 · Put Boxes Into the Warehouse I · M  (Pinterest, transform + greedy)
+- **Recognize it's greedy, not DP:** "reorder freely" + "max count that fit" = sort + greedy. (DP would need fixed order / coupled choices.)
+- **Transform:** a box reaching room j passed rooms 0..j, so room j's usable height = **prefix-min** of warehouse (non-increasing effective heights). Cumulative "must pass every earlier" constraint → prefix aggregate.
+- **Technique:** sort boxes; **while-loop** two-pointer, smallest box vs deepest (smallest) room. Advance the box **only on a fit**; always shrink the room. A `for`-each can't retry the same box in a bigger room (the classic bug here).
+- **Why safe (exchange):** smallest box doesn't fit smallest room → no box does, skip the room; if it fits, spend the smallest box (save big boxes for big rooms).
+- Complexity O(n log n + m). File: `put_boxes_warehouse_i.py`.
+
 ### LC55 · Jump Game · M
 - **Idea:** furthest-reach greedy. Track `furthest`; if ever `i > furthest` you hit an uncrossable gap -> False. Else extend `furthest = max(furthest, i+nums[i])`.
 - **Why one number suffices:** reachability is **contiguous** (you can jump short), so there are no holes below `furthest`; the only failure is a gap. O(n)/O(1) vs O(n^2) DP.
@@ -211,4 +218,4 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 
 ---
 
-_Last updated: 2026-07-07 (session: Suggested Payments / settle-expenses, from the Pinterest screen)._
+_Last updated: 2026-08-02 (session: Put Boxes Into Warehouse I, prefix-min + greedy / Pinterest onsite drill)._

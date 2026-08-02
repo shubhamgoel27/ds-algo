@@ -2958,12 +2958,19 @@
     "file": null,
     "in_catalog": true,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 2,
+      "last_reviewed": "2026-08-01",
+      "due": "2026-08-04",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-08-01",
+        "ts": "2026-08-01T17:19",
+        "conf": 2,
+        "note": "Eulerian path / Hierholzer \u2014 learned via teaching (Konigsberg deep-dive), not cold-solved; build-backward post-order + reverse; follow-ups: find-start via degree parity, feasibility, undirected edge-marking, iterative"
+      }
+    ]
   },
   {
     "id": 70,
@@ -3575,18 +3582,25 @@
       "PI"
     ],
     "sources": [
-      "pinterest-tag"
+      "ds-algo"
     ],
     "url": "https://leetcode.com/problems/put-boxes-into-the-warehouse-i/",
-    "file": null,
+    "file": "put_boxes_warehouse_i.py",
     "in_catalog": false,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-08-02",
+      "due": "2026-08-23",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-08-02",
+        "ts": "2026-08-02T00:36",
+        "conf": 4,
+        "note": "prefix-min effective heights + greedy two-pointer (smallest box vs deepest room). Approach right verbally; 2 code bugs first (prefix-min chaining + for-each couldn't retry box) -> fixed with while-loop. Lesson: make code match the plan, trace own logic."
+      }
+    ]
   },
   {
     "id": 1580,
