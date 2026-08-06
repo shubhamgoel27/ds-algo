@@ -2,9 +2,13 @@
 
 > Auto-generated from `review.json` history by `review.py gen`. Newest first (timestamped). Read this at the start of a session to target weak spots.
 
-Total attempts logged: **47**.
+Total attempts logged: **48**.
 
 ---
+
+### 2026-08-06 13:54 · LC1580 Put Boxes Into the Warehouse II · conf 4/5  (Greedy, M)
+`put_boxes_warehouse_ii.py`  
+both-ends: effective=max(prefixMin,suffixMin) = a valley (not corridor); sort eff + sort boxes + greedy match. One transcription bug (used warehouse[l2] instead of eff[l2]). Deep-dive: why sorting is safe = deepest-first insertion + single crossover => capacities jointly realizable.
 
 ### 2026-08-02 00:36 · LC1564 Put Boxes Into the Warehouse I · conf 4/5  (Greedy, M)
 `put_boxes_warehouse_i.py`  

@@ -3611,18 +3611,25 @@
       "PI"
     ],
     "sources": [
-      "pinterest-tag"
+      "ds-algo"
     ],
     "url": "https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/",
-    "file": null,
+    "file": "put_boxes_warehouse_ii.py",
     "in_catalog": false,
     "sr": {
-      "conf": null,
-      "last_reviewed": null,
-      "due": "now",
-      "reps": 0
+      "conf": 4,
+      "last_reviewed": "2026-08-06",
+      "due": "2026-08-27",
+      "reps": 1
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-08-06",
+        "ts": "2026-08-06T13:54",
+        "conf": 4,
+        "note": "both-ends: effective=max(prefixMin,suffixMin) = a valley (not corridor); sort eff + sort boxes + greedy match. One transcription bug (used warehouse[l2] instead of eff[l2]). Deep-dive: why sorting is safe = deepest-first insertion + single crossover => capacities jointly realizable."
+      }
+    ]
   },
   {
     "id": 252,

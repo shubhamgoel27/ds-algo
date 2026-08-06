@@ -72,6 +72,7 @@ OVERLAP = {
 EXTRAS = [
     (465, "Suggested Payments / Optimal Account Balancing", "M", "Greedy", "suggested_payments.py", "optimal-account-balancing"),  # Pinterest screen 2026-07-07
     (1564, "Put Boxes Into the Warehouse I", "M", "Greedy", "put_boxes_warehouse_i.py", "put-boxes-into-the-warehouse-i"),  # Pinterest onsite drill 2026-08-02 (prefix-min + greedy 2ptr, rated 4)
+    (1580, "Put Boxes Into the Warehouse II", "M", "Greedy", "put_boxes_warehouse_ii.py", "put-boxes-into-the-warehouse-ii"),  # Pinterest onsite drill 2026-08-06 (max(prefix,suffix)-min valley + sort-match, rated 4)
     (224, "Basic Calculator", "H", "Stack", "basic_calculator.py", "basic-calculator"),
     (628, "Maximum Product of Three Numbers", "E", "Arrays & Hashing", "max_product_of_three.py", "maximum-product-of-three-numbers"),
     (26, "Remove Duplicates from Sorted Array", "E", "Two Pointers", "remove_duplicates_from_sorted_array.py", "remove-duplicates-from-sorted-array"),

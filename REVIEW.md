@@ -2,7 +2,7 @@
 
 > Auto-generated from `review.json` by `review.py gen`. Don't hand-edit — log reviews with `python3 review.py log <key> <1-5>`.
 
-**152 problems** — 82 with a local answer key (active recall vs your saved solution), 70 new (learn from scratch). **45 reviewed, 141 due today (2026-08-02).**
+**152 problems** — 83 with a local answer key (active recall vs your saved solution), 69 new (learn from scratch). **46 reviewed, 146 due today (2026-08-06).**
 
 **Mode:** active recall — you get the statement only, re-solve, then we diff & you rate 1–5.  
 **Priority:** spaced repetition — overdue/weak surface first.
@@ -201,7 +201,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | M | new | — | — | now | 0 |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | H | new | — | — | now | 0 |
 
-## Greedy  (5/9 solved)
+## Greedy  (6/9 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |
 |---|---|---|---|---|---|---|---|
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | M | new | — | — | now | 0 |
@@ -212,7 +212,7 @@ Say: `review N` · `quiz me on <topic>` · `what's due?` · `random`.
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | M | ✓ | — | — | now | 0 |
 | 1055 | [Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) | M | new | — | — | now | 0 |
 | 1564 | [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/) | M | ✓ | 4 | 2026-08-02 | 2026-08-23 | 1 |
-| 1580 | [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) | M | new | — | — | now | 0 |
+| 1580 | [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) | M | ✓ | 4 | 2026-08-06 | 2026-08-27 | 1 |
 
 ## Intervals  (4/6 solved)
 | LC | Problem | Df | Key | Conf | Last | Due | Reps |

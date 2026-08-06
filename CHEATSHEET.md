@@ -103,6 +103,12 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 - **Why safe (exchange):** smallest box doesn't fit smallest room → no box does, skip the room; if it fits, spend the smallest box (save big boxes for big rooms).
 - Complexity O(n log n + m). File: `put_boxes_warehouse_i.py`.
 
+### LC1580 · Put Boxes Into the Warehouse II · M  (both ends -> valley + sort-match)
+- **Twist vs I:** boxes enter from **either** end, so `effective[i] = max(prefixMin[i], suffixMin[i])`. prefixMin ↓, suffixMin ↑ cross once → effective is a **valley**, NOT a monotonic corridor.
+- **So the corridor sweep from I fails.** Rooms are now independent capacities → **sort eff + sort boxes + greedy two-pointer match** (smallest box to smallest capacity that fits). Compare `boxes[b] <= eff[r]`, NOT raw `warehouse[r]` (the transcription bug).
+- **Why sorting is safe (the "prove it" answer):** all capacities are simultaneously realizable — fill each side **deepest-first** (runway stays empty → no collision), and the single prefix/suffix crossover splits rooms into a left prefix + right suffix that never overlap. Independent capacities ⇒ sort-match optimal.
+- File: `put_boxes_warehouse_ii.py`. Sibling: LC1564 (one end, corridor).
+
 ### LC55 · Jump Game · M
 - **Idea:** furthest-reach greedy. Track `furthest`; if ever `i > furthest` you hit an uncrossable gap -> False. Else extend `furthest = max(furthest, i+nums[i])`.
 - **Why one number suffices:** reachability is **contiguous** (you can jump short), so there are no holes below `furthest`; the only failure is a gap. O(n)/O(1) vs O(n^2) DP.
@@ -218,4 +224,4 @@ Shapes: running accumulator (Max Subarray, Gas Station) | sort-then-sweep (inter
 
 ---
 
-_Last updated: 2026-08-02 (session: Put Boxes Into Warehouse I, prefix-min + greedy / Pinterest onsite drill)._
+_Last updated: 2026-08-06 (session: Put Boxes Into Warehouse II, valley + sort-match / Pinterest onsite drill)._
